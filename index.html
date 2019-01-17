@@ -15,7 +15,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/portfolio-item.css" rel="stylesheet">
-
+<link rel="stylesheet" type="text/css" href='https://cdn.myth.theoplayer.com/840f8cb7-17af-46b3-93ff-71645dec836f/ui.css'>
   </head>
 
   <body>
@@ -60,7 +60,44 @@
       <div class="row">
 
         <div class="col-md-8">
-          <img class="img-fluid" src="http://placehold.it/750x500" alt="">
+          <div class="theoplayer-container video-js theoplayer-skin theo-seekbar-above-controls"></div>
+
+  
+<script type='text/javascript' src='https://cdn.myth.theoplayer.com/840f8cb7-17af-46b3-93ff-71645dec836f/THEOplayer.js'></script>
+<script> 
+var storedText;
+  
+fetch('https://grandcentral.ovva.tv/lb/live/189931/acc3da3089c93fcb4c66bb2634f46843')
+  .then(function(response) {
+    response.text().then(function(text) {
+	    if(!text.indexOf("302=https:")){
+storedText = text.replace( "302=https:", "" );} else {
+      storedText = text.replace( "302=http:", "" ); }
+   
+     //alert(storedText);
+    // console.log(storedText);
+	    
+	    var element = document.querySelector('.theoplayer-container');
+var player = new THEOplayer.Player(element, {
+libraryLocation: 'https://cdn.myth.theoplayer.com/840f8cb7-17af-46b3-93ff-71645dec836f/'
+});
+player.source = {
+sources: [{
+src: storedText ,
+type: 'application/x-mpegurl'
+}]
+};
+ //console.log(storedText);
+	    
+    });
+  });
+	
+//sleepFor(3000);	  
+	//var ttext= storedText;
+	
+	//console.log(ttext);
+</script>
+          
         </div>
 
         <div class="col-md-4">
