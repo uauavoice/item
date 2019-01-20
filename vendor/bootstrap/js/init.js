@@ -1,4 +1,4 @@
-var LiveHub = ['157ff66bf413fac6bc03f1ee1ce6176a', 'live', ''];
+var LiveHub = ['bfaaaf84e7585c609535d0f687995326', 'live', ''];
 
 var videoHub9 = [
 ['1b6ec3491892ec1b0da34f4f3eb0fba8515fe62f4618035da7f872aad14b6356', 'vid1ep', 'qC094N5a'],
