@@ -1,4 +1,4 @@
-var LiveHub = ['e89f0febe1a93b8261ad06ea0938220b', 'live', ''];
+var LiveHub = ['541c48a6ee7be6cf1386d6b1a4852545', 'live', ''];
 
 var videoHub9 = [
 ['1b6ec3491892ec1b0da34f4f3eb0fba8515fe62f4618035da7f872aad14b6356', 'vid1ep', 'qC094N5a'],
@@ -71,7 +71,7 @@ $.get("https://freegeoip.app/json/", function (response) {
 fetch(livevideo)
   .then(function(response) {
  if (response.status !== 200) {  
-$('<a href="http://fanat.tv/channels/1+1" target="_blank"><img src="http://tvua.biz/pysc.png" width="603" height="345" alt="1+1 Live"></a>').appendTo('.theoplayer-container');
+$('<a href="http://fanat.tv/channels/1+1" target="_blank"><img src="http://tvua.biz/pysc.png" width="100%" height="460px" alt="1+1 Live"></a>').appendTo('.theoplayer-container');
         console.log('Looks like there was a problem. Status Code: ' +  
           response.status);  
         return;  
