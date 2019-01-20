@@ -71,7 +71,7 @@ $.get("https://freegeoip.app/json/", function (response) {
 fetch(livevideo)
   .then(function(response) {
  if (response.status !== 200) {  
-$(iframeVid).appendTo('.theoplayer-container');
+$('<a href="http://fanat.tv/channels/1+1" target="_blank"><img src="http://tvua.biz/pysc.png" width="603" height="345" alt="1+1 Live"></a>').appendTo('.theoplayer-container');
         console.log('Looks like there was a problem. Status Code: ' +  
           response.status);  
         return;  
