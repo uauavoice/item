@@ -1,7 +1,7 @@
 var LiveHub = ['bfaaaf84e7585c609535d0f687995326', 'live', ''];
 
 var videoHub9 = [
-['1b6ec3491892ec1b0da34f4f3eb0fba8515fe62f4618035da7f872aad14b6356', 'vid1ep', 'qC094N5a'],
+['e9c85329b9d6591ed57d985b994c02fae177cd795135c5905c6d2e982a439ce5', 'vid1ep', 'qC094N5a'],
 ['70daf35621b9f712aaee893e920c26d69ff6c475f66d8d80f44ac67278fa3cc8', 'vid', 'c2hmeypC']
 ];
 
@@ -125,7 +125,7 @@ function GenerateElCicle(GolosSezon){
 var myHTML1 = '';
 
   for (var i = 0; i < 1; i++) {
-    myHTML1 += '<button type="button" class="btn btn-primary btn-lg btn-block mb-4 disabled" onclick="InitVideo(videoHub9['+i+']['+i+'],videoHub9['+i+']['+ (i + 1) +'],videoHub9['+i+']['+ (i + 2) +'])">9 сезон '+ (i + 1) +' выпуск(скоро)</button></br>';
+    myHTML1 += '<button type="button" class="btn btn-primary btn-lg btn-block mb-4 disabled" onclick="InitVideo(videoHub9['+i+']['+i+'],videoHub9['+i+']['+ (i + 1) +'],videoHub9['+i+']['+ (i + 2) +'])">9 сезон '+ (i + 1) +' выпуск</button></br>';
   }
 
 
