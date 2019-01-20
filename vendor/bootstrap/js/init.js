@@ -35,7 +35,7 @@ var urlParams = new URLSearchParams(location.search);
 
 switch (urlParams.get('video')) {
   case 's9ep1':
-   // console.log('1ep');
+    console.log('1ep');
 sylka =videoHub9[0][0];
 tapevid=videoHub9[0][1];
 iframeidz=videoHub9[0][2];
