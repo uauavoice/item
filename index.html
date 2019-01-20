@@ -1,0 +1,133 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+  <head>
+<style class="vjs-styles-defaults">
+      .video-js {
+        width: 100%;
+        height: 260px;
+      }
+
+      .vjs-fluid {
+        padding-top: 56.25%
+      }
+    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+ <meta name="ROBOTS" content="NOINDEX, NOFOLLOW"> 
+    <title>Golos Live</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/portfolio-item.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href='https://cdn.myth.theoplayer.com/840f8cb7-17af-46b3-93ff-71645dec836f/ui.css'>
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/init.js"></script>
+  </head>
+
+  <body onload="GenerateElCicle()">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Golos Live</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          
+<div class="dropleft navbar-nav ml-auto">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Видео
+  </button>
+  <div class="dropdown-menu" id="primmenus" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item active" href="#">Голос Країни 9</a>
+    <a class="dropdown-item disabled" onclick="" href="#">Голос Країни 8</a>
+    <a class="dropdown-item disabled" href="#">Голос Країни 7</a>
+    <a class="dropdown-item disabled" href="#">Голос Країни 6</a>
+    <a class="dropdown-item disabled" href="#">Голос Країни 5</a>
+    <a class="dropdown-item disabled" href="#">Голос Країни 4</a>
+    <a class="dropdown-item disabled" href="#">Голос Країни 3</a>
+    <a class="dropdown-item disabled" href="#">Голос Країни 2</a>
+    <a class="dropdown-item disabled" href="#">Голос Країни 1</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item disabled" href="#">Голос Діти 4</a>
+    <a class="dropdown-item disabled" href="#">Голос Діти 3</a>
+    <a class="dropdown-item disabled" href="#">Голос Діти 2</a>
+    <a class="dropdown-item disabled" href="#">Голос Діти 1</a>
+  </div>
+</div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+      <!-- Portfolio Item Heading -->
+      <h1 class="my-4" >Golos Live
+        <small>Start 21:00</small>
+      </h1>
+
+      <!-- Portfolio Item Row -->
+      <div class="row">
+
+        <div class="col-md-8">
+          <div class="theoplayer-container video-js theoplayer-skin theo-seekbar-above-controls"></div>
+
+  
+<script type='text/javascript' src='https://cdn.myth.theoplayer.com/840f8cb7-17af-46b3-93ff-71645dec836f/THEOplayer.js'></script>
+<script> 
+InitVideo(LiveHub[0],LiveHub[1]);
+</script>
+          
+        </div>
+
+        </div>
+      <!-- /.row -->
+
+      <!-- Related Projects Row -->
+      <h3 class="my-4">Полные версии видео</h3>
+
+      <div class="row" id="versionsylka">
+
+            
+<button type="button" class="btn btn-primary btn-lg btn-block mb-4 disabled" onclick="InitVideo(videoHub9[0][0],videoHub9[0][1],videoHub9[0][2])">9 сезон 1 выпуск(скоро)</button></br>
+           </div>
+      <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy;  Web 2019</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+   <script>
+    // Add active class to the current button (highlight it)
+    var header = document.getElementById("primmenus");
+    var btns = header.getElementsByClassName("dropdown-item");
+   for (var i = 0; i < btns.length; i++) {
+   btns[i].addEventListener("click", function() {
+   var current = document.getElementsByClassName("active");
+   current[0].className = current[0].className.replace(" active", "");
+   this.className += " active";
+       });
+    }
+
+  
+</script>
+  </body>
+
+</html>
