@@ -1,7 +1,7 @@
 var LiveHub = ['bfaaaf84e7585c609535d0f687995326', 'live', ''];
 
 var videoHub9 = [
-['e9c85329b9d6591ed57d985b994c02fae177cd795135c5905c6d2e982a439ce5', 'vid1ep', 'qC094N5a'],
+['e9c85329b9d6591ed57d985b994c02fae177cd795135c5905c6d2e982a439ce5', 'vid1ep', 'HaqgqMVu'],
 ['70daf35621b9f712aaee893e920c26d69ff6c475f66d8d80f44ac67278fa3cc8', 'vid', 'c2hmeypC']
 ];
 
@@ -35,10 +35,10 @@ var urlParams = new URLSearchParams(location.search);
 
 switch (urlParams.get('video')) {
   case 's9ep1':
-    console.log('1ep');
-sylka ='70daf35621b9f712aaee893e920c26d69ff6c475f66d8d80f44ac67278fa3cc8';
-tapevid='s9ep1';
-iframeidz='';
+   // console.log('1ep');
+sylka =videoHub9[0][0];
+tapevid=videoHub9[0][1];
+iframeidz=videoHub9[0][2];
     break;
 
   case 's1ep11':
