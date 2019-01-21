@@ -1,3 +1,5 @@
+const params = new URLSearchParams(location.search);
+
 var LiveHub = ['bfaaaf84e7585c609535d0f687995326', 'live', ''];
 
 var videoHub9 = [
@@ -32,12 +34,13 @@ var iframeVid='<iframe width="100%" height="100%" allow="autoplay; fullscreen" a
 function InitVideo(sylka,tapevid,iframeidz){
 vodvideo='https://grandcentral.ovva.tv/lb/vod/';
 livevideo='https://grandcentral.ovva.tv/lb/live/189931/';
-var urlglobal = new URL(location.href);
-urlglobal.searchParams.set('video',tapevid);
+params.set('video', tapevid);
+window.history.replaceState({}, '', `${location.pathname}?${params}`);
 var urlParams = new URLSearchParams(location.search);
 var chekuparm= urlParams.get('video');
 if (!chekuparm) { 
    chekuparm=tapevid;
+	console.log(chekuparm);
 }
 switch (chekuparm) {
   case 's9ep1':
