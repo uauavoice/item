@@ -89,7 +89,7 @@ storedText = text.replace( "302=https:", "" );} else {
    
      //alert(storedText);
 	    $.get(storedText.replace("playlist", "chunklist_b10256000"), function(data){
- if(!data.indexOf("302=https:")){
+ if(!data.indexOf("RESOLUTION")){
 	 storedText = storedText.replace("playlist", "chunklist_b6128000");
  }
 });
