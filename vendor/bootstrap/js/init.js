@@ -83,6 +83,8 @@ storedText = text.replace( "302=https:", "" );} else {
       storedText = text.replace( "302=http:", "" ); }
    
      //alert(storedText);
+	    storedText = storedText.replace("playlist", "chunklist_b6128000");
+
     // console.log(storedText);
 	    
 	    var element = document.querySelector('.theoplayer-container');
