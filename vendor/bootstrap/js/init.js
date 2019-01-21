@@ -32,6 +32,8 @@ var iframeVid='<iframe width="100%" height="100%" allow="autoplay; fullscreen" a
 function InitVideo(sylka,tapevid,iframeidz){
 vodvideo='https://grandcentral.ovva.tv/lb/vod/';
 livevideo='https://grandcentral.ovva.tv/lb/live/189931/';
+var urlglobal = new URL(location.href);
+urlglobal.searchParams.set('video',tapevid);
 var urlParams = new URLSearchParams(location.search);
 var chekuparm= urlParams.get('video');
 if (!chekuparm) { 
