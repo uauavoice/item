@@ -94,7 +94,7 @@ storedText = text.replace( "302=https:", "" );} else {
 	// console.log(storedText);
  //}
 });
-	   // storedText = storedText.replace("playlist", "chunklist_b6128000");
+	   if(tapevid==='live'){} else {storedText = storedText.replace("playlist", "chunklist_b10256000");}
 
     // console.log(storedText);
 	    
