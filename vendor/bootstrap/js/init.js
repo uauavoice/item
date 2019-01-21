@@ -88,11 +88,11 @@ storedText = text.replace( "302=https:", "" );} else {
       storedText = text.replace( "302=http:", "" ); }
    
      //alert(storedText);
-	    $.get(storedText.replace("playlist", "chunklist_b10256000"), function(data){
- if(data.indexOf('RESOLUTION') + 1) {
-	 storedText = storedText.replace("playlist", "chunklist_b6128000");
-	 console.log(storedText);
- }
+	    $.get(storedText.replace("playlist", "chunklist_b1596000"), function(data){
+ //if(data.indexOf('RESOLUTION') + 1) {
+	 //storedText = storedText.replace("playlist", "chunklist_b6128000");
+	// console.log(storedText);
+ //}
 });
 	   // storedText = storedText.replace("playlist", "chunklist_b6128000");
 
