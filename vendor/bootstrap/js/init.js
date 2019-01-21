@@ -1,7 +1,7 @@
 var LiveHub = ['bfaaaf84e7585c609535d0f687995326', 'live', ''];
 
 var videoHub9 = [
-['f55850365170437128286ee54d1aee554e1b4c3e9c351af8e9d3ca22b03ee166', 'vid1ep', 'HaqgqMVu'],
+['f55850365170437128286ee54d1aee554e1b4c3e9c351af8e9d3ca22b03ee166', 's9ep1', 'HaqgqMVu'],
 ['70daf35621b9f712aaee893e920c26d69ff6c475f66d8d80f44ac67278fa3cc8', 'vid', 'c2hmeypC']
 ];
 
@@ -33,8 +33,11 @@ function InitVideo(sylka,tapevid,iframeidz){
 vodvideo='https://grandcentral.ovva.tv/lb/vod/';
 livevideo='https://grandcentral.ovva.tv/lb/live/189931/';
 var urlParams = new URLSearchParams(location.search);
-
-switch (urlParams.get('video')) {
+var chekuparm= urlParams.get('video');
+if (!chekuparm) { 
+   chekuparm=tapevid;
+}
+switch (chekuparm) {
   case 's9ep1':
     console.log('1ep');
 sylka =videoHub9[0][0];
