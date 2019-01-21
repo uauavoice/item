@@ -40,6 +40,8 @@ switch (urlParams.get('video')) {
 sylka =videoHub9[0][0];
 tapevid=videoHub9[0][1];
 iframeidz=videoHub9[0][2];
+$('#Livetitl').html("Golos 9 Sezon<small>  / 1 Выпуск от 20.01.2019 </small>");
+$('#Gtitl').html("Golos 9 Sezon / 1 Выпуск от 20.01.2019");
     break;
 
   case 's1ep11':
