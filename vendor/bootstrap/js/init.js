@@ -1,5 +1,7 @@
 const params = new URLSearchParams(location.search);
-
+var ServNot = ['k2301', 'k2303', 'k2305','k2307','k2309','k2311'];
+var ServGood = ['k2302', 'k2304', 'k2306','k2308','k2310','k2312'];
+var randoms= Math.floor(Math.random() * 6);
 var LiveHub = ['bfaaaf84e7585c609535d0f687995326', 'live', ''];
 
 var videoHub9 = [
@@ -91,17 +93,27 @@ $('<a href="http://fanat.tv/channels/1+1" target="_blank"><img src="http://tvua.
       }
     response.text().then(function(text) {
 	    if(!text.indexOf("302=https:")){
-storedText = text.replace( "302=https:", "" );} else {
-      storedText = text.replace( "302=http:", "" ); }
+		    storedText = text.replace( "302=https:", "" );
+		    for(var i=0; i<ServNot.length;i++){
+			    if(storedText.indexOf(ServNot[i]) + 1) {
+				    storedText=storedText.replace( ServNot[i],ServGood[randoms]);
+				      }}
+	    } else {
+		    storedText = text.replace( "302=http:", "" ); 
+		    for(var i=0; i<ServNot.length;i++){
+			    if(storedText.indexOf(ServNot[i]) + 1) {
+				    storedText=storedText.replace( ServNot[i],ServGood[randoms]);
+				      }}
+	    }
    
      //alert(storedText);
-	    $.get(storedText.replace("playlist", "chunklist_b1596000"), function(data){
+	  //  $.get(storedText.replace("playlist", "chunklist_b1596000"), function(data){
  //if(data.indexOf('RESOLUTION') + 1) {
 	 //storedText = storedText.replace("playlist", "chunklist_b6128000");
 	// console.log(storedText);
  //}
-});
-	   if(tapevid==='live'){} else {storedText = storedText.replace("playlist", "chunklist_b10256000");}
+//});
+	//   if(tapevid==='live'){} else {storedText = storedText.replace("playlist", "chunklist_b10256000");}
 
     // console.log(storedText);
 	    
