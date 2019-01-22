@@ -2,7 +2,7 @@ const params = new URLSearchParams(location.search);
 var ServNot = ['k2301', 'k2303', 'k2305','k2307','k2309','k2311'];
 var ServGood = ['k2302', 'k2304', 'k2306','k2308','k2310','k2312'];
 var randoms= Math.floor(Math.random() * 6);
-var LiveHub = ['bfaaaf84e7585c609535d0f687995326', 'live', ''];
+var LiveHub = ['aaabf904a5b7b1d5be2f85af0a8df24a', 'live', ''];
 
 var videoHub9 = [
 ['f55850365170437128286ee54d1aee554e1b4c3e9c351af8e9d3ca22b03ee166', 's9ep1', 'HaqgqMVu'],
