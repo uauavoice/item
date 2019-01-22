@@ -86,7 +86,7 @@ $.get("https://freegeoip.app/json/", function (response) {
 fetch(livevideo)
   .then(function(response) {
  if (response.status !== 200) {  
-$('<a href="http://fanat.tv/channels/1+1" target="_blank"><img src="http://tvua.biz/pysc.png" width="100%" height="460px" alt="1+1 Live"></a>').appendTo('.theoplayer-container');
+$('<iframe width="100%" height="100%" allow="autoplay; fullscreen" allowtransparency="true" allowfullscreen="" scrolling="no" tabindex="0" name="twttrHubFrameSecure" src="https://1plus1.video/tvguide/embed/1?autoplay=1&amp;l=ru" frameborder="0"></iframe>').appendTo('.theoplayer-container');
         console.log('Looks like there was a problem. Status Code: ' +  
           response.status);  
         return;  
