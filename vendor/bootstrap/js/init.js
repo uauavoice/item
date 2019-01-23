@@ -281,4 +281,5 @@ zozo();
 function zozo(){ $("button").click(function(){
   $("button").removeClass("active");
   $(this).addClass("active");
+  $("html").animate({ scrollTop: 0 }, "slow");
 });}
