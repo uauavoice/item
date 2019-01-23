@@ -158,7 +158,7 @@ function GenerateElCicle(GolosSezon){
 var myHTML1 = '';
 
   for (var i = 0; i < 1; i++) {
-    myHTML1 += '<button type="button" class="btn btn-primary btn-lg btn-block mb-4 disabled" onclick="InitVideo(videoHub9['+i+']['+i+'],videoHub9['+i+']['+ (i + 1) +'],videoHub9['+i+']['+ (i + 2) +'])">9 сезон '+ (i + 1) +' выпуск</button></br>';
+    myHTML1 += '<button type="button" class="btn btn-primary btn-lg btn-block mt-1 mb-1 " onclick="InitVideo(videoHub9['+i+']['+i+'],videoHub9['+i+']['+ (i + 1) +'],videoHub9['+i+']['+ (i + 2) +'])">9 сезон '+ (i + 1) +' выпуск</button></br>';
   }
 
 
