@@ -60,7 +60,7 @@ case 's9ep2':
 sylka =videoHub9[1][0];
 tapevid=videoHub9[1][1];
 iframeidz=videoHub9[1][2];
-$('#Livetitl').html("Golos 9 Sezon<small>  / 2 Выпуск от 27.01.2019 </small>");
+$('#Livetitl').html("Golos 9 Sezon<small>  / 2 Выпуск от 27.01.2019 - Анонс </small>");
 $('#Gtitl').html("Golos 9 Sezon / Анонс 2 Выпуск от 27.01.2019");
     break;
 		
