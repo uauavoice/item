@@ -55,6 +55,15 @@ iframeidz=videoHub9[0][2];
 $('#Livetitl').html("Golos 9 Sezon<small>  / 1 Выпуск от 20.01.2019 </small>");
 $('#Gtitl').html("Golos 9 Sezon / 1 Выпуск от 20.01.2019");
     break;
+case 's9ep2':
+   // console.log('1ep');
+sylka =videoHub9[1][0];
+tapevid=videoHub9[1][1];
+iframeidz=videoHub9[1][2];
+$('#Livetitl').html("Golos 9 Sezon<small>  / 2 Выпуск от 27.01.2019 </small>");
+$('#Gtitl').html("Golos 9 Sezon / Анонс 2 Выпуск от 27.01.2019");
+    break;
+		
 
   case 's1ep11':
     console.log('11ep');
@@ -154,16 +163,16 @@ iframeVid=tempvid;
 
 //func generate sezon video
 function GenerateElCicle(GolosSezon){
-zozo();
+
 var myHTML1 = '';
 
   for (var i = 0; i < 2; i++) {
-    myHTML1 += '<button type="button" class="btn btn-primary btn-lg btn-block mt-1 mb-1 " onclick="InitVideo(videoHub9['+i+']['+i+'],videoHub9['+i+']['+ (i + 1) +'],videoHub9['+i+']['+ (i + 2) +'])">9 сезон '+ (i + 1) +' выпуск</button></br>';
+    myHTML1 += '<button type="button" class="btn btn-primary btn-lg btn-block mt-1 mb-1 " onclick="InitVideo(videoHub9['+i+'][0],videoHub9['+i+'][1],videoHub9['+i+'][2])">9 сезон '+ (i + 1) +' выпуск</button></br>';
   }
 
 
 $('#versionsylka').html(myHTML1);
-
+zozo();
 }
 //fn active class
 function zozo(){ $("button").click(function(){
