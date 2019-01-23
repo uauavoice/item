@@ -163,11 +163,22 @@ iframeVid=tempvid;
 
 //func generate sezon video
 function GenerateElCicle(GolosSezon){
-
+var templegh;
+var habtempzn;
+switch (GolosSezon) {
+  case '9':
+   templegh=videoHub9.length;
+   habtempzn='videoHub9';
+    break;
+  case '8':
+   templegh=videoHub8.length;
+   habtempzn='videoHub8';
+     break;
+}
 var myHTML1 = '';
 
-  for (var i = 0; i < 2; i++) {
-    myHTML1 += '<button type="button" class="btn btn-primary btn-lg btn-block mt-1 mb-1 " onclick="InitVideo(videoHub9['+i+'][0],videoHub9['+i+'][1],videoHub9['+i+'][2])">9 сезон '+ (i + 1) +' выпуск</button></br>';
+  for (var i = 0; i < templegh; i++) {
+    myHTML1 += '<button type="button" class="btn btn-primary btn-lg btn-block mt-1 mb-1 " onclick="InitVideo('+habtempzn+'['+i+'][0],'+habtempzn+'['+i+'][1],'+habtempzn+'['+i+'][2])">'+GolosSezon+' сезон '+ (i + 1) +' выпуск</button></br>';
   }
 
 
