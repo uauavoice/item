@@ -154,10 +154,10 @@ iframeVid=tempvid;
 
 //func generate sezon video
 function GenerateElCicle(GolosSezon){
-
+zozo();
 var myHTML1 = '';
 
-  for (var i = 0; i < 1; i++) {
+  for (var i = 0; i < 2; i++) {
     myHTML1 += '<button type="button" class="btn btn-primary btn-lg btn-block mt-1 mb-1 " onclick="InitVideo(videoHub9['+i+']['+i+'],videoHub9['+i+']['+ (i + 1) +'],videoHub9['+i+']['+ (i + 2) +'])">9 сезон '+ (i + 1) +' выпуск</button></br>';
   }
 
@@ -165,3 +165,8 @@ var myHTML1 = '';
 $('#versionsylka').html(myHTML1);
 
 }
+//fn active class
+function zozo(){ $("button").click(function(){
+  $("button").removeClass("active");
+  $(this).addClass("active");
+});}
