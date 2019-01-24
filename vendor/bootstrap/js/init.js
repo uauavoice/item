@@ -27,6 +27,22 @@ var videoHub8 = [
 ['ec2f4d9da1df79e52def6c9a00f8221e1961fb9f5651cdd04c0b483fe9d1ed25', 's8ep14', 'ku5K9xBa']
 ];
 
+var videoHub7 = [
+['8f15ecfa39f2248614336d0c61b4d7570c7a484009581a1a4c326a154f9e9297', 's7ep1', 'E2D4AbaN'],
+['9578bf563fbfe3b2085355a8f876dc8c0130253be858b2598d98f32a5afdb6e5', 's7ep2', 'oRG4EdaJ'],
+['680b0e65872deb60dad0e4765fe87eb4c6d194da34c28b51212ea7c027eb8d53', 's7ep3', 'DRPAAw2W'],
+['2b614908dfff9e57a38985b7487c0e16cdf96f1c8cdeaebde32e47c8a979f5dc', 's7ep4', 'sCyl3Ou1'],
+['c06952aabaf2a9366fa3672bf7ff6c39379678c9b830d2dd93e5fb1e241bef41', 's7ep5', 'e2dByPaG'],
+['9ea0e2c6cc1eb57c3cdcc053368f4f352ddb64b71ef4b8d408c20741a361018f', 's7ep6', 'duL7yEtm'],
+['a907b0c39a29892be70f6f6b6752b8e541d48c0b2cd74c65da90cef0891638be', 's7ep7', 'EuDPT5uN'],
+['9c40f1786fba3ac9785b102dcc8eab585dd718b0e64b5172c0edf8d87182de97', 's7ep8', 'd2LdOl2m'],
+['3eba7d41c119b8168d59c07015657f4f5afb3495b7f41396c535bf8535d6b42d', 's7ep9', '7tzBUfCJ'],
+['d468a90fa1d7194f7c467461f48ebb9afee2c03bc60212e5b801d4bb0de3046d', 's7ep10', 'm2WijM2p'],
+['4a77c3d03aeb0b66e42da9924c6dc083471762cd0ea31ab677e57b73e7fd1664', 's7ep11', '9tmFYLu5'],
+['e08018275aa7affe2d915018d0a22d5e378cca7b964b4800d8d194c2dee5e86d', 's7ep12', 'Eufcldte'],
+['6508f64ae4d2f62f6e7b19ef410bbcdf776e194c494d0e0d989884bcd50a9d80', 's7ep13', '0tFzlrqC'],
+['7f2a246e2d0d575fea303bc50ef3002aeea9e1a4b4228a1b02b5c8ee93311d3c', 's7ep14', 'EuDNNx0a']
+];
 
 var storedText;
 var livevideo='https://grandcentral.ovva.tv/lb/live/189931/';
