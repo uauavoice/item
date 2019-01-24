@@ -176,7 +176,104 @@ iframeidz=videoHub8[13][2];
 $('#Livetitl').html("Golos 8 Sezon<small>  / 14 Выпуск от 29.04.2018 </small>");
 $('#Gtitl').html("Golos 8 Sezon / 14 Выпуск от 29.04.2018");
 break;		
-		
+case 's7ep1':
+sylka =videoHub7[0][0];
+tapevid=videoHub7[0][1];
+iframeidz=videoHub7[0][2];
+$('#Livetitl').html("Golos 7 Sezon<small>  / 1 Выпуск от 22.01.2017 </small>");
+$('#Gtitl').html("Golos 7 Sezon / 1 Выпуск от 22.01.2017");
+break;
+case 's7ep2':
+sylka =videoHub7[1][0];
+tapevid=videoHub7[1][1];
+iframeidz=videoHub7[1][2];
+$('#Livetitl').html("Golos 7 Sezon<small>  / 2 Выпуск от 29.01.2017 </small>");
+$('#Gtitl').html("Golos 7 Sezon / 2 Выпуск от 29.01.2017");
+break;
+case 's7ep3':
+sylka =videoHub7[2][0];
+tapevid=videoHub7[2][1];
+iframeidz=videoHub7[2][2];
+$('#Livetitl').html("Golos 7 Sezon<small>  / 3 Выпуск от 05.02.2017 </small>");
+$('#Gtitl').html("Golos 7 Sezon / 3 Выпуск от 05.02.2017");
+break;
+case 's7ep4':
+sylka =videoHub7[3][0];
+tapevid=videoHub7[3][1];
+iframeidz=videoHub7[3][2];
+$('#Livetitl').html("Golos 7 Sezon<small>  / 4 Выпуск от 12.02.2017 </small>");
+$('#Gtitl').html("Golos 7 Sezon / 4 Выпуск от 12.02.2017");
+break;		
+case 's7ep5':
+sylka =videoHub7[4][0];
+tapevid=videoHub7[4][1];
+iframeidz=videoHub7[4][2];
+$('#Livetitl').html("Golos 7 Sezon<small>  / 5 Выпуск от 19.02.2017 </small>");
+$('#Gtitl').html("Golos 7 Sezon / 5 Выпуск от 19.02.2017");
+break;	
+case 's7ep6':
+sylka =videoHub7[5][0];
+tapevid=videoHub7[5][1];
+iframeidz=videoHub7[5][2];
+$('#Livetitl').html("Golos 7 Sezon<small>  / 6 Выпуск от 26.02.2017 </small>");
+$('#Gtitl').html("Golos 7 Sezon / 6 Выпуск от 26.02.2017");
+break;	
+case 's7ep7':
+sylka =videoHub7[6][0];
+tapevid=videoHub7[6][1];
+iframeidz=videoHub7[6][2];
+$('#Livetitl').html("Golos 7 Sezon<small>  / 7 Выпуск от 05.03.2017 </small>");
+$('#Gtitl').html("Golos 7 Sezon / 7 Выпуск от 05.03.2017");
+break;	
+case 's7ep8':
+sylka =videoHub7[7][0];
+tapevid=videoHub7[7][1];
+iframeidz=videoHub7[7][2];
+$('#Livetitl').html("Golos 7 Sezon<small>  / 8 Выпуск от 12.03.2017 </small>");
+$('#Gtitl').html("Golos 7 Sezon / 8 Выпуск от 12.03.2017");
+break;			
+case 's7ep9':
+sylka =videoHub7[8][0];
+tapevid=videoHub7[8][1];
+iframeidz=videoHub7[8][2];
+$('#Livetitl').html("Golos 7 Sezon<small>  / 9 Выпуск от 19.03.2017 </small>");
+$('#Gtitl').html("Golos 7 Sezon / 9 Выпуск от 19.03.2017");
+break;	
+case 's7ep10':
+sylka =videoHub7[9][0];
+tapevid=videoHub7[9][1];
+iframeidz=videoHub7[9][2];
+$('#Livetitl').html("Golos 7 Sezon<small>  / 10 Выпуск от 26.03.2017 </small>");
+$('#Gtitl').html("Golos 7 Sezon / 10 Выпуск от 26.03.2017");
+break;			
+case 's7ep11':
+sylka =videoHub7[10][0];
+tapevid=videoHub7[10][1];
+iframeidz=videoHub7[10][2];
+$('#Livetitl').html("Golos 7 Sezon<small>  / 11 Выпуск от 02.04.2017 </small>");
+$('#Gtitl').html("Golos 7 Sezon / 11 Выпуск от 02.04.2017");
+break;			
+case 's7ep12':
+sylka =videoHub7[11][0];
+tapevid=videoHub7[11][1];
+iframeidz=videoHub7[11][2];
+$('#Livetitl').html("Golos 7 Sezon<small>  / 12 Выпуск от 09.04.2017 </small>");
+$('#Gtitl').html("Golos 7 Sezon / 12 Выпуск от 09.04.2017");
+break;	
+case 's7ep13':
+sylka =videoHub7[12][0];
+tapevid=videoHub7[12][1];
+iframeidz=videoHub7[12][2];
+$('#Livetitl').html("Golos 7 Sezon<small>  / 13 Выпуск от 16.04.2017 </small>");
+$('#Gtitl').html("Golos 7 Sezon / 13 Выпуск от 16.04.2017");
+break;		
+case 's7ep14':
+sylka =videoHub7[13][0];
+tapevid=videoHub7[13][1];
+iframeidz=videoHub7[13][2];
+$('#Livetitl').html("Golos 7 Sezon<small>  / 14 Выпуск от 23.04.2017 </small>");
+$('#Gtitl').html("Golos 7 Sezon / 14 Выпуск от 23.04.2017");
+break;			
 		
 }
 
