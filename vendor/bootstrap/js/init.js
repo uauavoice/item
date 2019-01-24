@@ -34,6 +34,8 @@ var iframeVid='<iframe width="100%" height="100%" allow="autoplay; fullscreen" a
   
 
 function InitVideo(sylka,tapevid,iframeidz){
+var ffa = $('button.btn.btn-primary.btn-lg.btn-block.mt-1.mb-1')[0].textContent;  
+if(ffa.indexOf(tapevid[1]+' сезон')){GenerateElCicle(tapevid[1]);}	
 vodvideo='https://grandcentral.ovva.tv/lb/vod/';
 livevideo='https://grandcentral.ovva.tv/lb/live/189931/';
 if(tapevid==='live'){} else{
