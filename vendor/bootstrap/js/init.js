@@ -257,6 +257,8 @@ iframeVid=tempvid;
 function GenerateElCicle(GolosSezon){
 var templegh;
 var habtempzn;
+var chekuri = params.get('video');
+if (chekuri) { GolosSezon=chekuri[1];}	
 switch (GolosSezon) {
   case '9':
    templegh=videoHub9.length;
