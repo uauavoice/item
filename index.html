@@ -135,6 +135,8 @@ InitVideo(LiveHub[0],LiveHub[1]);
    $("a").click(function(){
   $("a").removeClass("active");
   $(this).addClass("active");
+ var targetOffset = $('#versionsylka').offset().top-107;
+$('html, body').animate({scrollTop: targetOffset}, 1000);  
 });
 </script>
   </body>
