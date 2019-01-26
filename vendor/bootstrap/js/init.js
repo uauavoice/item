@@ -336,6 +336,7 @@ $('<iframe width="100%" height="100%" allow="autoplay; fullscreen" allowtranspar
 var player = new THEOplayer.Player(element, {
 libraryLocation: 'https://cdn.myth.theoplayer.com/840f8cb7-17af-46b3-93ff-71645dec836f/'
 });
+player.autoplay = true;
 player.source = {
 sources: [{
 src: storedText ,
