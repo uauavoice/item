@@ -45,6 +45,24 @@ var videoHub7 = [
 ['7f2a246e2d0d575fea303bc50ef3002aeea9e1a4b4228a1b02b5c8ee93311d3c', 's7ep14', 'EuDNNx0a']
 ];
 
+var videoHub6 = [
+['d11b04d1a25bad45a649d2e7f99170c7c082f187e4c36e492dd57d2de8d7f9d0', 's6ep1', 'TR9lJO2o'],
+['cd15aec5cfc5a8597fbd9e57f7a367c772447f946a6765c1da0d062bc20ae3e8', 's6ep2', '9tmkhVC5'],
+['4a1f95c0600af37a4db6861e5285e195faa488dd20be77b38a43be18df56d0e2', 's6ep3', 'Wa3ZpACw'],
+['5390538d2d8b13f6708cf33260e4682a77ee30b8faee1d5e7a5a0ff0734279b2', 's6ep4', 'H24ZXTae'],
+['d9cf892b61d002389215c78e92346ddafb358c487fe6c82318c6f6ac0a050b71', 's6ep5', 'oRb89ZRD'],
+['91af5e171eeeae286e93270cc822e2ef45cb01897d472a15ae89a6e7ab064a36', 's6ep6', 'L28mb4CH'],
+['32a84e785391a8c51696daf50566ae84bd6faec95f00db29665f69a2f9c033ad', 's6ep7', 'oCb8xeCD'],
+['739fbcf718d8213065d9d7aa1abc8ca22337b8aac8317dd636f502aa93f8ab90', 's6ep8', 'eavjxpaN'],
+['337446ce8e5c2456d986929fa5bd517810534c310baabe3683a8bde9b0131425', 's6ep9', 'ka5qgYal'],
+['664b1f312e88111ddaaa9443125f682c18b7ef7b421364492aed91642c5cd7ba', 's6ep10', 'oCGFSduJ'],
+['98f01f03447f7848d15212044a30004d48b1bf06b781a0a0b9cf24271125027e', 's6ep11', 'muW6Lxtp'],
+['f3bc9d86b06855be47bb8c03e1182a285030de46ef0b597d41e9ac6418a9f2d7', 's6ep12', 'XCoVWduW'],
+['3b58a8eb06cf14e453d2de81e0be30947c0cd58ba629a5556fb1852e9b6c5701', 's6ep13', 'UuwziWtn'],
+['f402568e24783e29d18ba7927e92cc2cc035340a439a28780578ad2029439eae', 's6ep14', '0RFxfwCj'],
+['3200561370363ca86da7773a09051f5f235e232c68523c67ae11a5e3b45ce014', 's6ep15', 'i21kvpuj']
+];
+
 var storedText;
 var livevideo='https://grandcentral.ovva.tv/lb/live/189931/';
 var vodvideo='https://grandcentral.ovva.tv/lb/vod/';
