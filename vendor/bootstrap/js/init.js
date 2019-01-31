@@ -63,6 +63,23 @@ var videoHub6 = [
 ['3200561370363ca86da7773a09051f5f235e232c68523c67ae11a5e3b45ce014', 's6ep15', 'i21kvpuj']
 ];
 
+var videoHub5 = [
+['5bbbcd3c89d4b63e62f095bb223e528add9cbf98a429feac5067742b67eacb9d', 's5ep1', 'zoRbi6uD'],
+['9ddabf0eecc25fb2e19575a10b6db88bd62fd18117e65bff4e18170368b77e16', 's5ep2', 'knRc4Wur'],
+['3d860f7eb14022b100e0cbeda6ebb3392ebb74561a049cfb5637155c35f184ad', 's5ep3', 'OgaxMBts'],
+['b175ade264567d042a6f90633dd2954d9aa9143a9e9e14f99fcd2768134ad53e', 's5ep4', 'AltJIh2b'],
+['88ce82bf9d89745301f7f8872520612ec8b9dd8e1b5a154a6feb593720f579d8', 's5ep5', 'ULRSjeaw'],
+['241a7c5ad8f938052e50f91ddf21dda81f1333d535534f5f58dbb51c80237491', 's5ep6', 'VsCy8O21'],
+['9196c41ca022625fc35d4f810b5c7d68988f1ec037bc8c8b85726466f931e98e', 's5ep7', 'vxaMQD2f'],
+['eba8daae0e680bcfb27372113e893dbf0216d4fa3416b239458b08cba06a5a6b', 's5ep8', 'dEuDg0RN'],
+['947ed2757e7e6c8d2b748f4a0cccb3c625aaa7064cd56cbfbd8c9f72971ecda4', 's5ep9', 'rGtEXqa1'],
+['07779ae9ab9a4efba7ea8e9c84c86c742dff7b1ccb3462c4a9ace5529df933fe', 's5ep10', 'hItHpbCq'],
+['17ee488ea24ba3f69f43e4c43411e2542cc5c54aecd1c7788dfbe800b9ed98bb', 's5ep11', 'getIydtx'],
+['6c203b1bbd5aeec6fef45a67898e09ad9d271cb5c98d6c41d4c5f3d6142421fd', 's5ep12', 'rDtP0wCW'],
+['f6d4a8c4df5fd74f574e803956103475278c7bb70a688514973a320a1fdcdc15', 's5ep13', 'EuiznwRU'],
+['2034a351d5be9e31a6f4e24d0280cb7989db776aa7321875e9228f1db79ea4fd', 's5ep14', 'GCs4cqa4']
+];
+
 var storedText;
 var livevideo='https://grandcentral.ovva.tv/lb/live/189931/';
 var vodvideo='https://grandcentral.ovva.tv/lb/vod/';
@@ -404,6 +421,104 @@ tapevid=videoHub6[14][1];
 iframeidz=videoHub6[14][2];
 $('#Livetitl').html("Golos 6 Sezon<small>  / 15 Выпуск  Совершенно секретно</small>");
 $('#Gtitl').html("Golos 6 Sezon / 14 Выпуск Совершенно секретно");
+break;
+case 's5ep1':
+sylka =videoHub5[0][0];
+tapevid=videoHub5[0][1];
+iframeidz=videoHub5[0][2];
+$('#Livetitl').html("Golos 5 Sezon<small>  / 1 Выпуск от 08.03.2015 </small>");
+$('#Gtitl').html("Golos 5 Sezon / 1 Выпуск от 08.03.2015");
+break;
+case 's5ep2':
+sylka =videoHub5[1][0];
+tapevid=videoHub5[1][1];
+iframeidz=videoHub5[1][2];
+$('#Livetitl').html("Golos 5 Sezon<small>  / 2 Выпуск от 15.03.2015 </small>");
+$('#Gtitl').html("Golos 5 Sezon / 2 Выпуск от 15.03.2015");
+break;
+case 's5ep3':
+sylka =videoHub5[2][0];
+tapevid=videoHub5[2][1];
+iframeidz=videoHub5[2][2];
+$('#Livetitl').html("Golos 5 Sezon<small>  / 3 Выпуск от  22.03.2015 </small>");
+$('#Gtitl').html("Golos 5 Sezon / 3 Выпуск от  22.03.2015");
+break;
+case 's5ep4':
+sylka =videoHub5[3][0];
+tapevid=videoHub5[3][1];
+iframeidz=videoHub5[3][2];
+$('#Livetitl').html("Golos 5 Sezon<small>  / 4 Выпуск от  29.03.2015 </small>");
+$('#Gtitl').html("Golos 5 Sezon / 4 Выпуск от  29.03.2015");
+break;		
+case 's5ep5':
+sylka =videoHub5[4][0];
+tapevid=videoHub5[4][1];
+iframeidz=videoHub5[4][2];
+$('#Livetitl').html("Golos 5 Sezon<small>  / 5 Выпуск от 05.04.2015 </small>");
+$('#Gtitl').html("Golos 5 Sezon / 5 Выпуск от 05.04.2015");
+break;	
+case 's5ep6':
+sylka =videoHub5[5][0];
+tapevid=videoHub5[5][1];
+iframeidz=videoHub5[5][2];
+$('#Livetitl').html("Golos 5 Sezon<small>  / 6 Выпуск от 12.04.2015 </small>");
+$('#Gtitl').html("Golos 5 Sezon / 6 Выпуск от 12.04.2015");
+break;	
+case 's5ep7':
+sylka =videoHub5[6][0];
+tapevid=videoHub5[6][1];
+iframeidz=videoHub5[6][2];
+$('#Livetitl').html("Golos 5 Sezon<small>  / 7 Выпуск от 19.04.2015 </small>");
+$('#Gtitl').html("Golos 5 Sezon / 7 Выпуск от 19.04.2015");
+break;	
+case 's5ep8':
+sylka =videoHub5[7][0];
+tapevid=videoHub5[7][1];
+iframeidz=videoHub5[7][2];
+$('#Livetitl').html("Golos 5 Sezon<small>  / 8 Выпуск от 26.04.2015 </small>");
+$('#Gtitl').html("Golos 5 Sezon / 8 Выпуск от 26.04.2015");
+break;			
+case 's5ep9':
+sylka =videoHub5[8][0];
+tapevid=videoHub5[8][1];
+iframeidz=videoHub5[8][2];
+$('#Livetitl').html("Golos 5 Sezon<small>  / 9 Выпуск от 03.05.2015 </small>");
+$('#Gtitl').html("Golos 5 Sezon / 9 Выпуск от 03.05.2015");
+break;	
+case 's5ep10':
+sylka =videoHub5[9][0];
+tapevid=videoHub5[9][1];
+iframeidz=videoHub5[9][2];
+$('#Livetitl').html("Golos 5 Sezon<small>  / 10 Выпуск от 26.03.2017 </small>");
+$('#Gtitl').html("Golos 5 Sezon / 10 Выпуск от 26.03.2017");
+break;			
+case 's5ep11':
+sylka =videoHub5[10][0];
+tapevid=videoHub5[10][1];
+iframeidz=videoHub5[10][2];
+$('#Livetitl').html("Golos 5 Sezon<small>  / 11 Выпуск от 10.05.2015 </small>");
+$('#Gtitl').html("Golos 5 Sezon / 11 Выпуск от 10.05.2015");
+break;			
+case 's5ep12':
+sylka =videoHub5[11][0];
+tapevid=videoHub5[11][1];
+iframeidz=videoHub5[11][2];
+$('#Livetitl').html("Golos 5 Sezon<small>  / 12 Выпуск от 17.05.2015 </small>");
+$('#Gtitl').html("Golos 5 Sezon / 12 Выпуск от 17.05.2015");
+break;	
+case 's5ep13':
+sylka =videoHub5[12][0];
+tapevid=videoHub5[12][1];
+iframeidz=videoHub5[12][2];
+$('#Livetitl').html("Golos 5 Sezon<small>  / 13 Выпуск от 24.05.2015 </small>");
+$('#Gtitl').html("Golos 5 Sezon / 13 Выпуск от 24.05.2015");
+break;		
+case 's5ep14':
+sylka =videoHub5[13][0];
+tapevid=videoHub5[13][1];
+iframeidz=videoHub5[13][2];
+$('#Livetitl').html("Golos 5 Sezon<small>  / 14 Выпуск от 07.06.2015 </small>");
+$('#Gtitl').html("Golos 5 Sezon / 14 Выпуск от 07.06.2015");
 break;			
 		
 }
@@ -521,6 +636,10 @@ switch (GolosSezon) {
   case '6':
    templegh=videoHub6.length;
    habtempzn='videoHub6';
+     break;
+   case '5':
+   templegh=videoHub5.length;
+   habtempzn='videoHub5';
      break;
 }
 var myHTML1 = '';
