@@ -518,6 +518,10 @@ switch (GolosSezon) {
    templegh=videoHub7.length;
    habtempzn='videoHub7';
      break;
+  case '6':
+   templegh=videoHub6.length;
+   habtempzn='videoHub6';
+     break;
 }
 var myHTML1 = '';
 
