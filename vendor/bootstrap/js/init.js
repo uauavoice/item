@@ -299,6 +299,111 @@ tapevid=videoHub7[13][1];
 iframeidz=videoHub7[13][2];
 $('#Livetitl').html("Golos 7 Sezon<small>  / 14 Выпуск от 23.04.2017 </small>");
 $('#Gtitl').html("Golos 7 Sezon / 14 Выпуск от 23.04.2017");
+break;	
+case 's6ep1':
+sylka =videoHub6[0][0];
+tapevid=videoHub6[0][1];
+iframeidz=videoHub6[0][2];
+$('#Livetitl').html("Golos 6 Sezon<small>  / 1 Выпуск от 28.02.2016  </small>");
+$('#Gtitl').html("Golos 6 Sezon / 1 Выпуск от 28.02.2016 ");
+break;
+case 's6ep2':
+sylka =videoHub6[1][0];
+tapevid=videoHub6[1][1];
+iframeidz=videoHub6[1][2];
+$('#Livetitl').html("Golos 6 Sezon<small>  / 2 Выпуск от 06.03.2016  </small>");
+$('#Gtitl').html("Golos 6 Sezon / 2 Выпуск от 06.03.2016 ");
+break;
+case 's6ep3':
+sylka =videoHub6[2][0];
+tapevid=videoHub6[2][1];
+iframeidz=videoHub6[2][2];
+$('#Livetitl').html("Golos 6 Sezon<small>  / 3 Выпуск от 13.03.2016 </small>");
+$('#Gtitl').html("Golos 6 Sezon / 3 Выпуск от 13.03.2016");
+break;
+case 's6ep4':
+sylka =videoHub6[3][0];
+tapevid=videoHub6[3][1];
+iframeidz=videoHub6[3][2];
+$('#Livetitl').html("Golos 6 Sezon<small>  / 4 Выпуск от 20.03.2016 </small>");
+$('#Gtitl').html("Golos 6 Sezon / 4 Выпуск от 20.03.2016");
+break;		
+case 's6ep5':
+sylka =videoHub6[4][0];
+tapevid=videoHub6[4][1];
+iframeidz=videoHub6[4][2];
+$('#Livetitl').html("Golos 6 Sezon<small>  / 5 Выпуск от 27.03.2016 </small>");
+$('#Gtitl').html("Golos 6 Sezon / 5 Выпуск от 27.03.2016");
+break;	
+case 's6ep6':
+sylka =videoHub6[5][0];
+tapevid=videoHub6[5][1];
+iframeidz=videoHub6[5][2];
+$('#Livetitl').html("Golos 6 Sezon<small>  / 6 Выпуск от 03.04.2016 </small>");
+$('#Gtitl').html("Golos 6 Sezon / 6 Выпуск от 03.04.2016");
+break;	
+case 's6ep7':
+sylka =videoHub6[6][0];
+tapevid=videoHub6[6][1];
+iframeidz=videoHub6[6][2];
+$('#Livetitl').html("Golos 6 Sezon<small>  / 7 Выпуск от 10.04.2016 </small>");
+$('#Gtitl').html("Golos 6 Sezon / 7 Выпуск от 10.04.2016");
+break;	
+case 's6ep8':
+sylka =videoHub6[7][0];
+tapevid=videoHub6[7][1];
+iframeidz=videoHub6[7][2];
+$('#Livetitl').html("Golos 6 Sezon<small>  / 8 Выпуск от 17.04.2016 </small>");
+$('#Gtitl').html("Golos 6 Sezon / 8 Выпуск от 17.04.2016");
+break;			
+case 's6ep9':
+sylka =videoHub6[8][0];
+tapevid=videoHub6[8][1];
+iframeidz=videoHub6[8][2];
+$('#Livetitl').html("Golos 6 Sezon<small>  / 9 Выпуск от 24.04.2016 </small>");
+$('#Gtitl').html("Golos 6 Sezon / 9 Выпуск от 24.04.2016");
+break;	
+case 's6ep10':
+sylka =videoHub6[9][0];
+tapevid=videoHub6[9][1];
+iframeidz=videoHub6[9][2];
+$('#Livetitl').html("Golos 6 Sezon<small>  / 10 Выпуск от 01.05.2016 </small>");
+$('#Gtitl').html("Golos 6 Sezon / 10 Выпуск от 01.05.2016");
+break;			
+case 's6ep11':
+sylka =videoHub6[10][0];
+tapevid=videoHub6[10][1];
+iframeidz=videoHub6[10][2];
+$('#Livetitl').html("Golos 6 Sezon<small>  / 11 Выпуск от 08.05.2016 </small>");
+$('#Gtitl').html("Golos 6 Sezon / 11 Выпуск от 08.05.2016");
+break;			
+case 's6ep12':
+sylka =videoHub6[11][0];
+tapevid=videoHub6[11][1];
+iframeidz=videoHub6[11][2];
+$('#Livetitl').html("Golos 6 Sezon<small>  / 12 Выпуск от 15.05.2016 </small>");
+$('#Gtitl').html("Golos 6 Sezon / 12 Выпуск от 15.05.2016");
+break;	
+case 's6ep13':
+sylka =videoHub6[12][0];
+tapevid=videoHub6[12][1];
+iframeidz=videoHub6[12][2];
+$('#Livetitl').html("Golos 6 Sezon<small>  / 13 Выпуск от 22.05.2016 </small>");
+$('#Gtitl').html("Golos 6 Sezon / 13 Выпуск от 22.05.2016");
+break;		
+case 's6ep14':
+sylka =videoHub6[13][0];
+tapevid=videoHub6[13][1];
+iframeidz=videoHub6[13][2];
+$('#Livetitl').html("Golos 6 Sezon<small>  / 14 Выпуск от 29.05.2016 </small>");
+$('#Gtitl').html("Golos 6 Sezon / 14 Выпуск от 29.05.2016");
+break;	
+case 's6ep15':
+sylka =videoHub6[14][0];
+tapevid=videoHub6[14][1];
+iframeidz=videoHub6[14][2];
+$('#Livetitl').html("Golos 6 Sezon<small>  / 15 Выпуск  Совершенно секретно</small>");
+$('#Gtitl').html("Golos 6 Sezon / 14 Выпуск Совершенно секретно");
 break;			
 		
 }
