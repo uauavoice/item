@@ -3,7 +3,7 @@ var firstinit =true;
 var ServNot = ['k2301', 'k2303', 'k2305','k2307','k2309','k2311'];
 var ServGood = ['k2302', 'k2304', 'k2306','k2308','k2310','k2312'];
 var randoms= Math.floor(Math.random() * 6);
-var LiveHub = ['b4767f69612daa871daa11ba6c371d4d', 'live', ''];
+var LiveHub = ['0c389e790825f0ae4b6d5b901978342c', 'live', ''];
 
 var videoHub9 = [
 ['f55850365170437128286ee54d1aee554e1b4c3e9c351af8e9d3ca22b03ee166', 's9ep1', 'HaqgqMVu'],
