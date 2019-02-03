@@ -118,8 +118,8 @@ case 's9ep3':
 sylka =videoHub9[2][0];
 tapevid=videoHub9[2][1];
 iframeidz=videoHub9[2][2];
-$('#Livetitl').html("Golos 9 Sezon<small>  / 3 Выпуск от 03.02.2019 - Анонс </small>");
-$('#Gtitl').html("Golos 9 Sezon /  3 Выпуск от 03.03.2019 - Анонс");
+$('#Livetitl').html("Golos 9 Sezon<small>  / 3 Выпуск от 03.02.2019  </small>");
+$('#Gtitl').html("Golos 9 Sezon /  3 Выпуск от 03.03.2019 ");
     break;
 case 's8ep1':
 sylka =videoHub8[0][0];
