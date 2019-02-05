@@ -601,7 +601,7 @@ livevideo=vodvideo;
 
 //chekCountry
 $.get("https://freegeoip.app/json/", function (response) {
-	if(response.country_code!='UA' || isIE){
+	if(response.country_code!='UA' || urlParams.get('s')=='ua'){
 	    
 //Start pars  
 
