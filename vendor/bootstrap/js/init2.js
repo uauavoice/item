@@ -1,34 +1,3 @@
-var updateQueryStringParam = function (key, value) {
-
-    var baseUrl = [location.protocol, '//', location.host, location.pathname].join(''),
-        urlQueryString = document.location.search,
-        newParam = key + '=' + value,
-        params = '?' + newParam;
-
-    // If the "search" string exists, then build params from it
-    if (urlQueryString) {
-
-        updateRegex = new RegExp('([\?&])' + key + '[^&]*');
-        removeRegex = new RegExp('([\?&])' + key + '=[^&;]+[&;]?');
-
-        if( typeof value == 'undefined' || value == null || value == '' ) { // Remove param if value is empty
-
-            params = urlQueryString.replace(removeRegex, "$1");
-            params = params.replace( /[&;]$/, "" );
-
-        } else if (urlQueryString.match(updateRegex) !== null) { // If param exists already, update it
-
-            params = urlQueryString.replace(updateRegex, "$1" + newParam);
-
-        } else { // Otherwise, add it to end of query string
-
-            params = urlQueryString + '&' + newParam;
-
-        }
-
-    }
-    window.history.replaceState({}, "", baseUrl + params);
-};
 var firstinit =true;
 var ServNot = ['k2301', 'k2303', 'k2305','k2307','k2309','k2311'];
 var ServGood = ['k2302', 'k2304', 'k2306','k2308','k2310','k2312'];
@@ -114,7 +83,57 @@ var storedText;
 var livevideo='https://grandcentral.ovva.tv/lb/live/189931/';
 var vodvideo='https://grandcentral.ovva.tv/lb/vod/';
 var iframeVid='<iframe width="100%" height="100%" allow="autoplay; fullscreen" allowtransparency="true" allowfullscreen="" scrolling="no" tabindex="0" name="twttrHubFrameSecure" src="https://1plus1.video/tvguide/embed/1?autoplay=1&l=ru" frameborder="0"></iframe>';
-  
+
+
+var updateQueryStringParam = function (key, value) {
+
+    var baseUrl = [location.protocol, '//', location.host, location.pathname].join(''),
+        urlQueryString = document.location.search,
+        newParam = key + '=' + value,
+        params = '?' + newParam;
+
+    // If the "search" string exists, then build params from it
+    if (urlQueryString) {
+
+        updateRegex = new RegExp('([\?&])' + key + '[^&]*');
+        removeRegex = new RegExp('([\?&])' + key + '=[^&;]+[&;]?');
+
+        if( typeof value == 'undefined' || value == null || value == '' ) { // Remove param if value is empty
+
+            params = urlQueryString.replace(removeRegex, "$1");
+            params = params.replace( /[&;]$/, "" );
+
+        } else if (urlQueryString.match(updateRegex) !== null) { // If param exists already, update it
+
+            params = urlQueryString.replace(updateRegex, "$1" + newParam);
+
+        } else { // Otherwise, add it to end of query string
+
+            params = urlQueryString + '&' + newParam;
+
+        }
+
+    }
+    window.history.replaceState({}, "", baseUrl + params);
+};
+(function (w) {
+
+    w.URLSearchParams = w.URLSearchParams || function (searchString) {
+        var self = this;
+        self.searchString = searchString;
+        self.get = function (name) {
+            var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(self.searchString);
+            if (results == null) {
+                return null;
+            }
+            else {
+                return decodeURI(results[1]) || 0;
+            }
+        };
+    }
+
+})(window)
+
 
 function InitVideo(sylka,tapevid,iframeidz){
 vodvideo='https://grandcentral.ovva.tv/lb/vod/';
