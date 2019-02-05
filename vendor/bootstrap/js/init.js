@@ -719,8 +719,5 @@ zozo();
 function zozo(){ $('button').click(function(){
   $('button').removeClass('active');
   $(this).addClass('active');
-   $('html').animate({ scrollTop: 0 }, 'slow'); return true; 
-   $('body').animate({ scrollTop: 0 }, 'slow'); return true; 
-   $('document').animate({ scrollTop: 0 }, 'slow'); return true; 
-   $('window').animate({ scrollTop: 0 }, 'slow'); return true; 
+  $('html, body').animate({scrollTop:  0 }, 'slow');
 });}
