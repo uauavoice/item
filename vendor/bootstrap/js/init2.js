@@ -666,7 +666,8 @@ iframeVid=tempvid;
 function GenerateElCicle(GolosSezon){
 var templegh;
 var habtempzn;
-var chekuri = params.get('video');
+var urlParams = new URLSearchParams(location.search);
+var chekuri= urlParams.get('video');	
 if (chekuri&&firstinit) { GolosSezon=chekuri[1];}	
 switch (GolosSezon) {
   case '9':
