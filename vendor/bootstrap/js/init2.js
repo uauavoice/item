@@ -3,7 +3,6 @@ var ServNot = ['k2301', 'k2303', 'k2305','k2307','k2309','k2311'];
 var ServGood = ['k2302', 'k2304', 'k2306','k2308','k2310','k2312'];
 var randoms= Math.floor(Math.random() * 6);
 var LiveHub = ['5d4c95b607252fbbb2acfe7b351bd8e6', 'live', ''];
-var resultbr = detect.parse(navigator.userAgent);
 var videoHub9 = [
 ['f55850365170437128286ee54d1aee554e1b4c3e9c351af8e9d3ca22b03ee166', 's9ep1', 'HaqgqMVu'],
 ['6e4a1bd51f8c4301a87282784cec0bb65f53b7e35b6ce47eed684e1b70f34034', 's9ep2', 'fCQS4G0t'],
@@ -84,6 +83,20 @@ var livevideo='https://grandcentral.ovva.tv/lb/live/189931/';
 var vodvideo='https://grandcentral.ovva.tv/lb/vod/';
 var iframeVid='<iframe width="100%" height="100%" allow="autoplay; fullscreen" allowtransparency="true" allowfullscreen="" scrolling="no" tabindex="0" name="twttrHubFrameSecure" src="https://1plus1.video/tvguide/embed/1?autoplay=1&l=ru" frameborder="0"></iframe>';
 
+// Opera 8.0+ (UA detection to detect Blink/v8-powered Opera)
+isOpera = !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
+// Firefox 1.0+
+isFirefox = typeof InstallTrigger !== 'undefined';
+// Safari 3.0+
+isSafari = /constructor/i.test(window.HTMLElement) || (function (p) { return p.toString() === "[object SafariRemoteNotification]"; })(!window['safari'] || safari.pushNotification);
+// Internet Explorer 6-11
+isIE = /*@cc_on!@*/false || !!document.documentMode;
+// Edge 20+
+isEdge = !isIE && !!window.StyleMedia;
+// Chrome 1+
+isChrome = !!window.chrome && !!window.chrome.webstore;
+// Blink engine detection
+isBlink = (isChrome || isOpera) && !!window.CSS;
 
 var updateQueryStringParam = function (key, value) {
 
@@ -588,7 +601,7 @@ livevideo=vodvideo;
 
 //chekCountry
 $.get("https://freegeoip.app/json/", function (response) {
-	if(response.country_code!='UA' || result.browser.family=='IE'){
+	if(response.country_code!='UA' || isIE){
 	    
 //Start pars  
 
