@@ -1,21 +1,34 @@
-(function (w) {
+var updateQueryStringParam = function (key, value) {
 
-    w.URLSearchParams = w.URLSearchParams || function (searchString) {
-        var self = this;
-        self.searchString = searchString;
-        self.get = function (name) {
-            var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(self.searchString);
-            if (results == null) {
-                return null;
-            }
-            else {
-                return decodeURI(results[1]) || 0;
-            }
-        };
+    var baseUrl = [location.protocol, '//', location.host, location.pathname].join(''),
+        urlQueryString = document.location.search,
+        newParam = key + '=' + value,
+        params = '?' + newParam;
+
+    // If the "search" string exists, then build params from it
+    if (urlQueryString) {
+
+        updateRegex = new RegExp('([\?&])' + key + '[^&]*');
+        removeRegex = new RegExp('([\?&])' + key + '=[^&;]+[&;]?');
+
+        if( typeof value == 'undefined' || value == null || value == '' ) { // Remove param if value is empty
+
+            params = urlQueryString.replace(removeRegex, "$1");
+            params = params.replace( /[&;]$/, "" );
+
+        } else if (urlQueryString.match(updateRegex) !== null) { // If param exists already, update it
+
+            params = urlQueryString.replace(updateRegex, "$1" + newParam);
+
+        } else { // Otherwise, add it to end of query string
+
+            params = urlQueryString + '&' + newParam;
+
+        }
+
     }
-
-})(window)
-const params = new URLSearchParams(location.search);
+    window.history.replaceState({}, "", baseUrl + params);
+};
 var firstinit =true;
 var ServNot = ['k2301', 'k2303', 'k2305','k2307','k2309','k2311'];
 var ServGood = ['k2302', 'k2304', 'k2306','k2308','k2310','k2312'];
@@ -107,8 +120,7 @@ function InitVideo(sylka,tapevid,iframeidz){
 vodvideo='https://grandcentral.ovva.tv/lb/vod/';
 livevideo='https://grandcentral.ovva.tv/lb/live/189931/';
 if(tapevid==='live'){} else{
-params.set('video', tapevid);
-window.history.replaceState({}, '', location.pathname + params);
+updateQueryStringParam( 'video', tapevid );
 }
 var urlParams = new URLSearchParams(location.search);
 var chekuparm= urlParams.get('video');
