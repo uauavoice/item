@@ -183,7 +183,7 @@ iframeidz=videoHub9[2][2];
 $('#Livetitl').html("Golos 9 Sezon<small>  / 3 Выпуск от 03.02.2019  </small>");
 $('#Gtitl').html("Golos 9 Sezon /  3 Выпуск от 03.03.2019 ");
     break;
-case 's9ep3':
+case 's9ep4':
 sylka =videoHub9[3][0];
 tapevid=videoHub9[3][1];
 iframeidz=videoHub9[3][2];
