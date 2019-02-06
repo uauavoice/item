@@ -6,7 +6,8 @@ var LiveHub = ['5d4c95b607252fbbb2acfe7b351bd8e6', 'live', ''];
 var videoHub9 = [
 ['f55850365170437128286ee54d1aee554e1b4c3e9c351af8e9d3ca22b03ee166', 's9ep1', 'HaqgqMVu'],
 ['6e4a1bd51f8c4301a87282784cec0bb65f53b7e35b6ce47eed684e1b70f34034', 's9ep2', 'fCQS4G0t'],
-['45f6cb63d0640e7dec3580906070b4b7b35c71ce180ff41892189a05813d07c7', 's9ep3', 'pRZf15bR']
+['45f6cb63d0640e7dec3580906070b4b7b35c71ce180ff41892189a05813d07c7', 's9ep3', 'pRZf15bR'],
+['a07661791d9e579a817fc7706f246a8852d8b4c94575e6c168ee2f38c4b58646', 's9ep4', 'muWfh4Dt']
 ];
 
 var videoHub8 = [
@@ -182,6 +183,13 @@ iframeidz=videoHub9[2][2];
 $('#Livetitl').html("Golos 9 Sezon<small>  / 3 Выпуск от 03.02.2019  </small>");
 $('#Gtitl').html("Golos 9 Sezon /  3 Выпуск от 03.03.2019 ");
     break;
+case 's9ep3':
+sylka =videoHub9[3][0];
+tapevid=videoHub9[3][1];
+iframeidz=videoHub9[3][2];
+$('#Livetitl').html("Golos 9 Sezon<small>  / 4 Выпуск от 10.02.2019 - Анонс </small>");
+$('#Gtitl').html("Golos 9 Sezon /  4 Выпуск от 10.03.2019 - Анонс ");
+    break;	
 case 's8ep1':
 sylka =videoHub8[0][0];
 tapevid=videoHub8[0][1];
