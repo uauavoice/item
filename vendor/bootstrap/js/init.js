@@ -612,11 +612,14 @@ vodvideo += sylka;
 livevideo=vodvideo;
 
 }
-
+ if(tapevid[1]==='4'){
+ $(iframeVid).appendTo('.theoplayer-container');
+ return;
+ }
 
 //chekCountry
 $.get("https://freegeoip.app/json/", function (response) {
-	if(response.country_code!='UA' || urlParams.get('s')=='ua' ||tapevid[1]!='4'){
+	if(response.country_code!='UA' || urlParams.get('s')=='ua'){
 	    
 //Start pars  
 
