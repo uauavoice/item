@@ -612,7 +612,7 @@ vodvideo += sylka;
 livevideo=vodvideo;
 
 }
- if(tapevid[1]==='4'){
+ if(tapevid[1]==='4'){//Proverka video na yootube
  $(iframeVid).appendTo('.theoplayer-container');
  return;
  }
