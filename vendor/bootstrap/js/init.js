@@ -79,6 +79,23 @@ var videoHub5 = [
 ['2034a351d5be9e31a6f4e24d0280cb7989db776aa7321875e9228f1db79ea4fd', 's5ep14', 'GCs4cqa4']
 ];
 
+var videoHub4 = [
+['yt', 's4ep1', 'PLcpkKchW7Xe6WE-Ciya2iAI6cHjQfxAHu'],
+['yt', 's4ep2', 'PLcpkKchW7Xe4bnMo_3BqFJ2vGul6QC1ou'],
+['yt', 's4ep3', 'PLcpkKchW7Xe6pkRHh0TSx8ol3RNl0NbOV'],
+['yt', 's4ep4', 'PLcpkKchW7Xe4HDo5-WN_RC41LWOxaZux1'],
+['yt', 's4ep5', 'PLcpkKchW7Xe7_v7vlgLEeXE8EwUwTXQqT'],
+['yt', 's4ep6', 'PLcpkKchW7Xe7nvhiqvErtjN-hJzaUcdIu'],
+['yt', 's4ep7', 'PLcpkKchW7Xe4gfw_eNzqYiS8wKlYKluO_'],
+['yt', 's4ep8', 'PLcpkKchW7Xe7scYCrlyvpABzoy8LS8e_x'],
+['yt', 's4ep9', 'PLcpkKchW7Xe61g7tTamn9BFuPaZb9MBbp'],
+['yt', 's4ep10', 'PLcpkKchW7Xe6rdm3I-sdb4leJMf5s9Nh5'],
+['yt', 's4ep11', 'PLcpkKchW7Xe47FuRbteEzo7Z87kUFGgw0'],
+['yt', 's4ep12', 'PLcpkKchW7Xe5yVsx5IpGZa4jf6wsDBIlG'],
+['yt', 's4ep13', 'PLcpkKchW7Xe7ji6uu6wtMGQpKyUuRMW3x'],
+['yt', 's4ep14', 'PLcpkKchW7Xe6vbstppxljVPKZxPrTpakW']
+];
+
 var storedText;
 var livevideo='https://grandcentral.ovva.tv/lb/live/189931/';
 var vodvideo='https://grandcentral.ovva.tv/lb/vod/';
@@ -590,11 +607,102 @@ $('#Livetitl').html("Golos 5 Sezon<small>  / 14 Выпуск от 07.06.2015 </s
 $('#Gtitl').html("Golos 5 Sezon / 14 Выпуск от 07.06.2015");
 break;	
 case 's4ep1':
-sylka ='yt';
-tapevid='s4ep1';
-iframeidz='PLcpkKchW7Xe4zYbCBOa4nS309jwDZCcS0';
-$('#Livetitl').html("Golos 4 Sezon<small>  / 14 Выпуск от 07.06.2015 </small>");
-$('#Gtitl').html("Golos 4 Sezon / 14 Выпуск от 07.06.2015");
+sylka =videoHub4[0][0];
+tapevid=videoHub4[0][1];
+iframeidz=videoHub4[0][2];
+$('#Livetitl').html("Golos 4 Sezon<small>  / Выпуск 1 - 02.03.2014 </small>");
+$('#Gtitl').html("Golos 4 Sezon / Выпуск 1 - 02.03.2014");
+break;
+case 's4ep2':
+sylka =videoHub4[1][0];
+tapevid=videoHub4[1][1];
+iframeidz=videoHub4[1][2];
+$('#Livetitl').html("Golos 4 Sezon<small>  / Выпуск 2 - 09.03.2014 </small>");
+$('#Gtitl').html("Golos 4 Sezon / Выпуск 2 - 09.03.2014");
+break;
+case 's4ep3':
+sylka =videoHub4[2][0];
+tapevid=videoHub4[2][1];
+iframeidz=videoHub4[2][2];
+$('#Livetitl').html("Golos 4 Sezon<small>  / Выпуск 3 - 16.03.2014 </small>");
+$('#Gtitl').html("Golos 4 Sezon / Выпуск 3 - 16.03.2014");
+break;
+case 's4ep4':
+sylka =videoHub4[3][0];
+tapevid=videoHub4[3][1];
+iframeidz=videoHub4[3][2];
+$('#Livetitl').html("Golos 4 Sezon<small>  / Выпуск 4 - 23.03.2014 </small>");
+$('#Gtitl').html("Golos 4 Sezon / Выпуск 4 - 23.03.2014");
+break;		
+case 's4ep5':
+sylka =videoHub4[4][0];
+tapevid=videoHub4[4][1];
+iframeidz=videoHub4[4][2];
+$('#Livetitl').html("Golos 4 Sezon<small>  / Выпуск 5 - 30.03.2014 </small>");
+$('#Gtitl').html("Golos 4 Sezon / Выпуск 5 - 30.03.2014");
+break;	
+case 's4ep6':
+sylka =videoHub4[5][0];
+tapevid=videoHub4[5][1];
+iframeidz=videoHub4[5][2];
+$('#Livetitl').html("Golos 4 Sezon<small>  / Выпуск 6 - 06.04.2014 </small>");
+$('#Gtitl').html("Golos 4 Sezon / Выпуск 6 - 06.04.2014");
+break;	
+case 's4ep7':
+sylka =videoHub4[6][0];
+tapevid=videoHub4[6][1];
+iframeidz=videoHub4[6][2];
+$('#Livetitl').html("Golos 4 Sezon<small>  / Выпуск 7 - 13.04.2014 </small>");
+$('#Gtitl').html("Golos 4 Sezon / Выпуск 7 - 13.04.2014");
+break;	
+case 's4ep8':
+sylka =videoHub4[7][0];
+tapevid=videoHub4[7][1];
+iframeidz=videoHub4[7][2];
+$('#Livetitl').html("Golos 4 Sezon<small>  / Выпуск 8 - 20.04.2014 </small>");
+$('#Gtitl').html("Golos 4 Sezon / 8 Выпуск от 26.04.2015");
+break;			
+case 's4ep9':
+sylka =videoHub4[8][0];
+tapevid=videoHub4[8][1];
+iframeidz=videoHub4[8][2];
+$('#Livetitl').html("Golos 4 Sezon<small>  / Выпуск 9 - 27.04.2014 </small>");
+$('#Gtitl').html("Golos 4 Sezon / Выпуск 9 - 27.04.2014");
+break;	
+case 's4ep10':
+sylka =videoHub4[9][0];
+tapevid=videoHub4[9][1];
+iframeidz=videoHub4[9][2];
+$('#Livetitl').html("Golos 4 Sezon<small>  / Выпуск 10 - 10.05.2014 </small>");
+$('#Gtitl').html("Golos 4 Sezon / Выпуск 10 - 10.05.2014");
+break;			
+case 's4ep11':
+sylka =videoHub4[10][0];
+tapevid=videoHub4[10][1];
+iframeidz=videoHub4[10][2];
+$('#Livetitl').html("Golos 4 Sezon<small>  / Выпуск 11 - 11.05.2014 </small>");
+$('#Gtitl').html("Golos 4 Sezon / Выпуск 11 - 11.05.2014");
+break;			
+case 's4ep12':
+sylka =videoHub4[11][0];
+tapevid=videoHub4[11][1];
+iframeidz=videoHub4[11][2];
+$('#Livetitl').html("Golos 4 Sezon<small>  / Выпуск 12 - 18.05.2014 </small>");
+$('#Gtitl').html("Golos 4 Sezon / Выпуск 12 - 18.05.2014");
+break;	
+case 's4ep13':
+sylka =videoHub4[12][0];
+tapevid=videoHub4[12][1];
+iframeidz=videoHub4[12][2];
+$('#Livetitl').html("Golos 4 Sezon<small>  / Выпуск 13 - 01.06.2014 </small>");
+$('#Gtitl').html("Golos 4 Sezon / Выпуск 13 - 01.06.2014");
+break;		
+case 's4ep14':
+sylka =videoHub4[13][0];
+tapevid=videoHub4[13][1];
+iframeidz=videoHub4[13][2];
+$('#Livetitl').html("Golos 4 Sezon<small>  / Выпуск 14 - 08.06.2014</small>");
+$('#Gtitl').html("Golos 4 Sezon / Выпуск 14 - 08.06.2014");
 break;			
 		
 }
@@ -732,6 +840,10 @@ switch (GolosSezon) {
    templegh=videoHub5.length;
    habtempzn='videoHub5';
      break;
+   case '4':
+   templegh=videoHub4.length;
+   habtempzn='videoHub4';
+     break;		
 }
 var myHTML1 = '';
 
