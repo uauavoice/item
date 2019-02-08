@@ -588,6 +588,13 @@ tapevid=videoHub5[13][1];
 iframeidz=videoHub5[13][2];
 $('#Livetitl').html("Golos 5 Sezon<small>  / 14 Выпуск от 07.06.2015 </small>");
 $('#Gtitl').html("Golos 5 Sezon / 14 Выпуск от 07.06.2015");
+break;	
+case 's4ep1':
+sylka ='yt';
+tapevid='s4ep1';
+iframeidz='PLcpkKchW7Xe4zYbCBOa4nS309jwDZCcS0';
+$('#Livetitl').html("Golos 4 Sezon<small>  / 14 Выпуск от 07.06.2015 </small>");
+$('#Gtitl').html("Golos 4 Sezon / 14 Выпуск от 07.06.2015");
 break;			
 		
 }
@@ -600,7 +607,7 @@ livevideo += sylka;
 
 } else { 
 
-InitFrameVideo(iframeidz);
+InitFrameVideo(iframeidz,sylka);
 vodvideo += sylka;
 livevideo=vodvideo;
 
@@ -609,7 +616,7 @@ livevideo=vodvideo;
 
 //chekCountry
 $.get("https://freegeoip.app/json/", function (response) {
-	if(response.country_code!='UA' || urlParams.get('s')=='ua'){
+	if(response.country_code!='UA' || urlParams.get('s')=='ua' ||tapevid[1]!='4'){
 	    
 //Start pars  
 
@@ -674,13 +681,24 @@ type: 'application/x-mpegurl'
 }
 
 //func initiated embed video
-function InitFrameVideo(embed){
+function InitFrameVideo(embed,sylka){
+	if(sylka=='yt'){//yootube video
+var tempvid ='<iframe width="100%" height="100%" src="';
+var framez = 'https://www.youtube.com/embed/videoseries?list=';
+framez += embed;
+framez +='&autoplay=1&loop=1';
+tempvid+= framez +'" frameborder="0" allowfullscreen></iframe>';
+iframeVid=tempvid;
+	
+	}
+	else {// 1plus1 Video
 var tempvid ='<iframe width="100%" height="100%" src="';
 var framez = 'https://1plus1.video/video/embed/';
 framez += embed;
 framez +='?autoplay=1&l=ru';
 tempvid+= framez +'" frameborder="0" allowfullscreen></iframe>';
 iframeVid=tempvid;
+	}
 }
 
 //func generate sezon video
