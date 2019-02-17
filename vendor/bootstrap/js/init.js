@@ -8,7 +8,7 @@ var videoHub9 = [
 ['6e4a1bd51f8c4301a87282784cec0bb65f53b7e35b6ce47eed684e1b70f34034', 's9ep2', 'fCQS4G0t'],
 ['45f6cb63d0640e7dec3580906070b4b7b35c71ce180ff41892189a05813d07c7', 's9ep3', 'pRZf15bR'],
 ['51b150e2f98863a0aee86a5d13114a9bd66f3b1237ded24a019eb9e5ea9861eb', 's9ep4', 'TR9zG6Ua'],
-['bef563b62c8836c5ebdaffcce451195757ed129fdc376f7ec095b1c2b3655018', 's9ep5', 'DaUAWAq2']
+['48048b80f2eb41c88b3845e6fb66b6c1202357cd18884271826799db7af84745', 's9ep5', 'eavmWgGC']
 ];
 
 var videoHub8 = [
@@ -212,8 +212,8 @@ case 's9ep5':
 sylka =videoHub9[4][0];
 tapevid=videoHub9[4][1];
 iframeidz=videoHub9[4][2];
-$('#Livetitl').html("Golos 9 Sezon<small>  / 5 Выпуск от 17.02.2019 -Анонс </small>");
-$('#Gtitl').html("Golos 9 Sezon /  5 Выпуск от 17.03.2019 - Анонс  ");
+$('#Livetitl').html("Golos 9 Sezon<small>  / 5 Выпуск от 17.02.2019  </small>");
+$('#Gtitl').html("Golos 9 Sezon /  5 Выпуск от 17.03.2019   ");
     break;
 case 's8ep1':
 sylka =videoHub8[0][0];
