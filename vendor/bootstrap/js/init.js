@@ -9,7 +9,7 @@ var videoHub9 = [
 ['45f6cb63d0640e7dec3580906070b4b7b35c71ce180ff41892189a05813d07c7', 's9ep3', 'pRZf15bR'],
 ['51b150e2f98863a0aee86a5d13114a9bd66f3b1237ded24a019eb9e5ea9861eb', 's9ep4', 'TR9zG6Ua'],
 ['d2029cbf03a92e6ae973a219ccdab69e92c3d4ebcd2d5999fbe7f2ac3833c03f', 's9ep5', 'c2hqzJSR'],
-['7b9ba80e9f2c10a7cc2dee40e0f5ebe8a0b3bbad37d53a11b5c20c51dcc3fb28', 's9ep6', 'sCyT1clu']
+['a155dd875c379dd945fb9b0d7adc8b5266455a9303779178447f36b9edeaa19e', 's9ep6', 'xaMgOZsu']
 ];
 
 var videoHub8 = [
@@ -220,8 +220,8 @@ case 's9ep6':
 sylka =videoHub9[5][0];
 tapevid=videoHub9[5][1];
 iframeidz=videoHub9[5][2];
-$('#Livetitl').html("Golos 9 Sezon<small>  / 6 Выпуск от 24.02.2019 - Анонс </small>");
-$('#Gtitl').html("Golos 9 Sezon /  6 Выпуск от 24.03.2019 - Анонс  ");
+$('#Livetitl').html("Golos 9 Sezon<small>  / 6 Выпуск от 24.02.2019  </small>");
+$('#Gtitl').html("Golos 9 Sezon /  6 Выпуск от 24.03.2019   ");
     break;
 case 's8ep1':
 sylka =videoHub8[0][0];
