@@ -10,7 +10,8 @@ var videoHub9 = [
 ['51b150e2f98863a0aee86a5d13114a9bd66f3b1237ded24a019eb9e5ea9861eb', 's9ep4', 'TR9zG6Ua'],
 ['d2029cbf03a92e6ae973a219ccdab69e92c3d4ebcd2d5999fbe7f2ac3833c03f', 's9ep5', 'c2hqzJSR'],
 ['a155dd875c379dd945fb9b0d7adc8b5266455a9303779178447f36b9edeaa19e', 's9ep6', 'xaMgOZsu'],
-['f0c3cc6437ec0b4c8f4a0cac4a333f7012e2cd2bab862dbbb0160d912148605f', 's9ep7', 'NCkFYedu']
+['f0c3cc6437ec0b4c8f4a0cac4a333f7012e2cd2bab862dbbb0160d912148605f', 's9ep7', 'NCkFYedu'],
+['4842bb7d1d2e2914306518414c70c67095e884e09a52914b87deceab28ff6ee7', 's9ep8', 'euvmYZst']
 ];
 
 var videoHub8 = [
@@ -230,6 +231,13 @@ tapevid=videoHub9[6][1];
 iframeidz=videoHub9[6][2];
 $('#Livetitl').html("Golos 9 Sezon<small>  / 7 Выпуск от 03.03.2019  </small>");
 $('#Gtitl').html("Golos 9 Sezon /  7 Выпуск от 03.03.2019   ");
+    break;
+case 's9ep8':
+sylka =videoHub9[7][0];
+tapevid=videoHub9[7][1];
+iframeidz=videoHub9[7][2];
+$('#Livetitl').html("Golos 9 Sezon<small>  / 8 Выпуск от 10.03.2019 - Анонс </small>");
+$('#Gtitl').html("Golos 9 Sezon /  8 Выпуск от 10.03.2019 - Анонс  ");
     break;
 case 's8ep1':
 sylka =videoHub8[0][0];
