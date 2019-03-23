@@ -141,7 +141,7 @@ var videoHub2 = [
 
 var videoHub1 = [
 ['yt', 's1ep1', '7s0LPPh-xmU'],
-['yt', 's1ep2', '7s0LPPh-xmU'],
+['yt', 's1ep2', 'PL6072141DFFB2D755'],
 ['yt', 's1ep3', 'PL6072141DFFB2D755'],
 ['yt', 's1ep4', 'PL75D0D6B7F7564BBA'],
 ['yt', 's1ep5', 'PL36586E112D2E6ABC'],
