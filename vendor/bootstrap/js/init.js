@@ -12,7 +12,8 @@ var videoHub9 = [
 ['a155dd875c379dd945fb9b0d7adc8b5266455a9303779178447f36b9edeaa19e', 's9ep6', 'xaMgOZsu'],
 ['f0c3cc6437ec0b4c8f4a0cac4a333f7012e2cd2bab862dbbb0160d912148605f', 's9ep7', 'NCkFYedu'],
 ['937ecec1b73383c1ef6af78ca5a02825dc4f42390fd56961a31f969b12818164', 's9ep8', 'xuMgUOU2'],
-['5719e7dd739a6c5ebde37c8dae99d2560ebb784cf676af10aa70cb186d78c311', 's9ep9', 'KtjybITu']
+['5719e7dd739a6c5ebde37c8dae99d2560ebb784cf676af10aa70cb186d78c311', 's9ep9', 'KtjybITu'],
+['68be33a0b05b6c2afaba7c02e7edafd5b840566fda595bcd4294f13f76459b76', 's9ep10', 'g2xT6JP2']
 ];
 
 var videoHub8 = [
@@ -246,6 +247,13 @@ tapevid=videoHub9[8][1];
 iframeidz=videoHub9[8][2];
 $('#Livetitl').html("Golos 9 Sezon<small>  / 9 Выпуск от 17.03.2019 - Бои </small>");
 $('#Gtitl').html("Golos 9 Sezon /  9 Выпуск от 17.03.2019 - Бои  ");
+    break;
+case 's9ep10':
+sylka =videoHub9[9][0];
+tapevid=videoHub9[9][1];
+iframeidz=videoHub9[9][2];
+$('#Livetitl').html("Golos 9 Sezon<small>  / 10 Выпуск от 24.03.2019 - ВОКАЛЬНЫЕ НОКАУТЫ - Анонс </small>");
+$('#Gtitl').html("Golos 9 Sezon /  10 Выпуск от 24.03.2019 - ВОКАЛЬНЫЕ НОКАУТЫ - Анонс   ");
     break;
 case 's8ep1':
 sylka =videoHub8[0][0];
