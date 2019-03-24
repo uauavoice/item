@@ -309,8 +309,8 @@ case 's9ep10':
 sylka =videoHub9[9][0];
 tapevid=videoHub9[9][1];
 iframeidz=videoHub9[9][2];
-$('#Livetitl').html("Golos 9 Sezon<small>  / 10 Выпуск от 24.03.2019 - ВОКАЛЬНЫЕ НОКАУТЫ - Анонс </small>");
-$('#Gtitl').html("Golos 9 Sezon /  10 Выпуск от 24.03.2019 - ВОКАЛЬНЫЕ НОКАУТЫ - Анонс   ");
+$('#Livetitl').html("Golos 9 Sezon<small>  / 10 Выпуск от 24.03.2019 - ВОКАЛЬНЫЕ НОКАУТЫ  </small>");
+$('#Gtitl').html("Golos 9 Sezon /  10 Выпуск от 24.03.2019 - ВОКАЛЬНЫЕ НОКАУТЫ   ");
     break;
 case 's8ep1':
 sylka =videoHub8[0][0];
