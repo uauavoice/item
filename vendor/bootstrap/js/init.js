@@ -14,7 +14,8 @@ var videoHub9 = [
 ['937ecec1b73383c1ef6af78ca5a02825dc4f42390fd56961a31f969b12818164', 's9ep8', 'xuMgUOU2'],
 ['5719e7dd739a6c5ebde37c8dae99d2560ebb784cf676af10aa70cb186d78c311', 's9ep9', 'KtjybITu'],
 ['47def3b8478440cb44f2b0de897ffb47d4ecd7fd604bda82942e77b5e9994d6b', 's9ep10', 'xaMgpccu'],
-['60fa59f87575c076b34d28932f3f98f87b245083382d8178e026d2392a20013a', 's9ep11', 'i21DT6Yt']
+['60fa59f87575c076b34d28932f3f98f87b245083382d8178e026d2392a20013a', 's9ep11', 'i21DT6Yt'],
+['87445d0c6fc766f29a460d18322c570d147e53362dae219c94ea5a5605e68ca6', 's9ep12', 'KRjylmc2']
 ];
 
 var videoHub8 = [
@@ -319,6 +320,13 @@ tapevid=videoHub9[10][1];
 iframeidz=videoHub9[10][2];
 $('#Livetitl').html("Golos 9 Sezon<small>  / 11 Выпуск от 31.03.2019 - ВОКАЛЬНЫЕ НОКАУТЫ  </small>");
 $('#Gtitl').html("Golos 9 Sezon /  11 Выпуск от 31.03.2019 - ВОКАЛЬНЫЕ НОКАУТЫ  ");
+    break;
+case 's9ep12':
+sylka =videoHub9[11][0];
+tapevid=videoHub9[11][1];
+iframeidz=videoHub9[11][2];
+$('#Livetitl').html("Golos 9 Sezon<small>  / 12 Выпуск от 07.04.2019 - ПЕРВЫЙ ПРЯМОЙ ЭФИР - Анонс </small>");
+$('#Gtitl').html("Golos 9 Sezon /  12 Выпуск от 07.04.2019 - ПЕРВЫЙ ПРЯМОЙ ЭФИР - Анонс ");
     break;
 case 's8ep1':
 sylka =videoHub8[0][0];
