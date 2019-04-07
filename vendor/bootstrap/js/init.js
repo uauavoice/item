@@ -325,8 +325,8 @@ case 's9ep12':
 sylka =videoHub9[11][0];
 tapevid=videoHub9[11][1];
 iframeidz=videoHub9[11][2];
-$('#Livetitl').html("Golos 9 Sezon<small>  / 12 Выпуск от 07.04.2019 - ПЕРВЫЙ ПРЯМОЙ ЭФИР - Анонс </small>");
-$('#Gtitl').html("Golos 9 Sezon /  12 Выпуск от 07.04.2019 - ПЕРВЫЙ ПРЯМОЙ ЭФИР - Анонс ");
+$('#Livetitl').html("Golos 9 Sezon<small>  / 12 Выпуск от 07.04.2019 - ПЕРВЫЙ ПРЯМОЙ ЭФИР </small>");
+$('#Gtitl').html("Golos 9 Sezon /  12 Выпуск от 07.04.2019 - ПЕРВЫЙ ПРЯМОЙ ЭФИР  ");
     break;
 case 's8ep1':
 sylka =videoHub8[0][0];
