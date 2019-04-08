@@ -1,6 +1,6 @@
 var firstinit =true;
-var ServGood = ['k2301', 'k2303', 'k2305','k2307','k2309','k2311'];
-var ServNot = ['k2302', 'k2304', 'k2306','k2308','k2310','k2312'];
+var ServNot = ['k2301', 'k2303', 'k2305','k2307','k2309','k2311'];
+var ServGood = ['k2302', 'k2304', 'k2306','k2308','k2310','k2312'];
 var randoms= Math.floor(Math.random() * 6);
 var LiveHub = ['0f655c88c139c72ae239a37503705316', 'live', ''];
 var videoHub9 = [
