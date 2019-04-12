@@ -2,11 +2,21 @@ var firstinit =true;
 var ServNot = ['k2301', 'k2303', 'k2305','k2307','k2309','k2311'];
 var ServGood = ['k2302', 'k2304', 'k2306','k2308','k2310','k2312'];
 var randoms= Math.floor(Math.random() * 6);
-var LiveHub = ['5d4c95b607252fbbb2acfe7b351bd8e6', 'live', ''];
+var LiveHub = ['0f84b66620cdc1ddacc24b7b32aa0dd6', 'live', ''];
 var videoHub9 = [
 ['f55850365170437128286ee54d1aee554e1b4c3e9c351af8e9d3ca22b03ee166', 's9ep1', 'HaqgqMVu'],
 ['6e4a1bd51f8c4301a87282784cec0bb65f53b7e35b6ce47eed684e1b70f34034', 's9ep2', 'fCQS4G0t'],
-['45f6cb63d0640e7dec3580906070b4b7b35c71ce180ff41892189a05813d07c7', 's9ep3', 'pRZf15bR']
+['45f6cb63d0640e7dec3580906070b4b7b35c71ce180ff41892189a05813d07c7', 's9ep3', 'pRZf15bR'],
+['51b150e2f98863a0aee86a5d13114a9bd66f3b1237ded24a019eb9e5ea9861eb', 's9ep4', 'TR9zG6Ua'],
+['d2029cbf03a92e6ae973a219ccdab69e92c3d4ebcd2d5999fbe7f2ac3833c03f', 's9ep5', 'c2hqzJSR'],
+['a155dd875c379dd945fb9b0d7adc8b5266455a9303779178447f36b9edeaa19e', 's9ep6', 'xaMgOZsu'],
+['f0c3cc6437ec0b4c8f4a0cac4a333f7012e2cd2bab862dbbb0160d912148605f', 's9ep7', 'NCkFYedu'],
+['937ecec1b73383c1ef6af78ca5a02825dc4f42390fd56961a31f969b12818164', 's9ep8', 'xuMgUOU2'],
+['5719e7dd739a6c5ebde37c8dae99d2560ebb784cf676af10aa70cb186d78c311', 's9ep9', 'KtjybITu'],
+['47def3b8478440cb44f2b0de897ffb47d4ecd7fd604bda82942e77b5e9994d6b', 's9ep10', 'xaMgpccu'],
+['60fa59f87575c076b34d28932f3f98f87b245083382d8178e026d2392a20013a', 's9ep11', 'i21DT6Yt'],
+['396dd37866859690ff785f54850858780623b49535afd369fe3999ad7a1aaa3f', 's9ep12', 'duL3p0OR'],
+['d286995e732f04c815c9d5f53730d11279feaa3848321c0d911b90ad96e62488', 's9ep13', 'eRI4vD62']
 ];
 
 var videoHub8 = [
@@ -76,6 +86,80 @@ var videoHub5 = [
 ['6c203b1bbd5aeec6fef45a67898e09ad9d271cb5c98d6c41d4c5f3d6142421fd', 's5ep12', 'rDtP0wCW'],
 ['f6d4a8c4df5fd74f574e803956103475278c7bb70a688514973a320a1fdcdc15', 's5ep13', 'EuiznwRU'],
 ['2034a351d5be9e31a6f4e24d0280cb7989db776aa7321875e9228f1db79ea4fd', 's5ep14', 'GCs4cqa4']
+];
+
+var videoHub4 = [
+['yt', 's4ep1', 'PLcpkKchW7Xe6WE-Ciya2iAI6cHjQfxAHu'],
+['yt', 's4ep2', 'PLcpkKchW7Xe4bnMo_3BqFJ2vGul6QC1ou'],
+['yt', 's4ep3', 'PLcpkKchW7Xe6pkRHh0TSx8ol3RNl0NbOV'],
+['yt', 's4ep4', 'PLcpkKchW7Xe4HDo5-WN_RC41LWOxaZux1'],
+['yt', 's4ep5', 'PLcpkKchW7Xe7_v7vlgLEeXE8EwUwTXQqT'],
+['yt', 's4ep6', 'PLcpkKchW7Xe7nvhiqvErtjN-hJzaUcdIu'],
+['yt', 's4ep7', 'PLcpkKchW7Xe4gfw_eNzqYiS8wKlYKluO_'],
+['yt', 's4ep8', 'PLcpkKchW7Xe7scYCrlyvpABzoy8LS8e_x'],
+['yt', 's4ep9', 'PLcpkKchW7Xe61g7tTamn9BFuPaZb9MBbp'],
+['yt', 's4ep10', 'PLcpkKchW7Xe6rdm3I-sdb4leJMf5s9Nh5'],
+['yt', 's4ep11', 'PLcpkKchW7Xe47FuRbteEzo7Z87kUFGgw0'],
+['yt', 's4ep12', 'PLcpkKchW7Xe5yVsx5IpGZa4jf6wsDBIlG'],
+['yt', 's4ep13', 'PLcpkKchW7Xe7ji6uu6wtMGQpKyUuRMW3x'],
+['yt', 's4ep14', 'PLcpkKchW7Xe6vbstppxljVPKZxPrTpakW']
+];
+
+var videoHub3 = [
+['3fe94746805b34234415d2145c4c69f409ea84421697e035b04da7505bc7d37b', 's3ep1', 'EuiLmpCU'],
+['90ee0584b26e3b446bb13f85107735e9e463a8bc5dbd8b4717281ae47f57e724', 's3ep2', 'eadgUSCG'],
+['5e35bb29abafdd3da1589246ad9f93f0c4bb929351ef25d4038df017d8abd808', 's3ep3', 'E2fVbnae'],
+['51b884f983c9a053ed5ee5bdcc0db80ff67987cc1742cd15aab9d693f93f6223', 's3ep4', '9tmxDG25'],
+['2cbbdc0f13dcaad926fbe3529f45758fa59ad21b1101c2a7e9f0eb04c267f995', 's3ep5', 'pRZ3h92w'],
+['36afa823ace186f0ffbc77b16f9504e8aa1250cd6b043cea48982afcbbe9060d', 's3ep6', 'IRHHdjRq'],
+['fb687b0b8e92e4d63ed7e933f5a5a0d4f4e41f97f12953a2e752e8392da8e6b7', 's3ep7', 'VC6gJr2A'],
+['34a01816bfca25d57ee8cc8a4a976e5f79e57e91f81be479aaf4b6d36f6c6c5c', 's3ep8', 'ItKiPntz'],
+['3ad5e22d1e50074fdf38d09a60ba9332c0cc21c93e4b84504d57d4db43832fc3', 's3ep9', 'xuMiZXaf'],
+['c5f863f7faed62efa04ba0375b851c6b309a0085b68f68972af0de7ad0e6f486', 's3ep10', 'eRIN67ax'],
+['4ef84e4a4fb0b05d7598ce2c8d794aa5a1a2c6f3b4433e08309250b83b29aec1', 's3ep11', 'DRPeAf2W'],
+['6098a7d8483ccddd91f9848088378b09ff73acdd312ce642cdf252dde69a2ed2', 's3ep12', 'XCoef4tW'],
+['0caf91ac522331b8ce0a854f3f72b9b88b41d85a71ae69f0312a704a2df837fb', 's3ep13', 'sCN4X4Rd'],
+['0cb7b8a55aab94a8d60401b22b6600163c537d781e334b20aec3703bc9e1f108', 's3ep14', 'H24oX5Ce']
+];
+
+var videoHub2 = [
+['yt', 's2ep1', 'PLF1CAE83D8BA127CA'],
+['yt', 's2ep2', 'PL14483CB4688C971B'],
+['yt', 's2ep3', 'PLAC9A2CDC43E19E0D'],
+['yt', 's2ep4', 'PLE8FAFF8F42C65499'],
+['yt', 's2ep5', 'PL4169C64F79558315'],
+['yt', 's2ep6', 'PLFAFA60301FCE6D1F'],
+['yt', 's2ep7', 'PL3EF53025C2FC34C1'],
+['yt', 's2ep8', 'PLCCF0B5DECB307E9F'],
+['yt', 's2ep9', 'PL829F1AA237BDC069'],
+['yt', 's2ep10', 'PLF43EE0B07293C358'],
+['yt', 's2ep11', 'PL2110F04667F3931C'],
+['yt', 's2ep12', 'PL1DDD4FA449AA0144'],
+['yt', 's2ep13', 'PLDE9DD78AA4FF9DC6'],
+['yt', 's2ep14', 'PLDF49635412879ECC'],
+['yt', 's2ep15', 'PLC3EF9A3B87B1C6C1'],
+['yt', 's2ep16', 'PL5FEC7484C5D58DC9'],
+['yt', 's2ep17', 'PLE55D282A9184EDB5']
+];
+
+var videoHub1 = [
+['yt', 's1ep1', '7s0LPPh-xmU'],
+['yt', 's1ep2', 'PL6072141DFFB2D755'],
+['yt', 's1ep3', 'PL6072141DFFB2D755'],
+['yt', 's1ep4', 'PL75D0D6B7F7564BBA'],
+['yt', 's1ep5', 'PL36586E112D2E6ABC'],
+['yt', 's1ep6', 'PL13DB7A30155DEA03'],
+['yt', 's1ep7', 'PL99360CE3930E565E'],
+['yt', 's1ep8', 'PLC811BE54BC02CC34'],
+['yt', 's1ep9', 'PL1AB88AF3A6CEEE3E'],
+['yt', 's1ep10', 'PLEF6A87BFF0FCE897'],
+['yt', 's1ep11', 'PL9C7E60F480E88F6C'],
+['yt', 's1ep12', 'PLC3484D9C8E28B6A9'],
+['yt', 's1ep13', 'PL78C52DF0CD1E71F5'],
+['yt', 's1ep14', 'PL86A210A5E44484AB'],
+['yt', 's1ep15', 'PL9033F338446A0B5D'],
+['yt', 's1ep16', 'PL980ECE92570F1ED4'],
+['yt', 's1ep17', 'PL3602CE3055B49464']
 ];
 
 var storedText;
@@ -181,6 +265,76 @@ tapevid=videoHub9[2][1];
 iframeidz=videoHub9[2][2];
 $('#Livetitl').html("Golos 9 Sezon<small>  / 3 Выпуск от 03.02.2019  </small>");
 $('#Gtitl').html("Golos 9 Sezon /  3 Выпуск от 03.03.2019 ");
+    break;
+case 's9ep4':
+sylka =videoHub9[3][0];
+tapevid=videoHub9[3][1];
+iframeidz=videoHub9[3][2];
+$('#Livetitl').html("Golos 9 Sezon<small>  / 4 Выпуск от 10.02.2019 </small>");
+$('#Gtitl').html("Golos 9 Sezon /  4 Выпуск от 10.03.2019  ");
+    break;
+case 's9ep5':
+sylka =videoHub9[4][0];
+tapevid=videoHub9[4][1];
+iframeidz=videoHub9[4][2];
+$('#Livetitl').html("Golos 9 Sezon<small>  / 5 Выпуск от 17.02.2019  </small>");
+$('#Gtitl').html("Golos 9 Sezon /  5 Выпуск от 17.03.2019   ");
+    break;
+case 's9ep6':
+sylka =videoHub9[5][0];
+tapevid=videoHub9[5][1];
+iframeidz=videoHub9[5][2];
+$('#Livetitl').html("Golos 9 Sezon<small>  / 6 Выпуск от 24.02.2019  </small>");
+$('#Gtitl').html("Golos 9 Sezon /  6 Выпуск от 24.03.2019   ");
+    break;
+case 's9ep7':
+sylka =videoHub9[6][0];
+tapevid=videoHub9[6][1];
+iframeidz=videoHub9[6][2];
+$('#Livetitl').html("Golos 9 Sezon<small>  / 7 Выпуск от 03.03.2019  </small>");
+$('#Gtitl').html("Golos 9 Sezon /  7 Выпуск от 03.03.2019   ");
+    break;
+case 's9ep8':
+sylka =videoHub9[7][0];
+tapevid=videoHub9[7][1];
+iframeidz=videoHub9[7][2];
+$('#Livetitl').html("Golos 9 Sezon<small>  / 8 Выпуск от 10.03.2019 - Бои </small>");
+$('#Gtitl').html("Golos 9 Sezon /  8 Выпуск от 10.03.2019 - Бои  ");
+    break;
+case 's9ep9':
+sylka =videoHub9[8][0];
+tapevid=videoHub9[8][1];
+iframeidz=videoHub9[8][2];
+$('#Livetitl').html("Golos 9 Sezon<small>  / 9 Выпуск от 17.03.2019 - Бои </small>");
+$('#Gtitl').html("Golos 9 Sezon /  9 Выпуск от 17.03.2019 - Бои  ");
+    break;
+case 's9ep10':
+sylka =videoHub9[9][0];
+tapevid=videoHub9[9][1];
+iframeidz=videoHub9[9][2];
+$('#Livetitl').html("Golos 9 Sezon<small>  / 10 Выпуск от 24.03.2019 - ВОКАЛЬНЫЕ НОКАУТЫ  </small>");
+$('#Gtitl').html("Golos 9 Sezon /  10 Выпуск от 24.03.2019 - ВОКАЛЬНЫЕ НОКАУТЫ   ");
+    break;
+case 's9ep11':
+sylka =videoHub9[10][0];
+tapevid=videoHub9[10][1];
+iframeidz=videoHub9[10][2];
+$('#Livetitl').html("Golos 9 Sezon<small>  / 11 Выпуск от 31.03.2019 - ВОКАЛЬНЫЕ НОКАУТЫ  </small>");
+$('#Gtitl').html("Golos 9 Sezon /  11 Выпуск от 31.03.2019 - ВОКАЛЬНЫЕ НОКАУТЫ  ");
+    break;
+case 's9ep12':
+sylka =videoHub9[11][0];
+tapevid=videoHub9[11][1];
+iframeidz=videoHub9[11][2];
+$('#Livetitl').html("Golos 9 Sezon<small>  / 12 Выпуск от 07.04.2019 - ПЕРВЫЙ ПРЯМОЙ ЭФИР </small>");
+$('#Gtitl').html("Golos 9 Sezon /  12 Выпуск от 07.04.2019 - ПЕРВЫЙ ПРЯМОЙ ЭФИР  ");
+    break;
+case 's9ep13':
+sylka =videoHub9[12][0];
+tapevid=videoHub9[12][1];
+iframeidz=videoHub9[12][2];
+$('#Livetitl').html("Golos 9 Sezon<small>  / 13 Выпуск от 14.04.2019 - Полуфинал - Анонс </small>");
+$('#Gtitl').html("Golos 9 Sezon /  13 Выпуск от 14.04.2019 - Полуфинал - Анонс  ");
     break;
 case 's8ep1':
 sylka =videoHub8[0][0];
@@ -580,7 +734,441 @@ tapevid=videoHub5[13][1];
 iframeidz=videoHub5[13][2];
 $('#Livetitl').html("Golos 5 Sezon<small>  / 14 Выпуск от 07.06.2015 </small>");
 $('#Gtitl').html("Golos 5 Sezon / 14 Выпуск от 07.06.2015");
+break;	
+case 's4ep1':
+sylka =videoHub4[0][0];
+tapevid=videoHub4[0][1];
+iframeidz=videoHub4[0][2];
+$('#Livetitl').html("Golos 4 Sezon<small>  / Выпуск 1 - 02.03.2014 </small>");
+$('#Gtitl').html("Golos 4 Sezon / Выпуск 1 - 02.03.2014");
+break;
+case 's4ep2':
+sylka =videoHub4[1][0];
+tapevid=videoHub4[1][1];
+iframeidz=videoHub4[1][2];
+$('#Livetitl').html("Golos 4 Sezon<small>  / Выпуск 2 - 09.03.2014 </small>");
+$('#Gtitl').html("Golos 4 Sezon / Выпуск 2 - 09.03.2014");
+break;
+case 's4ep3':
+sylka =videoHub4[2][0];
+tapevid=videoHub4[2][1];
+iframeidz=videoHub4[2][2];
+$('#Livetitl').html("Golos 4 Sezon<small>  / Выпуск 3 - 16.03.2014 </small>");
+$('#Gtitl').html("Golos 4 Sezon / Выпуск 3 - 16.03.2014");
+break;
+case 's4ep4':
+sylka =videoHub4[3][0];
+tapevid=videoHub4[3][1];
+iframeidz=videoHub4[3][2];
+$('#Livetitl').html("Golos 4 Sezon<small>  / Выпуск 4 - 23.03.2014 </small>");
+$('#Gtitl').html("Golos 4 Sezon / Выпуск 4 - 23.03.2014");
+break;		
+case 's4ep5':
+sylka =videoHub4[4][0];
+tapevid=videoHub4[4][1];
+iframeidz=videoHub4[4][2];
+$('#Livetitl').html("Golos 4 Sezon<small>  / Выпуск 5 - 30.03.2014 </small>");
+$('#Gtitl').html("Golos 4 Sezon / Выпуск 5 - 30.03.2014");
+break;	
+case 's4ep6':
+sylka =videoHub4[5][0];
+tapevid=videoHub4[5][1];
+iframeidz=videoHub4[5][2];
+$('#Livetitl').html("Golos 4 Sezon<small>  / Выпуск 6 - 06.04.2014 </small>");
+$('#Gtitl').html("Golos 4 Sezon / Выпуск 6 - 06.04.2014");
+break;	
+case 's4ep7':
+sylka =videoHub4[6][0];
+tapevid=videoHub4[6][1];
+iframeidz=videoHub4[6][2];
+$('#Livetitl').html("Golos 4 Sezon<small>  / Выпуск 7 - 13.04.2014 </small>");
+$('#Gtitl').html("Golos 4 Sezon / Выпуск 7 - 13.04.2014");
+break;	
+case 's4ep8':
+sylka =videoHub4[7][0];
+tapevid=videoHub4[7][1];
+iframeidz=videoHub4[7][2];
+$('#Livetitl').html("Golos 4 Sezon<small>  / Выпуск 8 - 20.04.2014 </small>");
+$('#Gtitl').html("Golos 4 Sezon / 8 Выпуск от 26.04.2015");
 break;			
+case 's4ep9':
+sylka =videoHub4[8][0];
+tapevid=videoHub4[8][1];
+iframeidz=videoHub4[8][2];
+$('#Livetitl').html("Golos 4 Sezon<small>  / Выпуск 9 - 27.04.2014 </small>");
+$('#Gtitl').html("Golos 4 Sezon / Выпуск 9 - 27.04.2014");
+break;	
+case 's4ep10':
+sylka =videoHub4[9][0];
+tapevid=videoHub4[9][1];
+iframeidz=videoHub4[9][2];
+$('#Livetitl').html("Golos 4 Sezon<small>  / Выпуск 10 - 10.05.2014 </small>");
+$('#Gtitl').html("Golos 4 Sezon / Выпуск 10 - 10.05.2014");
+break;			
+case 's4ep11':
+sylka =videoHub4[10][0];
+tapevid=videoHub4[10][1];
+iframeidz=videoHub4[10][2];
+$('#Livetitl').html("Golos 4 Sezon<small>  / Выпуск 11 - 11.05.2014 </small>");
+$('#Gtitl').html("Golos 4 Sezon / Выпуск 11 - 11.05.2014");
+break;			
+case 's4ep12':
+sylka =videoHub4[11][0];
+tapevid=videoHub4[11][1];
+iframeidz=videoHub4[11][2];
+$('#Livetitl').html("Golos 4 Sezon<small>  / Выпуск 12 - 18.05.2014 </small>");
+$('#Gtitl').html("Golos 4 Sezon / Выпуск 12 - 18.05.2014");
+break;	
+case 's4ep13':
+sylka =videoHub4[12][0];
+tapevid=videoHub4[12][1];
+iframeidz=videoHub4[12][2];
+$('#Livetitl').html("Golos 4 Sezon<small>  / Выпуск 13 - 01.06.2014 </small>");
+$('#Gtitl').html("Golos 4 Sezon / Выпуск 13 - 01.06.2014");
+break;		
+case 's4ep14':
+sylka =videoHub4[13][0];
+tapevid=videoHub4[13][1];
+iframeidz=videoHub4[13][2];
+$('#Livetitl').html("Golos 4 Sezon<small>  / Выпуск 14 - 08.06.2014</small>");
+$('#Gtitl').html("Golos 4 Sezon / Выпуск 14 - 08.06.2014");
+break;	
+case 's3ep1':
+sylka =videoHub3[0][0];
+tapevid=videoHub3[0][1];
+iframeidz=videoHub3[0][2];
+$('#Livetitl').html("Golos 3 Sezon<small>  / 1 Выпуск от 08.03.2013 </small>");
+$('#Gtitl').html("Golos 3 Sezon / 1 Выпуск от 08.03.2013");
+break;
+case 's3ep2':
+sylka =videoHub3[1][0];
+tapevid=videoHub3[1][1];
+iframeidz=videoHub3[1][2];
+$('#Livetitl').html("Golos 3 Sezon<small>  / 2 Выпуск от 15.03.2013 </small>");
+$('#Gtitl').html("Golos 3 Sezon / 2 Выпуск от 15.03.2013");
+break;
+case 's3ep3':
+sylka =videoHub3[2][0];
+tapevid=videoHub3[2][1];
+iframeidz=videoHub3[2][2];
+$('#Livetitl').html("Golos 3 Sezon<small>  / 3 Выпуск от  22.03.2013 </small>");
+$('#Gtitl').html("Golos 3 Sezon / 3 Выпуск от  22.03.2013");
+break;
+case 's3ep4':
+sylka =videoHub3[3][0];
+tapevid=videoHub3[3][1];
+iframeidz=videoHub3[3][2];
+$('#Livetitl').html("Golos 3 Sezon<small>  / 4 Выпуск от  29.03.2013 </small>");
+$('#Gtitl').html("Golos 3 Sezon / 4 Выпуск от  29.03.2013");
+break;		
+case 's3ep5':
+sylka =videoHub3[4][0];
+tapevid=videoHub3[4][1];
+iframeidz=videoHub3[4][2];
+$('#Livetitl').html("Golos 3 Sezon<small>  / 5 Выпуск от 05.04.2013 </small>");
+$('#Gtitl').html("Golos 3 Sezon / 5 Выпуск от 05.04.2013");
+break;	
+case 's3ep6':
+sylka =videoHub3[5][0];
+tapevid=videoHub3[5][1];
+iframeidz=videoHub3[5][2];
+$('#Livetitl').html("Golos 3 Sezon<small>  / 6 Выпуск от 12.04.2013 </small>");
+$('#Gtitl').html("Golos 3 Sezon / 6 Выпуск от 12.04.2013");
+break;	
+case 's3ep7':
+sylka =videoHub3[6][0];
+tapevid=videoHub3[6][1];
+iframeidz=videoHub3[6][2];
+$('#Livetitl').html("Golos 3 Sezon<small>  / 7 Выпуск от 19.04.2013 </small>");
+$('#Gtitl').html("Golos 3 Sezon / 7 Выпуск от 19.04.2013");
+break;	
+case 's3ep8':
+sylka =videoHub3[7][0];
+tapevid=videoHub3[7][1];
+iframeidz=videoHub3[7][2];
+$('#Livetitl').html("Golos 3 Sezon<small>  / 8 Выпуск от 26.04.2013 </small>");
+$('#Gtitl').html("Golos 3 Sezon / 8 Выпуск от 26.04.2013");
+break;			
+case 's3ep9':
+sylka =videoHub3[8][0];
+tapevid=videoHub3[8][1];
+iframeidz=videoHub3[8][2];
+$('#Livetitl').html("Golos 3 Sezon<small>  / 9 Выпуск от 03.05.2013 </small>");
+$('#Gtitl').html("Golos 3 Sezon / 9 Выпуск от 03.05.2013");
+break;	
+case 's3ep10':
+sylka =videoHub3[9][0];
+tapevid=videoHub3[9][1];
+iframeidz=videoHub3[9][2];
+$('#Livetitl').html("Golos 3 Sezon<small>  / 10 Выпуск от 26.03.2017 </small>");
+$('#Gtitl').html("Golos 3 Sezon / 10 Выпуск от 26.03.2017");
+break;			
+case 's3ep11':
+sylka =videoHub3[10][0];
+tapevid=videoHub3[10][1];
+iframeidz=videoHub3[10][2];
+$('#Livetitl').html("Golos 3 Sezon<small>  / 11 Выпуск от 10.05.2013 </small>");
+$('#Gtitl').html("Golos 3 Sezon / 11 Выпуск от 10.05.2013");
+break;			
+case 's3ep12':
+sylka =videoHub3[11][0];
+tapevid=videoHub3[11][1];
+iframeidz=videoHub3[11][2];
+$('#Livetitl').html("Golos 3 Sezon<small>  / 12 Выпуск от 17.05.2013 </small>");
+$('#Gtitl').html("Golos 3 Sezon / 12 Выпуск от 17.05.2013");
+break;	
+case 's3ep13':
+sylka =videoHub3[12][0];
+tapevid=videoHub3[12][1];
+iframeidz=videoHub3[12][2];
+$('#Livetitl').html("Golos 3 Sezon<small>  / 13 Выпуск от 24.05.2013 </small>");
+$('#Gtitl').html("Golos 3 Sezon / 13 Выпуск от 24.05.2013");
+break;		
+case 's3ep14':
+sylka =videoHub3[13][0];
+tapevid=videoHub3[13][1];
+iframeidz=videoHub3[13][2];
+$('#Livetitl').html("Golos 3 Sezon<small>  / 14 Выпуск от 07.06.2013 </small>");
+$('#Gtitl').html("Golos 3 Sezon / 14 Выпуск от 07.06.2013");
+break;	
+case 's2ep1':
+sylka =videoHub2[0][0];
+tapevid=videoHub2[0][1];
+iframeidz=videoHub2[0][2];
+$('#Livetitl').html("Golos 2 Sezon<small>  / 1 Выпуск от 08.03</small>");
+$('#Gtitl').html("Golos 2 Sezon / 1 Выпуск от 08.03.2013");
+break;
+case 's2ep2':
+sylka =videoHub2[1][0];
+tapevid=videoHub2[1][1];
+iframeidz=videoHub2[1][2];
+$('#Livetitl').html("Golos 2 Sezon<small>  / 2 Выпуск от 15.03</small>");
+$('#Gtitl').html("Golos 2 Sezon / 2 Выпуск от 15.03.2013");
+break;
+case 's2ep3':
+sylka =videoHub2[2][0];
+tapevid=videoHub2[2][1];
+iframeidz=videoHub2[2][2];
+$('#Livetitl').html("Golos 2 Sezon<small>  / 3 Выпуск от  22.03</small>");
+$('#Gtitl').html("Golos 2 Sezon / 3 Выпуск от  22.03.2013");
+break;
+case 's2ep4':
+sylka =videoHub2[3][0];
+tapevid=videoHub2[3][1];
+iframeidz=videoHub2[3][2];
+$('#Livetitl').html("Golos 2 Sezon<small>  / 4 Выпуск от  29.03</small>");
+$('#Gtitl').html("Golos 2 Sezon / 4 Выпуск от  29.03.2013");
+break;		
+case 's2ep5':
+sylka =videoHub2[4][0];
+tapevid=videoHub2[4][1];
+iframeidz=videoHub2[4][2];
+$('#Livetitl').html("Golos 2 Sezon<small>  / 5 Выпуск от 05.04</small>");
+$('#Gtitl').html("Golos 2 Sezon / 5 Выпуск от 05.04.2013");
+break;	
+case 's2ep6':
+sylka =videoHub2[5][0];
+tapevid=videoHub2[5][1];
+iframeidz=videoHub2[5][2];
+$('#Livetitl').html("Golos 2 Sezon<small>  / 6 Выпуск от 12.04</small>");
+$('#Gtitl').html("Golos 2 Sezon / 6 Выпуск от 12.04.2013");
+break;	
+case 's2ep7':
+sylka =videoHub2[6][0];
+tapevid=videoHub2[6][1];
+iframeidz=videoHub2[6][2];
+$('#Livetitl').html("Golos 2 Sezon<small>  / 7 Выпуск от 19.04</small>");
+$('#Gtitl').html("Golos 2 Sezon / 7 Выпуск от 19.04.2013");
+break;	
+case 's2ep8':
+sylka =videoHub2[7][0];
+tapevid=videoHub2[7][1];
+iframeidz=videoHub2[7][2];
+$('#Livetitl').html("Golos 2 Sezon<small>  / 8 Выпуск от 26.04</small>");
+$('#Gtitl').html("Golos 2 Sezon / 8 Выпуск от 26.04.2013");
+break;			
+case 's2ep9':
+sylka =videoHub2[8][0];
+tapevid=videoHub2[8][1];
+iframeidz=videoHub2[8][2];
+$('#Livetitl').html("Golos 2 Sezon<small>  / 9 Выпуск от 03.05</small>");
+$('#Gtitl').html("Golos 2 Sezon / 9 Выпуск от 03.05.2013");
+break;	
+case 's2ep10':
+sylka =videoHub2[9][0];
+tapevid=videoHub2[9][1];
+iframeidz=videoHub2[9][2];
+$('#Livetitl').html("Golos 2 Sezon<small>  / 10 Выпуск от 26.03.2017 </small>");
+$('#Gtitl').html("Golos 2 Sezon / 10 Выпуск от 26.03.2017");
+break;			
+case 's2ep11':
+sylka =videoHub2[10][0];
+tapevid=videoHub2[10][1];
+iframeidz=videoHub2[10][2];
+$('#Livetitl').html("Golos 2 Sezon<small>  / 11 Выпуск от 10.05</small>");
+$('#Gtitl').html("Golos 2 Sezon / 11 Выпуск от 10.05.2013");
+break;			
+case 's2ep12':
+sylka =videoHub2[11][0];
+tapevid=videoHub2[11][1];
+iframeidz=videoHub2[11][2];
+$('#Livetitl').html("Golos 2 Sezon<small>  / 12 Выпуск от 17.05</small>");
+$('#Gtitl').html("Golos 2 Sezon / 12 Выпуск от 17.05.2013");
+break;	
+case 's2ep13':
+sylka =videoHub2[12][0];
+tapevid=videoHub2[12][1];
+iframeidz=videoHub2[12][2];
+$('#Livetitl').html("Golos 2 Sezon<small>  / 13 Выпуск от 24.05</small>");
+$('#Gtitl').html("Golos 2 Sezon / 13 Выпуск от 24.05.2013");
+break;		
+case 's2ep14':
+sylka =videoHub2[13][0];
+tapevid=videoHub2[13][1];
+iframeidz=videoHub2[13][2];
+$('#Livetitl').html("Golos 2 Sezon<small>  / 14 Выпуск от 07.06</small>");
+$('#Gtitl').html("Golos 2 Sezon / 14 Выпуск от 07.06.2013");
+break;	
+case 's2ep15':
+sylka =videoHub2[14][0];
+tapevid=videoHub2[14][1];
+iframeidz=videoHub2[14][2];
+$('#Livetitl').html("Golos 2 Sezon<small>  / 14 Выпуск от 07.06</small>");
+$('#Gtitl').html("Golos 2 Sezon / 14 Выпуск от 07.06.2013");
+break;	
+case 's2ep16':
+sylka =videoHub2[15][0];
+tapevid=videoHub2[15][1];
+iframeidz=videoHub2[15][2];
+$('#Livetitl').html("Golos 2 Sezon<small>  / 14 Выпуск от 07.06</small>");
+$('#Gtitl').html("Golos 2 Sezon / 14 Выпуск от 07.06.2013");
+break;	
+case 's2ep17':
+sylka =videoHub2[16][0];
+tapevid=videoHub2[16][1];
+iframeidz=videoHub2[16][2];
+$('#Livetitl').html("Golos 2 Sezon<small>  / 14 Выпуск от 07.06</small>");
+$('#Gtitl').html("Golos 2 Sezon / 14 Выпуск от 07.06.2013");
+break;	
+case 's1ep1':
+sylka =videoHub1[0][0];
+tapevid=videoHub1[0][1];
+iframeidz=videoHub1[0][2];
+$('#Livetitl').html("Golos 1 Sezon<small>  / 1 Выпуск от 08.03</small>");
+$('#Gtitl').html("Golos 1 Sezon / 1 Выпуск от 08.03.2013");
+break;
+case 's1ep2':
+sylka =videoHub1[1][0];
+tapevid=videoHub1[1][1];
+iframeidz=videoHub1[1][2];
+$('#Livetitl').html("Golos 1 Sezon<small>  / 2 Выпуск от 15.03</small>");
+$('#Gtitl').html("Golos 1 Sezon / 2 Выпуск от 15.03.2013");
+break;
+case 's1ep3':
+sylka =videoHub1[2][0];
+tapevid=videoHub1[2][1];
+iframeidz=videoHub1[2][2];
+$('#Livetitl').html("Golos 1 Sezon<small>  / 3 Выпуск от  22.03</small>");
+$('#Gtitl').html("Golos 1 Sezon / 3 Выпуск от  22.03.2013");
+break;
+case 's1ep4':
+sylka =videoHub1[3][0];
+tapevid=videoHub1[3][1];
+iframeidz=videoHub1[3][2];
+$('#Livetitl').html("Golos 1 Sezon<small>  / 4 Выпуск от  29.03</small>");
+$('#Gtitl').html("Golos 1 Sezon / 4 Выпуск от  29.03.2013");
+break;		
+case 's1ep5':
+sylka =videoHub1[4][0];
+tapevid=videoHub1[4][1];
+iframeidz=videoHub1[4][2];
+$('#Livetitl').html("Golos 1 Sezon<small>  / 5 Выпуск от 05.04</small>");
+$('#Gtitl').html("Golos 1 Sezon / 5 Выпуск от 05.04.2013");
+break;	
+case 's1ep6':
+sylka =videoHub1[5][0];
+tapevid=videoHub1[5][1];
+iframeidz=videoHub1[5][2];
+$('#Livetitl').html("Golos 1 Sezon<small>  / 6 Выпуск от 12.04</small>");
+$('#Gtitl').html("Golos 1 Sezon / 6 Выпуск от 12.04.2013");
+break;	
+case 's1ep7':
+sylka =videoHub1[6][0];
+tapevid=videoHub1[6][1];
+iframeidz=videoHub1[6][2];
+$('#Livetitl').html("Golos 1 Sezon<small>  / 7 Выпуск от 19.04</small>");
+$('#Gtitl').html("Golos 1 Sezon / 7 Выпуск от 19.04.2013");
+break;	
+case 's1ep8':
+sylka =videoHub1[7][0];
+tapevid=videoHub1[7][1];
+iframeidz=videoHub1[7][2];
+$('#Livetitl').html("Golos 1 Sezon<small>  / 8 Выпуск от 26.04</small>");
+$('#Gtitl').html("Golos 1 Sezon / 8 Выпуск от 26.04.2013");
+break;			
+case 's1ep9':
+sylka =videoHub1[8][0];
+tapevid=videoHub1[8][1];
+iframeidz=videoHub1[8][2];
+$('#Livetitl').html("Golos 1 Sezon<small>  / 9 Выпуск от 03.05</small>");
+$('#Gtitl').html("Golos 1 Sezon / 9 Выпуск от 03.05.2013");
+break;	
+case 's1ep10':
+sylka =videoHub1[9][0];
+tapevid=videoHub1[9][1];
+iframeidz=videoHub1[9][2];
+$('#Livetitl').html("Golos 1 Sezon<small>  / 10 Выпуск от 26.03.2017 </small>");
+$('#Gtitl').html("Golos 1 Sezon / 10 Выпуск от 26.03.2017");
+break;			
+case 's1ep11':
+sylka =videoHub1[10][0];
+tapevid=videoHub1[10][1];
+iframeidz=videoHub1[10][2];
+$('#Livetitl').html("Golos 1 Sezon<small>  / 11 Выпуск от 10.05</small>");
+$('#Gtitl').html("Golos 1 Sezon / 11 Выпуск от 10.05.2013");
+break;			
+case 's1ep12':
+sylka =videoHub1[11][0];
+tapevid=videoHub1[11][1];
+iframeidz=videoHub1[11][2];
+$('#Livetitl').html("Golos 1 Sezon<small>  / 12 Выпуск от 17.05</small>");
+$('#Gtitl').html("Golos 1 Sezon / 12 Выпуск от 17.05.2013");
+break;	
+case 's1ep13':
+sylka =videoHub1[12][0];
+tapevid=videoHub1[12][1];
+iframeidz=videoHub1[12][2];
+$('#Livetitl').html("Golos 1 Sezon<small>  / 13 Выпуск от 24.05</small>");
+$('#Gtitl').html("Golos 1 Sezon / 13 Выпуск от 24.05.2013");
+break;		
+case 's1ep14':
+sylka =videoHub1[13][0];
+tapevid=videoHub1[13][1];
+iframeidz=videoHub1[13][2];
+$('#Livetitl').html("Golos 1 Sezon<small>  / 14 Выпуск от 07.06</small>");
+$('#Gtitl').html("Golos 1 Sezon / 14 Выпуск от 07.06.2013");
+break;	
+case 's1ep15':
+sylka =videoHub1[14][0];
+tapevid=videoHub1[14][1];
+iframeidz=videoHub1[14][2];
+$('#Livetitl').html("Golos 1 Sezon<small>  / 14 Выпуск от 07.06</small>");
+$('#Gtitl').html("Golos 1 Sezon / 14 Выпуск от 07.06.2013");
+break;	
+case 's1ep16':
+sylka =videoHub1[15][0];
+tapevid=videoHub1[15][1];
+iframeidz=videoHub1[15][2];
+$('#Livetitl').html("Golos 1 Sezon<small>  / 14 Выпуск от 07.06</small>");
+$('#Gtitl').html("Golos 1 Sezon / 14 Выпуск от 07.06.2013");
+break;	
+case 's1ep17':
+sylka =videoHub1[16][0];
+tapevid=videoHub1[16][1];
+iframeidz=videoHub1[16][2];
+$('#Livetitl').html("Golos 1 Sezon<small>  / 14 Выпуск от 07.06</small>");
+$('#Gtitl').html("Golos 1 Sezon / 14 Выпуск от 07.06.2013");
+break;	
 		
 }
 
@@ -592,12 +1180,15 @@ livevideo += sylka;
 
 } else { 
 
-InitFrameVideo(iframeidz);
+InitFrameVideo(iframeidz,sylka);
 vodvideo += sylka;
 livevideo=vodvideo;
 
 }
-
+ if(sylka==='yt'){//Proverka video na yootube
+ $(iframeVid).appendTo('.theoplayer-container');
+ return;
+ }
 
 //chekCountry
 $.get("https://freegeoip.app/json/", function (response) {
@@ -666,13 +1257,24 @@ type: 'application/x-mpegurl'
 }
 
 //func initiated embed video
-function InitFrameVideo(embed){
+function InitFrameVideo(embed,sylka){
+	if(sylka=='yt'){//yootube video
+var tempvid ='<iframe width="100%" height="100%" src="';
+var framez = 'https://www.youtube.com/embed/videoseries?list=';
+framez += embed;
+framez +='&autoplay=1&loop=1';
+tempvid+= framez +'" frameborder="0" allowfullscreen></iframe>';
+iframeVid=tempvid;
+	
+	}
+	else {// 1plus1 Video
 var tempvid ='<iframe width="100%" height="100%" src="';
 var framez = 'https://1plus1.video/video/embed/';
 framez += embed;
 framez +='?autoplay=1&l=ru';
 tempvid+= framez +'" frameborder="0" allowfullscreen></iframe>';
 iframeVid=tempvid;
+	}
 }
 
 //func generate sezon video
@@ -703,6 +1305,22 @@ switch (GolosSezon) {
    templegh=videoHub5.length;
    habtempzn='videoHub5';
      break;
+   case '4':
+   templegh=videoHub4.length;
+   habtempzn='videoHub4';
+     break;
+   case '3':
+   templegh=videoHub3.length;
+   habtempzn='videoHub3';
+     break;
+   case '2':
+   templegh=videoHub2.length;
+   habtempzn='videoHub2';
+     break;
+   case '1':
+   templegh=videoHub1.length;
+   habtempzn='videoHub1';
+     break;
 }
 var myHTML1 = '';
 
@@ -716,8 +1334,8 @@ zozo();
 	firstinit=false;
 }
 //fn active class
-function zozo(){ $("button").click(function(){
-  $("button").removeClass("active");
-  $(this).addClass("active");
-  $("html").animate({ scrollTop: 0 }, "slow");
+function zozo(){ $('button').click(function(){
+  $('button').removeClass('active');
+  $(this).addClass('active');
+  $('html, body').animate({scrollTop:  0 }, 'slow');
 });}
