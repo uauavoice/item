@@ -1230,21 +1230,18 @@ $('<iframe width="100%" height="100%" allow="autoplay; fullscreen" allowtranspar
 
     // console.log(storedText);
 	    
-	    var element = document.querySelector('.theoplayer-container');
-var player = new THEOplayer.Player(element, {
-libraryLocation: 'https://cdn.myth.theoplayer.com/840f8cb7-17af-46b3-93ff-71645dec836f/'
+var playerElement = document.getElementById("player-wrapper");
+
+var player = new Clappr.Player({
+  source: storedText,
+  plugins: [LevelSelector],
+  mute: false,
+  autoPlay: true,
+  height: 360,
+  width: 640
 });
-player.autoplay = true;
-player.source = {
-sources: [{
-src: storedText ,
-type: 'application/x-mpegurl'
-}]
-};
- //console.log(storedText);
-	    
-    });
-  });
+
+player.attachTo(playerElement);
 	
 //eEndPars
 
