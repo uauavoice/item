@@ -1237,8 +1237,9 @@ var player = new Clappr.Player({
   plugins: [LevelSelector],
   mute: false,
   autoPlay: true,
-  height: 360,
-  width: 640
+   parent: '.player',
+   width: '100%',
+   height: '100%',
 });
 
 player.attachTo(playerElement);
