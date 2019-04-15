@@ -16,7 +16,7 @@ var videoHub9 = [
 ['47def3b8478440cb44f2b0de897ffb47d4ecd7fd604bda82942e77b5e9994d6b', 's9ep10', 'xaMgpccu'],
 ['60fa59f87575c076b34d28932f3f98f87b245083382d8178e026d2392a20013a', 's9ep11', 'i21DT6Yt'],
 ['396dd37866859690ff785f54850858780623b49535afd369fe3999ad7a1aaa3f', 's9ep12', 'duL3p0OR'],
-['yt', 's9ep13', 'PLcpkKchW7Xe4303tFZwCFSMy3-texVXPi']
+['7ae4cefc8f05f09802b8e522b6ecc3dc0f4845ca6aaaa31ba6524bae1e126f9d', 's9ep13', 'URnxWsgt']
 ];
 
 var videoHub8 = [
@@ -333,8 +333,8 @@ case 's9ep13':
 sylka =videoHub9[12][0];
 tapevid=videoHub9[12][1];
 iframeidz=videoHub9[12][2];
-$('#Livetitl').html("Golos 9 Sezon<small>  / 13 Выпуск от 14.04.2019 - Полуфинал - Анонс </small>");
-$('#Gtitl').html("Golos 9 Sezon /  13 Выпуск от 14.04.2019 - Полуфинал - Анонс  ");
+$('#Livetitl').html("Golos 9 Sezon<small>  / 13 Выпуск от 14.04.2019 - Полуфинал  </small>");
+$('#Gtitl').html("Golos 9 Sezon /  13 Выпуск от 14.04.2019 - Полуфинал  ");
     break;
 case 's8ep1':
 sylka =videoHub8[0][0];
