@@ -3,6 +3,20 @@ var ServNot = ['k2301', 'k2303', 'k2305','k2307','k2309','k2311'];
 var ServGood = ['k2302', 'k2304', 'k2306','k2308','k2310','k2312'];
 var randoms= Math.floor(Math.random() * 6);
 var LiveHub = ['581aaa47ee7e639eb77c2fa0ab0aa316', 'live', ''];
+
+var kidsvideoHub1  = [
+['yt', 'kids1ep1', 'PLcpkKchW7Xe5ld9vx5vKNvZmQ3KPs8gPw'],
+['yt', 'kids1ep2', 'PLcpkKchW7Xe6wBHSDpii4y1n3F88ImU74'],
+['yt', 'kids1ep3', 'PLcpkKchW7Xe5DKg3FFluPyVn49HCRJN5c'],
+['yt', 'kids1ep4', 'PLcpkKchW7Xe4qOz9-x-z_3cByhkJ-1slB'],
+['yt', 'kids1ep5', 'PLcpkKchW7Xe4UpA-QoAadxo0JpY02ZmOI'],
+['yt', 'kids1ep6', 'PLcpkKchW7Xe7tj74sCJV28uOKaRggfWy3'],
+['yt', 'kids1ep7', 'PLcpkKchW7Xe5ZggzJohx1T2u2IRIrgfl0'],
+['yt', 'kids1ep8', 'PLcpkKchW7Xe7TeDcEGVA5O8a5E3a0wuOt'],
+['yt', 'kids1ep9', 'PLcpkKchW7Xe5K0Ew1GzSPIplp3i_Kqz1n'],
+['yt', 'kids1ep10', 'PLcpkKchW7Xe4i1Gg1Z-9owDFYzbs_X7Fd']
+];
+
 var videoHub9 = [
 ['f55850365170437128286ee54d1aee554e1b4c3e9c351af8e9d3ca22b03ee166', 's9ep1', 'HaqgqMVu'],
 ['6e4a1bd51f8c4301a87282784cec0bb65f53b7e35b6ce47eed684e1b70f34034', 's9ep2', 'fCQS4G0t'],
@@ -246,6 +260,76 @@ if (!chekuparm) {
 	console.log(chekuparm);
 }
 switch (chekuparm) {
+  case 'kids1ep1':
+sylka =kidsvideoHub1[0][0];
+tapevid=kidsvideoHub1[0][1];
+iframeidz=kidsvideoHub1[0][2];
+$('#Livetitl').html("Golos Dity 1 Sezon<small>  / 1 Выпуск  </small>");
+$('#Gtitl').html("Golos Dity 1 Sezon / 1 Выпуск ");
+break;
+case 'kids1ep2':
+sylka =kidsvideoHub1[1][0];
+tapevid=kidsvideoHub1[1][1];
+iframeidz=kidsvideoHub1[1][2];
+$('#Livetitl').html("Golos Dity 1 Sezon<small>  / 2 Выпуск </small>");
+$('#Gtitl').html("Golos Dity 1 Sezon / 2 Выпуск ");
+break;
+case 'kids1ep3':
+sylka =kidsvideoHub1[2][0];
+tapevid=kidsvideoHub1[2][1];
+iframeidz=kidsvideoHub1[2][2];
+$('#Livetitl').html("Golos Dity 1 Sezon<small>  / 3 Выпуск  </small>");
+$('#Gtitl').html("Golos Dity 1 Sezon / 3 Выпуск ");
+break;
+case 'kids1ep4':
+sylka =kidsvideoHub1[3][0];
+tapevid=kidsvideoHub1[3][1];
+iframeidz=kidsvideoHub1[3][2];
+$('#Livetitl').html("Golos Dity 1 Sezon<small>  / 4 Выпуск </small>");
+$('#Gtitl').html("Golos Dity 1 Sezon / 4 Выпуск ");
+break;		
+case 'kids1ep5':
+sylka =kidsvideoHub1[4][0];
+tapevid=kidsvideoHub1[4][1];
+iframeidz=kidsvideoHub1[4][2];
+$('#Livetitl').html("Golos Dity 1 Sezon<small>  / 5 Выпуск  </small>");
+$('#Gtitl').html("Golos Dity 1 Sezon / 5 Выпуск ");
+break;	
+case 'kids1ep6':
+sylka =kidsvideoHub1[5][0];
+tapevid=kidsvideoHub1[5][1];
+iframeidz=kidsvideoHub1[5][2];
+$('#Livetitl').html("Golos Dity 1 Sezon<small>  / 6 Выпуск  </small>");
+$('#Gtitl').html("Golos Dity 1 Sezon / 6 Выпуск ");
+break;	
+case 'kids1ep7':
+sylka =kidsvideoHub1[6][0];
+tapevid=kidsvideoHub1[6][1];
+iframeidz=kidsvideoHub1[6][2];
+$('#Livetitl').html("Golos Dity 1 Sezon<small>  / 7 Выпуск  </small>");
+$('#Gtitl').html("Golos Dity 1 Sezon / 7 Выпуск ");
+break;	
+case 'kids1ep8':
+sylka =kidsvideoHub1[7][0];
+tapevid=kidsvideoHub1[7][1];
+iframeidz=kidsvideoHub1[7][2];
+$('#Livetitl').html("Golos Dity 1 Sezon<small>  / 8 Выпуск  </small>");
+$('#Gtitl').html("Golos Dity 1 Sezon / 8 Выпуск ");
+break;			
+case 'kids1ep9':
+sylka =kidsvideoHub1[8][0];
+tapevid=kidsvideoHub1[8][1];
+iframeidz=kidsvideoHub1[8][2];
+$('#Livetitl').html("Golos Dity 1 Sezon<small>  / 9 Выпуск  </small>");
+$('#Gtitl').html("Golos Dity 1 Sezon / 9 Выпуск ");
+break;	
+case 'kids1ep10':
+sylka =kidsvideoHub1[9][0];
+tapevid=kidsvideoHub1[9][1];
+iframeidz=kidsvideoHub1[9][2];
+$('#Livetitl').html("Golos Dity 1 Sezon<small>  / 10 Выпуск  </small>");
+$('#Gtitl').html("Golos Dity 1 Sezon / 10 Выпуск ");
+break;	
   case 's9ep1':
 sylka =videoHub9[0][0];
 tapevid=videoHub9[0][1];
@@ -1292,7 +1376,7 @@ var habtempzn;
 var urlParams = new URLSearchParams(location.search);
 var chekuri= urlParams.get('video');
 var GolosSezonzn;
-if (chekuri&&firstinit) { if(chekuri[0]=='k'){GolosSezon=chekuri[0]+chekuri[1]+chekuri[2]+chekuri[3]+chekuri[5];}GolosSezon=chekuri[0]+chekuri[1];}	
+if (chekuri&&firstinit) { if(chekuri[0]=='k'){GolosSezon=chekuri[0]+chekuri[1]+chekuri[2]+chekuri[4];}GolosSezon=chekuri[0]+chekuri[1];}	
 switch (GolosSezon) {
   case 's9':
    templegh=videoHub9.length;
@@ -1338,6 +1422,11 @@ switch (GolosSezon) {
    templegh=videoHub1.length;
    habtempzn='videoHub1';
    GolosSezonzn=chekuri[1];
+     break;
+   case 'kid1':
+   templegh=kidsvideoHub1.length;
+   habtempzn='kidsvideoHub1';
+   GolosSezonzn='Golos Dity'+chekuri[1];
      break;
 }
 var myHTML1 = '';
