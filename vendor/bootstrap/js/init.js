@@ -1381,52 +1381,52 @@ switch (GolosSezon) {
   case 's9':
    templegh=videoHub9.length;
    habtempzn='videoHub9';
-   GolosSezonzn=chekuri[1];
+   GolosSezonzn='9';
     break;
   case 's8':
    templegh=videoHub8.length;
    habtempzn='videoHub8';		
-   GolosSezonzn=chekuri[1];
+   GolosSezonzn='8';
      break;
   case 's7':
    templegh=videoHub7.length;
    habtempzn='videoHub7';		
-   GolosSezonzn=chekuri[1];
+   GolosSezonzn='7';
      break;
   case 's6':
    templegh=videoHub6.length;
    habtempzn='videoHub6';		
-   GolosSezonzn=chekuri[1];
+   GolosSezonzn='6';
      break;
    case 's5':
    templegh=videoHub5.length;
    habtempzn='videoHub5';
-   GolosSezonzn=chekuri[1];
+   GolosSezonzn='5';
      break;
    case 's4':
    templegh=videoHub4.length;
    habtempzn='videoHub4';
-   GolosSezonzn=chekuri[1];
+   GolosSezonzn='4';
      break;
    case 's3':
    templegh=videoHub3.length;
    habtempzn='videoHub3';
-   GolosSezonzn=chekuri[1];
+   GolosSezonzn='3';
      break;
    case 's2':
    templegh=videoHub2.length;
    habtempzn='videoHub2';
-   GolosSezonzn=chekuri[1];
+   GolosSezonzn='2';
      break;
    case 's1':
    templegh=videoHub1.length;
    habtempzn='videoHub1';
-   GolosSezonzn=chekuri[1];
+   GolosSezonzn='1';
      break;
    case 'kid1':
    templegh=kidsvideoHub1.length;
    habtempzn='kidsvideoHub1';
-   GolosSezonzn='Golos Dity'+chekuri[1];
+   GolosSezonzn='Golos Dity 1';
      break;
 }
 var myHTML1 = '';
