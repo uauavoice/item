@@ -1290,50 +1290,60 @@ function GenerateElCicle(GolosSezon){
 var templegh;
 var habtempzn;
 var urlParams = new URLSearchParams(location.search);
-var chekuri= urlParams.get('video');	
-if (chekuri&&firstinit) { GolosSezon=chekuri[1];}	
+var chekuri= urlParams.get('video');
+var GolosSezonzn;
+if (chekuri&&firstinit) { if(chekuri[0]=='k'){GolosSezon=chekuri[0]+chekuri[1]+chekuri[2]+chekuri[3]+chekuri[5];}GolosSezon=chekuri[0]+chekuri[1];}	
 switch (GolosSezon) {
-  case '9':
+  case 's9':
    templegh=videoHub9.length;
    habtempzn='videoHub9';
+   GolosSezonzn=chekuri[1];
     break;
-  case '8':
+  case 's8':
    templegh=videoHub8.length;
-   habtempzn='videoHub8';
+   habtempzn='videoHub8';		
+   GolosSezonzn=chekuri[1];
      break;
-  case '7':
+  case 's7':
    templegh=videoHub7.length;
-   habtempzn='videoHub7';
+   habtempzn='videoHub7';		
+   GolosSezonzn=chekuri[1];
      break;
-  case '6':
+  case 's6':
    templegh=videoHub6.length;
-   habtempzn='videoHub6';
+   habtempzn='videoHub6';		
+   GolosSezonzn=chekuri[1];
      break;
-   case '5':
+   case 's5':
    templegh=videoHub5.length;
    habtempzn='videoHub5';
+   GolosSezonzn=chekuri[1];
      break;
-   case '4':
+   case 's4':
    templegh=videoHub4.length;
    habtempzn='videoHub4';
+   GolosSezonzn=chekuri[1];
      break;
-   case '3':
+   case 's3':
    templegh=videoHub3.length;
    habtempzn='videoHub3';
+   GolosSezonzn=chekuri[1];
      break;
-   case '2':
+   case 's2':
    templegh=videoHub2.length;
    habtempzn='videoHub2';
+   GolosSezonzn=chekuri[1];
      break;
-   case '1':
+   case 's1':
    templegh=videoHub1.length;
    habtempzn='videoHub1';
+   GolosSezonzn=chekuri[1];
      break;
 }
 var myHTML1 = '';
 
   for (var i = 0; i < templegh; i++) {
-    myHTML1 += '<button type="button" class="btn btn-primary btn-lg btn-block mt-1 mb-1 " onclick="InitVideo('+habtempzn+'['+i+'][0],'+habtempzn+'['+i+'][1],'+habtempzn+'['+i+'][2])">'+GolosSezon+' сезон '+ (i + 1) +' выпуск</button></br>';
+    myHTML1 += '<button type="button" class="btn btn-primary btn-lg btn-block mt-1 mb-1 " onclick="InitVideo('+habtempzn+'['+i+'][0],'+habtempzn+'['+i+'][1],'+habtempzn+'['+i+'][2])">'+GolosSezonzn+' сезон '+ (i + 1) +' выпуск</button></br>';
   }
 
 
