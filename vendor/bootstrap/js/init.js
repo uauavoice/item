@@ -5,7 +5,7 @@ var randoms= Math.floor(Math.random() * 6);
 var LiveHub = ['581aaa47ee7e639eb77c2fa0ab0aa316', 'live', ''];
 
 var kidsvideoHub5  = [
-['001ee59581f4aeebd6678e858c3c0e71d5541247d3ea0d22d4e8b973d3f939fb', 'kids5ep1', 'Euf7PGDC']
+['975b759af329c611f95d5a379ef1f53efe8aca5fad386b232be529ffc5e22122', 'kids5ep1', 'styTKwO2']
 ];
 
 
