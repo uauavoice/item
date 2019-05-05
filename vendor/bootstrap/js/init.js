@@ -1581,7 +1581,7 @@ var habtempzn;
 var urlParams = new URLSearchParams(location.search);
 var chekuri= urlParams.get('video');
 var GolosSezonzn;
-if (chekuri&&firstinit) { if(chekuri[0]==='k'){GolosSezon=chekuri[0]+chekuri[1]+chekuri[2]+chekuri[4];}GolosSezon=chekuri[0]+chekuri[1];}	
+if (chekuri&&firstinit) { if(chekuri[0]=='k'){GolosSezon=chekuri[0]+chekuri[1]+chekuri[2]+chekuri[4];}GolosSezon=chekuri[0]+chekuri[1];}	
 switch (GolosSezon) {
   case 's9':
    templegh=videoHub9.length;
