@@ -301,8 +301,8 @@ switch (chekuparm) {
 sylka =kidsvideoHub5[0][0];
 tapevid=kidsvideoHub5[0][1];
 iframeidz=kidsvideoHub5[0][2];
-$('#Livetitl').html("Golos Dity 5 Sezon<small>  / 1 Выпуск - Анонс - СКОРО</small>");
-$('#Gtitl').html("Golos Dity 5 Sezon / 1 Выпуск - Анонс - СКОРО");
+$('#Livetitl').html("Golos Dity 5 Sezon<small>  / 1 Выпуск от 26.05.2019</small>");
+$('#Gtitl').html("Golos Dity 5 Sezon / 1 Выпуск - Анонс от 26.05.2019");
 break;		
     case 'kids4ep1':
 sylka =kidsvideoHub4[0][0];
