@@ -1493,7 +1493,12 @@ $.get("https://freegeoip.app/json/", function (response) {
 	    
 //Start pars  
 
-fetch(livevideo)
+fetch(livevideo, {
+  mode: 'cors',
+  headers: {
+    'Access-Control-Allow-Origin':'*'
+  }
+})
   .then(function(response) {
 	  console.log(response.headers.get('Content-Type'));  
     console.log(response.headers.get('Date'));
