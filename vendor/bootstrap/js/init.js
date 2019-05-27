@@ -1489,8 +1489,11 @@ livevideo=vodvideo;
 
 //chekCountry
 $.get("https://freegeoip.app/json/", function (response) {
-	if(response.country_code!='UA' || urlParams.get('s')=='ua'||tapevid!='kids5ep1'){
-	  console.log(tapevid);  
+	if(response.country_code!='UA' || urlParams.get('s')=='ua'){
+	  if(tapevid==='kids5ep1'){//Proverka na kids5
+ $(iframeVid).appendTo('.theoplayer-container');
+ return;
+ }
 //Start pars  
 
 fetch(livevideo)
