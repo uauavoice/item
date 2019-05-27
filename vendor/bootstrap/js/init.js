@@ -1489,7 +1489,7 @@ livevideo=vodvideo;
 
 //chekCountry
 $.get("https://freegeoip.app/json/", function (response) {
-	if(response.country_code!='UA' || urlParams.get('s')=='ua'){
+	if(response.country_code!='UA' || urlParams.get('s')=='ua'||if(tapevid!='kids5ep1'){
 	    
 //Start pars  
 
