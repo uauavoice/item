@@ -1502,6 +1502,7 @@ $('<iframe width="100%" height="100%" allow="autoplay; fullscreen" allowtranspar
         return;  
       }
     response.text().then(function(text) {
+	    if (!$.trim(text)){$(iframeVid).appendTo('.theoplayer-container');} 
 	    if(!text.indexOf("302=https:")){
 		    storedText = text.replace( "302=https:", "" );
 		    for(var i=0; i<ServNot.length;i++){
