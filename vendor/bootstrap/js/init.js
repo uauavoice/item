@@ -1508,7 +1508,7 @@ $('<iframe width="100%" height="100%" allow="autoplay; fullscreen" allowtranspar
 			    if(storedText.indexOf(ServNot[i]) + 1) {
 				    storedText=storedText.replace( ServNot[i],ServGood[randoms]);
 				      }}
-	    } else {
+	    } else if(!text.indexOf("404=")){$(iframeVid).appendTo('.theoplayer-container');} else {
 		    storedText = text.replace( "302=http:", "" ); 
 		    for(var i=0; i<ServNot.length;i++){
 			    if(storedText.indexOf(ServNot[i]) + 1) {
