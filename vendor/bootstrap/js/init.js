@@ -1495,6 +1495,13 @@ $.get("https://freegeoip.app/json/", function (response) {
 
 fetch(livevideo)
   .then(function(response) {
+	  console.log(response.headers.get('Content-Type'));  
+    console.log(response.headers.get('Date'));
+
+    console.log(response.status);  
+    console.log(response.statusText);  
+    console.log(response.type);  
+    console.log(response.url); 
  if (response.status !== 200) {  
 $('<iframe width="100%" height="100%" allow="autoplay; fullscreen" allowtransparency="true" allowfullscreen="" scrolling="no" tabindex="0" name="twttrHubFrameSecure" src="https://1plus1.video/tvguide/embed/1?autoplay=1&amp;l=ru" frameborder="0"></iframe>').appendTo('.theoplayer-container');
         console.log('Looks like there was a problem. Status Code: ' +  
@@ -1502,9 +1509,7 @@ $('<iframe width="100%" height="100%" allow="autoplay; fullscreen" allowtranspar
         return;  
       }
     response.text().then(function(text) {
-	    console.log(text);  
-	    if (!$.trim(text)){$(iframeVid).appendTo('.theoplayer-container');} 
-	    if(!text.indexOf("302=https:")){
+	   if(!text.indexOf("302=https:")){
 		    storedText = text.replace( "302=https:", "" );
 		    for(var i=0; i<ServNot.length;i++){
 			    if(storedText.indexOf(ServNot[i]) + 1) {
