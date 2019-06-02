@@ -6,7 +6,7 @@ var LiveHub = ['581aaa47ee7e639eb77c2fa0ab0aa316', 'live', ''];
 
 var kidsvideoHub5  = [
 ['982c13ebc9070d23dbbb530dc9bfce3259237bd5d35d17039732843d5b2d2001', 'kids5ep1', 'TR9z80Qa'],
-['yt', 'kids5ep2', 'PLcpkKchW7Xe74NDZxBiXENhL_AXIz_bEL']
+['yt', 'kids5ep2', 'PLcpkKchW7Xe5UAD8wSi2vq2PJlAQWw2os']
 ];
 
 
