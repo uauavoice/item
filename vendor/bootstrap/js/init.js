@@ -7,7 +7,7 @@ var LiveHub = ['581aaa47ee7e639eb77c2fa0ab0aa316', 'live', ''];
 var kidsvideoHub5  = [
 ['982c13ebc9070d23dbbb530dc9bfce3259237bd5d35d17039732843d5b2d2001', 'kids5ep1', 'TR9z80Qa'],
 ['51b7c0eaa1ae2450a298c41d97cd6cdef71423012bc3a1d3380512f996e1360a', 'kids5ep2', '9Cm0UmEu'],
-['yt', 'kids5ep3', 'PLcpkKchW7Xe622FObEgHH_zL-NV1GjpmM']
+['51b7c0eaa1ae2450a298c41d97cd6cdef71423012bc3a1d3380512f996e1360a', 'kids5ep3', 'VC6PLVYt']
 ];
 
 
