@@ -318,7 +318,7 @@ sylka =kidsvideoHub5[2][0];
 tapevid=kidsvideoHub5[2][1];
 iframeidz=kidsvideoHub5[2][2];
 $('#Livetitl').html("Golos Dity 5 Sezon<small>  / 3 Выпуск от 09.06.2019</small>");
-$('#Gtitl').html("Golos Dity 5 Sezon / 3 Выпуск - Анонс от 09.06.2019");
+$('#Gtitl').html("Golos Dity 5 Sezon / 3 Выпуск  от 09.06.2019");
 break;
     case 'kids4ep1':
 sylka =kidsvideoHub4[0][0];
