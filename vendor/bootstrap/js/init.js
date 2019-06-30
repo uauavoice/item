@@ -9,7 +9,8 @@ var kidsvideoHub5  = [
 ['51b7c0eaa1ae2450a298c41d97cd6cdef71423012bc3a1d3380512f996e1360a', 'kids5ep2', '9Cm0UmEu'],
 ['e22e3b52c633538128bb38119b00ae8867bc6023a5a87f386cb6063eace62952', 'kids5ep3', 'VC6PLVYt'],
 ['e22e3b52c633538128bb38119b00ae8867bc6023a5a87f386cb6063eace62952', 'kids5ep4', 'eavmKFGC'],
-['ehfhfjcghh', 'kids5ep5', 'DtPzLHQt']
+['ehfhfjcghh', 'kids5ep5', 'DtPzLHQt'],
+['yt', 'kids5ep6', 'PLcpkKchW7Xe74NDZxBiXENhL_AXIz_bEL']
 ];
 
 
@@ -335,6 +336,13 @@ tapevid=kidsvideoHub5[4][1];
 iframeidz=kidsvideoHub5[4][2];
 $('#Livetitl').html("Golos Dity 5 Sezon<small>  / 5 Выпуск от 23.06.2019</small>");
 $('#Gtitl').html("Golos Dity 5 Sezon / 5 Выпуск  от 23.06.2019");
+break;
+ case 'kids5ep6':
+sylka =kidsvideoHub5[5][0];
+tapevid=kidsvideoHub5[5][1];
+iframeidz=kidsvideoHub5[5][2];
+$('#Livetitl').html("Golos Dity 5 Sezon<small>  / 6 Выпуск от 30.06.2019</small>");
+$('#Gtitl').html("Golos Dity 5 Sezon / 6 Выпуск  от 30.06.2019");
 break;
     case 'kids4ep1':
 sylka =kidsvideoHub4[0][0];
