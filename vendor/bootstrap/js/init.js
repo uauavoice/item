@@ -345,7 +345,7 @@ iframeidz=kidsvideoHub5[5][2];
 $('#Livetitl').html("Golos Dity 5 Sezon<small>  / 6 Выпуск от 30.06.2019</small>");
 $('#Gtitl').html("Golos Dity 5 Sezon / 6 Выпуск  от 30.06.2019");
 break;
- case 'kids5ep6':
+ case 'kids5ep7':
 sylka =kidsvideoHub5[6][0];
 tapevid=kidsvideoHub5[6][1];
 iframeidz=kidsvideoHub5[6][2];
