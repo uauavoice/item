@@ -1534,7 +1534,10 @@ livevideo=vodvideo;
  $(iframeVid).appendTo('.theoplayer-container');
  return;
  }
-
+	  if(!tapevid.indexOf("kids5")){//Proverka na kids5 
+ $(iframeVid).appendTo('.theoplayer-container');
+ return;
+ }
 //chekCountry
 $.get("https://freegeoip.app/json/", function (response) {
 	if(response.country_code!='UA' || urlParams.get('s')=='ua'){
