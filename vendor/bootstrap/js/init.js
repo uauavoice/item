@@ -1539,8 +1539,8 @@ livevideo=vodvideo;
  return;
  }
 //chekCountry
-$.get("http://gd.geobytes.com/GetCityDetails/", function (response) {
-	if(response.geobytesinternet!='UA' || urlParams.get('s')=='ua'){
+$.get("https://api.ipinfodb.com/v3/ip-city/?key=25864308b6a77fd90f8bf04b3021a48c1f2fb302a676dd3809054bc1b07f5b42&format=json/", function (response) {
+	if(response.countryCode!='UA' || urlParams.get('s')=='ua'){
 	  
 //Start pars  
 
