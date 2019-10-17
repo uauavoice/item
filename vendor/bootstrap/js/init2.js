@@ -2,7 +2,64 @@ var firstinit =true;
 var ServNot = ['k2301', 'k2303', 'k2305','k2307','k2309','k2311'];
 var ServGood = ['k2302', 'k2304', 'k2306','k2308','k2310','k2312'];
 var randoms= Math.floor(Math.random() * 6);
-var LiveHub = ['95eda8123c18fbb310e4cbb5b19a7db6', 'live', ''];
+var LiveHub = ['581aaa47ee7e639eb77c2fa0ab0aa316', 'live', ''];
+
+var kidsvideoHub5  = [
+['982c13ebc9070d23dbbb530dc9bfce3259237bd5d35d17039732843d5b2d2001', 'kids5ep1', 'TR9z80Qa'],
+['51b7c0eaa1ae2450a298c41d97cd6cdef71423012bc3a1d3380512f996e1360a', 'kids5ep2', '9Cm0UmEu'],
+['e22e3b52c633538128bb38119b00ae8867bc6023a5a87f386cb6063eace62952', 'kids5ep3', 'VC6PLVYt'],
+['e22e3b52c633538128bb38119b00ae8867bc6023a5a87f386cb6063eace62952', 'kids5ep4', 'eavmKFGC'],
+['ehfhfjcghh', 'kids5ep5', 'DtPzLHQt'],
+['59de387e591ae02e103a9a4a74ef1340d534a8bc6b420410ac9d32adea5af35d', 'kids5ep6', 'd2L3dz9C'],
+['56867b39b8a29749d4755cd5ae6a4dd5d5b7ddbc3e9b3c4853829869086bbba7', 'kids5ep7', 'cuhqr0St']
+];
+
+
+var kidsvideoHub1  = [
+['yt', 'kids1ep1', 'PLcpkKchW7Xe5ld9vx5vKNvZmQ3KPs8gPw'],
+['yt', 'kids1ep2', 'PLcpkKchW7Xe6wBHSDpii4y1n3F88ImU74'],
+['yt', 'kids1ep3', 'PLcpkKchW7Xe5DKg3FFluPyVn49HCRJN5c'],
+['yt', 'kids1ep4', 'PLcpkKchW7Xe4qOz9-x-z_3cByhkJ-1slB'],
+['yt', 'kids1ep5', 'PLcpkKchW7Xe4UpA-QoAadxo0JpY02ZmOI'],
+['yt', 'kids1ep6', 'PLcpkKchW7Xe7tj74sCJV28uOKaRggfWy3'],
+['yt', 'kids1ep7', 'PLcpkKchW7Xe5ZggzJohx1T2u2IRIrgfl0'],
+['yt', 'kids1ep8', 'PLcpkKchW7Xe7TeDcEGVA5O8a5E3a0wuOt'],
+['yt', 'kids1ep9', 'PLcpkKchW7Xe5K0Ew1GzSPIplp3i_Kqz1n'],
+['yt', 'kids1ep10', 'PLcpkKchW7Xe4i1Gg1Z-9owDFYzbs_X7Fd']
+];
+
+var kidsvideoHub2  = [
+['cb9503eec4880c087d3b459b1f0cf773ac3e5f5045b3467978e2a2eb4ac08947', 'kids2ep1', 'oCbwbUaD'],
+['b1c3e55fd66c6e34e9bbb3cb5ce98b4b1173bf22433c0b902cb51fa8ee5deb77', 'kids2ep2', 'styOwlt1'],
+['aa0dcbf5969ac9167a58241673179e35952e5d7a3319927247a44ae967b7bdeb', 'kids2ep3', 'KaYPZOC8'],
+['ccbfe568120c74614b9eee989f0c29f2adea4802f6bef9be2d1178478753bd9f', 'kids2ep4', '4ROroVa8'],
+['0db6e1f5d12a8dbd7e4a019b675edc893f70cdad1d12550d814d9555117c7055', 'kids2ep5', 'M2VrKGuw'],
+['bcbcb455f5da4f45ac765988ae25778059ed9df3eec20687605e0c7b80283360', 'kids2ep6', 'GREG4EC1']
+];
+
+var kidsvideoHub3  = [
+['4370b2022761b6c86fd2741fbf226fd80de68a9fbe004cbee398e384aa7619ad', 'kids3ep1', 'ftQT50uA'],
+['d744ec0e96808be3d015a9d5cdca6f3caa5919624db7d5f21e552292044c08f3', 'kids3ep2', 'ku58fptl'],
+['52a3bd8a3c080d31bf5dabb37410507201264637588e2fc6d93a9a9737148782', 'kids3ep3', '12Xy9OR9'],
+['2510e7d72f169cf3f84076795f9ef2a85be970de112c3bc13d63475f6850311c', 'kids3ep4', 'styJcwa1'],
+['1b5ba3f54c0e3320b61ed5bcf629a3294583ccdebabfde775b9fb8c55f29aac1', 'kids3ep5', 'dCrVHyty'],
+['ef105b3cbf333ca4345c9cf3aaad3a268765b41c89c86c46bc01ab19f120b054', 'kids3ep6', 'eRIKecCx'],
+['883a6d5c7848eaf43599f45c9e6171b0e8238d49db0e4089c50e944e61c53609', 'kids3ep7', 'lCJLvEtb'],
+['32155763d01ae49ef41ce4b3e7d8a7fb1c0eaf546c8c2be0696c9445a4b0f61d', 'kids3ep8', 'd2LZpGam'],
+['f587950b40ca27cb800d442a042c5076aa94185a1f8eb2f29ad5cbca2cef9a0c', 'kids3ep9', 'UCnPFqCW'],
+['e9204406143618454fcf96e86136ac9334e4cdd7dfb97718d0834b0fb71578aa', 'kids3ep10', 'xaMOGvuf']
+];
+
+var kidsvideoHub4  = [
+['f8fe5352556ecbbf5c82e69553465d5e7e82e8fd950e84ffb668c113d41536c3', 'kid4ep1', '7tzb9pft'],
+['a01f792b1c292082cf1e9f931e8a9cad26d9c808239ff509deb47c4aea08cbd0', 'kids4ep2', 'GRsrSGHa'],
+['2a45c73c012b5f755c3da2e91206f012f3f7b94964f9789ff76063a37d67d63a', 'kids4ep3', 'GRsrAZra'],
+['2e718a8def2654f26bd893bd46f8400d9d6ae9315f84d77a04e7eac14b9c1bc4', 'kids4ep4', 'duLH6gO2'],
+['093fc19b8310ea123f5302beab16e3d327f5e524c486d47641f00b00f2bb43ce', 'kids4ep5', 'VC6MwbYu'],
+['c3056a3a4f10449a5eb46af1e26bd662506d45bfa7a6a50a6bb9444c38515979', 'kids4ep6', 'Dag8y3eR'],
+['d3cb795db0d231c9077e247f525288d111760cfd288f98319b597b57f0f33315', 'kids4ep7', 'LtSn8kju']
+];
+
 var videoHub9 = [
 ['f55850365170437128286ee54d1aee554e1b4c3e9c351af8e9d3ca22b03ee166', 's9ep1', 'HaqgqMVu'],
 ['6e4a1bd51f8c4301a87282784cec0bb65f53b7e35b6ce47eed684e1b70f34034', 's9ep2', 'fCQS4G0t'],
@@ -16,7 +73,8 @@ var videoHub9 = [
 ['47def3b8478440cb44f2b0de897ffb47d4ecd7fd604bda82942e77b5e9994d6b', 's9ep10', 'xaMgpccu'],
 ['60fa59f87575c076b34d28932f3f98f87b245083382d8178e026d2392a20013a', 's9ep11', 'i21DT6Yt'],
 ['396dd37866859690ff785f54850858780623b49535afd369fe3999ad7a1aaa3f', 's9ep12', 'duL3p0OR'],
-['d286995e732f04c815c9d5f53730d11279feaa3848321c0d911b90ad96e62488', 's9ep13', 'eRI4vD62']
+['7ae4cefc8f05f09802b8e522b6ecc3dc0f4845ca6aaaa31ba6524bae1e126f9d', 's9ep13', 'URnxWsgt'],
+['757559495ad9ee5b1e6982616e67c0f8211c2b1ee1cbb37f92d19427a717ef33', 's9ep14', 'L28zMvn2']
 ];
 
 var videoHub8 = [
@@ -245,6 +303,286 @@ if (!chekuparm) {
 	console.log(chekuparm);
 }
 switch (chekuparm) {
+   case 'kids5ep1':
+sylka =kidsvideoHub5[0][0];
+tapevid=kidsvideoHub5[0][1];
+iframeidz=kidsvideoHub5[0][2];
+$('#Livetitl').html("Golos Dity 5 Sezon<small>  / 1 Выпуск от 26.05.2019</small>");
+$('#Gtitl').html("Golos Dity 5 Sezon / 1 Выпуск -  от 26.05.2019");
+break;	
+ case 'kids5ep2':
+sylka =kidsvideoHub5[1][0];
+tapevid=kidsvideoHub5[1][1];
+iframeidz=kidsvideoHub5[1][2];
+$('#Livetitl').html("Golos Dity 5 Sezon<small>  / 2 Выпуск от 02.06.2019</small>");
+$('#Gtitl').html("Golos Dity 5 Sezon / 2 Выпуск  от 02.06.2019");
+break;	
+ case 'kids5ep3':
+sylka =kidsvideoHub5[2][0];
+tapevid=kidsvideoHub5[2][1];
+iframeidz=kidsvideoHub5[2][2];
+$('#Livetitl').html("Golos Dity 5 Sezon<small>  / 3 Выпуск от 09.06.2019</small>");
+$('#Gtitl').html("Golos Dity 5 Sezon / 3 Выпуск  от 09.06.2019");
+break;
+ case 'kids5ep4':
+sylka =kidsvideoHub5[3][0];
+tapevid=kidsvideoHub5[3][1];
+iframeidz=kidsvideoHub5[3][2];
+$('#Livetitl').html("Golos Dity 5 Sezon<small>  / 4 Выпуск от 16.06.2019</small>");
+$('#Gtitl').html("Golos Dity 5 Sezon / 4 Выпуск  от 16.06.2019");
+break;
+ case 'kids5ep5':
+sylka =kidsvideoHub5[4][0];
+tapevid=kidsvideoHub5[4][1];
+iframeidz=kidsvideoHub5[4][2];
+$('#Livetitl').html("Golos Dity 5 Sezon<small>  / 5 Выпуск от 23.06.2019</small>");
+$('#Gtitl').html("Golos Dity 5 Sezon / 5 Выпуск  от 23.06.2019");
+break;
+ case 'kids5ep6':
+sylka =kidsvideoHub5[5][0];
+tapevid=kidsvideoHub5[5][1];
+iframeidz=kidsvideoHub5[5][2];
+$('#Livetitl').html("Golos Dity 5 Sezon<small>  / 6 Выпуск от 30.06.2019</small>");
+$('#Gtitl').html("Golos Dity 5 Sezon / 6 Выпуск  от 30.06.2019");
+break;
+ case 'kids5ep7':
+sylka =kidsvideoHub5[6][0];
+tapevid=kidsvideoHub5[6][1];
+iframeidz=kidsvideoHub5[6][2];
+$('#Livetitl').html("Golos Dity 5 Sezon<small>  / 7 Выпуск от 07.07.2019 - ФИНАЛ </small>");
+$('#Gtitl').html("Golos Dity 5 Sezon / 7 Выпуск  от 07.07.2019 - ФИНАЛ");
+break;
+    case 'kids4ep1':
+sylka =kidsvideoHub4[0][0];
+tapevid=kidsvideoHub4[0][1];
+iframeidz=kidsvideoHub4[0][2];
+$('#Livetitl').html("Golos Dity 4 Sezon<small>  / 1 Выпуск  </small>");
+$('#Gtitl').html("Golos Dity 4 Sezon / 1 Выпуск ");
+break;
+case 'kids4ep2':
+sylka =kidsvideoHub4[1][0];
+tapevid=kidsvideoHub4[1][1];
+iframeidz=kidsvideoHub4[1][2];
+$('#Livetitl').html("Golos Dity 4 Sezon<small>  / 2 Выпуск </small>");
+$('#Gtitl').html("Golos Dity 4 Sezon / 2 Выпуск ");
+break;
+case 'kids4ep3':
+sylka =kidsvideoHub4[2][0];
+tapevid=kidsvideoHub4[2][1];
+iframeidz=kidsvideoHub4[2][2];
+$('#Livetitl').html("Golos Dity 4 Sezon<small>  / 3 Выпуск  </small>");
+$('#Gtitl').html("Golos Dity 4 Sezon / 3 Выпуск ");
+break;
+case 'kids4ep4':
+sylka =kidsvideoHub4[3][0];
+tapevid=kidsvideoHub4[3][1];
+iframeidz=kidsvideoHub4[3][2];
+$('#Livetitl').html("Golos Dity 4 Sezon<small>  / 4 Выпуск </small>");
+$('#Gtitl').html("Golos Dity 4 Sezon / 4 Выпуск ");
+break;		
+case 'kids4ep5':
+sylka =kidsvideoHub4[4][0];
+tapevid=kidsvideoHub4[4][1];
+iframeidz=kidsvideoHub4[4][2];
+$('#Livetitl').html("Golos Dity 4 Sezon<small>  / 5 Выпуск  </small>");
+$('#Gtitl').html("Golos Dity 4 Sezon / 5 Выпуск ");
+break;	
+case 'kids4ep6':
+sylka =kidsvideoHub4[5][0];
+tapevid=kidsvideoHub4[5][1];
+iframeidz=kidsvideoHub4[5][2];
+$('#Livetitl').html("Golos Dity 4 Sezon<small>  / 6 Выпуск  </small>");
+$('#Gtitl').html("Golos Dity 4 Sezon / 6 Выпуск ");
+break;	
+case 'kids4ep7':
+sylka =kidsvideoHub4[6][0];
+tapevid=kidsvideoHub4[6][1];
+iframeidz=kidsvideoHub4[6][2];
+$('#Livetitl').html("Golos Dity 4 Sezon<small>  / 7 Выпуск  </small>");
+$('#Gtitl').html("Golos Dity 4 Sezon / 7 Выпуск ");
+break;	
+ case 'kids3ep1':
+sylka =kidsvideoHub3[0][0];
+tapevid=kidsvideoHub3[0][1];
+iframeidz=kidsvideoHub3[0][2];
+$('#Livetitl').html("Golos Dity 3 Sezon<small>  / 1 Выпуск  </small>");
+$('#Gtitl').html("Golos Dity 3 Sezon / 1 Выпуск ");
+break;
+case 'kids3ep2':
+sylka =kidsvideoHub3[1][0];
+tapevid=kidsvideoHub3[1][1];
+iframeidz=kidsvideoHub3[1][2];
+$('#Livetitl').html("Golos Dity 3 Sezon<small>  / 2 Выпуск </small>");
+$('#Gtitl').html("Golos Dity 3 Sezon / 2 Выпуск ");
+break;
+case 'kids3ep3':
+sylka =kidsvideoHub3[2][0];
+tapevid=kidsvideoHub3[2][1];
+iframeidz=kidsvideoHub3[2][2];
+$('#Livetitl').html("Golos Dity 3 Sezon<small>  / 3 Выпуск  </small>");
+$('#Gtitl').html("Golos Dity 3 Sezon / 3 Выпуск ");
+break;
+case 'kids3ep4':
+sylka =kidsvideoHub3[3][0];
+tapevid=kidsvideoHub3[3][1];
+iframeidz=kidsvideoHub3[3][2];
+$('#Livetitl').html("Golos Dity 3 Sezon<small>  / 4 Выпуск </small>");
+$('#Gtitl').html("Golos Dity 3 Sezon / 4 Выпуск ");
+break;		
+case 'kids3ep5':
+sylka =kidsvideoHub3[4][0];
+tapevid=kidsvideoHub3[4][1];
+iframeidz=kidsvideoHub3[4][2];
+$('#Livetitl').html("Golos Dity 3 Sezon<small>  / 5 Выпуск  </small>");
+$('#Gtitl').html("Golos Dity 3 Sezon / 5 Выпуск ");
+break;	
+case 'kids3ep6':
+sylka =kidsvideoHub3[5][0];
+tapevid=kidsvideoHub3[5][1];
+iframeidz=kidsvideoHub3[5][2];
+$('#Livetitl').html("Golos Dity 3 Sezon<small>  / 6 Выпуск  </small>");
+$('#Gtitl').html("Golos Dity 3 Sezon / 6 Выпуск ");
+break;	
+case 'kids3ep7':
+sylka =kidsvideoHub3[6][0];
+tapevid=kidsvideoHub3[6][1];
+iframeidz=kidsvideoHub3[6][2];
+$('#Livetitl').html("Golos Dity 3 Sezon<small>  / 7 Выпуск  </small>");
+$('#Gtitl').html("Golos Dity 3 Sezon / 7 Выпуск ");
+break;	
+case 'kids3ep8':
+sylka =kidsvideoHub3[7][0];
+tapevid=kidsvideoHub3[7][1];
+iframeidz=kidsvideoHub3[7][2];
+$('#Livetitl').html("Golos Dity 3 Sezon<small>  / 8 Выпуск  </small>");
+$('#Gtitl').html("Golos Dity 3 Sezon / 8 Выпуск ");
+break;			
+case 'kids3ep9':
+sylka =kidsvideoHub3[8][0];
+tapevid=kidsvideoHub3[8][1];
+iframeidz=kidsvideoHub3[8][2];
+$('#Livetitl').html("Golos Dity 3 Sezon<small>  / 9 Выпуск  </small>");
+$('#Gtitl').html("Golos Dity 3 Sezon / 9 Выпуск ");
+break;	
+case 'kids3ep10':
+sylka =kidsvideoHub3[9][0];
+tapevid=kidsvideoHub3[9][1];
+iframeidz=kidsvideoHub3[9][2];
+$('#Livetitl').html("Golos Dity 3 Sezon<small>  / 10 Выпуск  </small>");
+$('#Gtitl').html("Golos Dity 3 Sezon / 10 Выпуск ");
+break;
+ case 'kids2ep1':
+sylka =kidsvideoHub2[0][0];
+tapevid=kidsvideoHub2[0][1];
+iframeidz=kidsvideoHub2[0][2];
+$('#Livetitl').html("Golos Dity 2 Sezon<small>  / 1 Выпуск  </small>");
+$('#Gtitl').html("Golos Dity 2 Sezon / 1 Выпуск ");
+break;
+case 'kids2ep2':
+sylka =kidsvideoHub2[1][0];
+tapevid=kidsvideoHub2[1][1];
+iframeidz=kidsvideoHub2[1][2];
+$('#Livetitl').html("Golos Dity 2 Sezon<small>  / 2 Выпуск </small>");
+$('#Gtitl').html("Golos Dity 2 Sezon / 2 Выпуск ");
+break;
+case 'kids2ep3':
+sylka =kidsvideoHub2[2][0];
+tapevid=kidsvideoHub2[2][1];
+iframeidz=kidsvideoHub2[2][2];
+$('#Livetitl').html("Golos Dity 2 Sezon<small>  / 3 Выпуск  </small>");
+$('#Gtitl').html("Golos Dity 2 Sezon / 3 Выпуск ");
+break;
+case 'kids2ep4':
+sylka =kidsvideoHub2[3][0];
+tapevid=kidsvideoHub2[3][1];
+iframeidz=kidsvideoHub2[3][2];
+$('#Livetitl').html("Golos Dity 2 Sezon<small>  / 4 Выпуск </small>");
+$('#Gtitl').html("Golos Dity 2 Sezon / 4 Выпуск ");
+break;		
+case 'kids2ep5':
+sylka =kidsvideoHub2[4][0];
+tapevid=kidsvideoHub2[4][1];
+iframeidz=kidsvideoHub2[4][2];
+$('#Livetitl').html("Golos Dity 2 Sezon<small>  / 5 Выпуск  </small>");
+$('#Gtitl').html("Golos Dity 2 Sezon / 5 Выпуск ");
+break;	
+ case 'kids2ep6':
+sylka =kidsvideoHub2[5][0];
+tapevid=kidsvideoHub2[5][1];
+iframeidz=kidsvideoHub2[5][2];
+$('#Livetitl').html("Golos Dity 2 Sezon<small>  / 6 Выпуск  </small>");
+$('#Gtitl').html("Golos Dity 2 Sezon / 6 Выпуск ");
+break;	
+  case 'kids1ep1':
+sylka =kidsvideoHub1[0][0];
+tapevid=kidsvideoHub1[0][1];
+iframeidz=kidsvideoHub1[0][2];
+$('#Livetitl').html("Golos Dity 1 Sezon<small>  / 1 Выпуск  </small>");
+$('#Gtitl').html("Golos Dity 1 Sezon / 1 Выпуск ");
+break;
+case 'kids1ep2':
+sylka =kidsvideoHub1[1][0];
+tapevid=kidsvideoHub1[1][1];
+iframeidz=kidsvideoHub1[1][2];
+$('#Livetitl').html("Golos Dity 1 Sezon<small>  / 2 Выпуск </small>");
+$('#Gtitl').html("Golos Dity 1 Sezon / 2 Выпуск ");
+break;
+case 'kids1ep3':
+sylka =kidsvideoHub1[2][0];
+tapevid=kidsvideoHub1[2][1];
+iframeidz=kidsvideoHub1[2][2];
+$('#Livetitl').html("Golos Dity 1 Sezon<small>  / 3 Выпуск  </small>");
+$('#Gtitl').html("Golos Dity 1 Sezon / 3 Выпуск ");
+break;
+case 'kids1ep4':
+sylka =kidsvideoHub1[3][0];
+tapevid=kidsvideoHub1[3][1];
+iframeidz=kidsvideoHub1[3][2];
+$('#Livetitl').html("Golos Dity 1 Sezon<small>  / 4 Выпуск </small>");
+$('#Gtitl').html("Golos Dity 1 Sezon / 4 Выпуск ");
+break;		
+case 'kids1ep5':
+sylka =kidsvideoHub1[4][0];
+tapevid=kidsvideoHub1[4][1];
+iframeidz=kidsvideoHub1[4][2];
+$('#Livetitl').html("Golos Dity 1 Sezon<small>  / 5 Выпуск  </small>");
+$('#Gtitl').html("Golos Dity 1 Sezon / 5 Выпуск ");
+break;	
+case 'kids1ep6':
+sylka =kidsvideoHub1[5][0];
+tapevid=kidsvideoHub1[5][1];
+iframeidz=kidsvideoHub1[5][2];
+$('#Livetitl').html("Golos Dity 1 Sezon<small>  / 6 Выпуск  </small>");
+$('#Gtitl').html("Golos Dity 1 Sezon / 6 Выпуск ");
+break;	
+case 'kids1ep7':
+sylka =kidsvideoHub1[6][0];
+tapevid=kidsvideoHub1[6][1];
+iframeidz=kidsvideoHub1[6][2];
+$('#Livetitl').html("Golos Dity 1 Sezon<small>  / 7 Выпуск  </small>");
+$('#Gtitl').html("Golos Dity 1 Sezon / 7 Выпуск ");
+break;	
+case 'kids1ep8':
+sylka =kidsvideoHub1[7][0];
+tapevid=kidsvideoHub1[7][1];
+iframeidz=kidsvideoHub1[7][2];
+$('#Livetitl').html("Golos Dity 1 Sezon<small>  / 8 Выпуск  </small>");
+$('#Gtitl').html("Golos Dity 1 Sezon / 8 Выпуск ");
+break;			
+case 'kids1ep9':
+sylka =kidsvideoHub1[8][0];
+tapevid=kidsvideoHub1[8][1];
+iframeidz=kidsvideoHub1[8][2];
+$('#Livetitl').html("Golos Dity 1 Sezon<small>  / 9 Выпуск  </small>");
+$('#Gtitl').html("Golos Dity 1 Sezon / 9 Выпуск ");
+break;	
+case 'kids1ep10':
+sylka =kidsvideoHub1[9][0];
+tapevid=kidsvideoHub1[9][1];
+iframeidz=kidsvideoHub1[9][2];
+$('#Livetitl').html("Golos Dity 1 Sezon<small>  / 10 Выпуск  </small>");
+$('#Gtitl').html("Golos Dity 1 Sezon / 10 Выпуск ");
+break;	
   case 's9ep1':
 sylka =videoHub9[0][0];
 tapevid=videoHub9[0][1];
@@ -333,8 +671,15 @@ case 's9ep13':
 sylka =videoHub9[12][0];
 tapevid=videoHub9[12][1];
 iframeidz=videoHub9[12][2];
-$('#Livetitl').html("Golos 9 Sezon<small>  / 13 Выпуск от 14.04.2019 - Полуфинал - Анонс </small>");
-$('#Gtitl').html("Golos 9 Sezon /  13 Выпуск от 14.04.2019 - Полуфинал - Анонс  ");
+$('#Livetitl').html("Golos 9 Sezon<small>  / 13 Выпуск от 14.04.2019 - Полуфинал  </small>");
+$('#Gtitl').html("Golos 9 Sezon /  13 Выпуск от 14.04.2019 - Полуфинал  ");
+    break;
+case 's9ep14':
+sylka =videoHub9[13][0];
+tapevid=videoHub9[13][1];
+iframeidz=videoHub9[13][2];
+$('#Livetitl').html("Golos 9 Sezon<small>  / 14 Выпуск от 21.04.2019 - ФИНАЛ   </small>");
+$('#Gtitl').html("Golos 9 Sezon /  14 Выпуск от 21.04.2019 - ФИНАЛ   ");
     break;
 case 's8ep1':
 sylka =videoHub8[0][0];
@@ -1189,15 +1534,19 @@ livevideo=vodvideo;
  $(iframeVid).appendTo('.theoplayer-container');
  return;
  }
-
+	  if(!tapevid.indexOf("kids5")){//Proverka na kids5 
+ $(iframeVid).appendTo('.theoplayer-container');
+ return;
+ }
 //chekCountry
 $.get("https://freegeoip.app/json/", function (response) {
 	if(response.country_code!='UA' || urlParams.get('s')=='ua'){
-	    
+	  
 //Start pars  
 
 fetch(livevideo)
   .then(function(response) {
+	
  if (response.status !== 200) {  
 $('<iframe width="100%" height="100%" allow="autoplay; fullscreen" allowtransparency="true" allowfullscreen="" scrolling="no" tabindex="0" name="twttrHubFrameSecure" src="https://1plus1.video/tvguide/embed/1?autoplay=1&amp;l=ru" frameborder="0"></iframe>').appendTo('.theoplayer-container');
         console.log('Looks like there was a problem. Status Code: ' +  
@@ -1205,13 +1554,13 @@ $('<iframe width="100%" height="100%" allow="autoplay; fullscreen" allowtranspar
         return;  
       }
     response.text().then(function(text) {
-	    if(!text.indexOf("302=https:")){
+	   if(!text.indexOf("302=https:")){
 		    storedText = text.replace( "302=https:", "" );
 		    for(var i=0; i<ServNot.length;i++){
 			    if(storedText.indexOf(ServNot[i]) + 1) {
 				    storedText=storedText.replace( ServNot[i],ServGood[randoms]);
 				      }}
-	    } else {
+	    } else if(!text.indexOf("404=")){$(iframeVid).appendTo('.theoplayer-container');} else {
 		    storedText = text.replace( "302=http:", "" ); 
 		    for(var i=0; i<ServNot.length;i++){
 			    if(storedText.indexOf(ServNot[i]) + 1) {
@@ -1283,50 +1632,85 @@ function GenerateElCicle(GolosSezon){
 var templegh;
 var habtempzn;
 var urlParams = new URLSearchParams(location.search);
-var chekuri= urlParams.get('video');	
-if (chekuri&&firstinit) { GolosSezon=chekuri[1];}	
+var chekuri= urlParams.get('video');
+var GolosSezonzn;
+if (chekuri&&firstinit) { if(chekuri[0]=='k'){GolosSezon=chekuri[0]+chekuri[1]+chekuri[2]+chekuri[4];} else {GolosSezon=chekuri[0]+chekuri[1];}}	
 switch (GolosSezon) {
-  case '9':
+  case 's9':
    templegh=videoHub9.length;
    habtempzn='videoHub9';
+   GolosSezonzn='9';
     break;
-  case '8':
+  case 's8':
    templegh=videoHub8.length;
-   habtempzn='videoHub8';
+   habtempzn='videoHub8';		
+   GolosSezonzn='8';
      break;
-  case '7':
+  case 's7':
    templegh=videoHub7.length;
-   habtempzn='videoHub7';
+   habtempzn='videoHub7';		
+   GolosSezonzn='7';
      break;
-  case '6':
+  case 's6':
    templegh=videoHub6.length;
-   habtempzn='videoHub6';
+   habtempzn='videoHub6';		
+   GolosSezonzn='6';
      break;
-   case '5':
+   case 's5':
    templegh=videoHub5.length;
    habtempzn='videoHub5';
+   GolosSezonzn='5';
      break;
-   case '4':
+   case 's4':
    templegh=videoHub4.length;
    habtempzn='videoHub4';
+   GolosSezonzn='4';
      break;
-   case '3':
+   case 's3':
    templegh=videoHub3.length;
    habtempzn='videoHub3';
+   GolosSezonzn='3';
      break;
-   case '2':
+   case 's2':
    templegh=videoHub2.length;
    habtempzn='videoHub2';
+   GolosSezonzn='2';
      break;
-   case '1':
+   case 's1':
    templegh=videoHub1.length;
    habtempzn='videoHub1';
+   GolosSezonzn='1';
+     break;
+   case 'kid1':
+   templegh=kidsvideoHub1.length;
+   habtempzn='kidsvideoHub1';
+   GolosSezonzn='Golos Dity 1';
+     break;
+        case 'kid2':
+   templegh=kidsvideoHub2.length;
+   habtempzn='kidsvideoHub2';
+   GolosSezonzn='Golos Dity 2';
+     break;
+	case 'kid3':
+   templegh=kidsvideoHub3.length;
+   habtempzn='kidsvideoHub3';
+   GolosSezonzn='Golos Dity 3';
+     break;
+       case 'kid4':
+   templegh=kidsvideoHub4.length;
+   habtempzn='kidsvideoHub4';
+   GolosSezonzn='Golos Dity 4';
+     break;
+	 case 'kid5':
+   templegh=kidsvideoHub5.length;
+   habtempzn='kidsvideoHub5';
+   GolosSezonzn='Golos Dity 5';
      break;
 }
 var myHTML1 = '';
 
   for (var i = 0; i < templegh; i++) {
-    myHTML1 += '<button type="button" class="btn btn-primary btn-lg btn-block mt-1 mb-1 " onclick="InitVideo('+habtempzn+'['+i+'][0],'+habtempzn+'['+i+'][1],'+habtempzn+'['+i+'][2])">'+GolosSezon+' сезон '+ (i + 1) +' выпуск</button></br>';
+    myHTML1 += '<button type="button" class="btn btn-primary btn-lg btn-block mt-1 mb-1 " onclick="InitVideo('+habtempzn+'['+i+'][0],'+habtempzn+'['+i+'][1],'+habtempzn+'['+i+'][2])">'+GolosSezonzn+' сезон '+ (i + 1) +' выпуск</button></br>';
   }
 
 
