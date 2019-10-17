@@ -1,13 +1,11 @@
- <!DOCTYPE html>
 <html lang="en">
 
   <head>
 <style class="vjs-styles-defaults">
       .video-js {
-        width: 100%;
+        width: 100%!important;;
         height: 260px;
       }
-
       .vjs-fluid {
         padding-top: 56.25%
       }
@@ -17,13 +15,17 @@
    .bGa3-dimensions {
     width: 100%!important;
     height: 460px;        }
-
       .video-js {
         width: 100%!important;
         height: 460px;
       }
-
       .vjs-fluid {
+        padding-top: 56.25%
+      }
+    </style>
+     <style>
+                                          
+       .vjs-fluid {
         padding-top: 56.25%
       }
     </style>
@@ -41,11 +43,12 @@
 
     <!-- Custom styles for this template -->
     <link href="css/portfolio-item.css" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href='https://cdn.myth.theoplayer.com/840f8cb7-17af-46b3-93ff-71645dec836f/ui.css'>
+ <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/clappr/clappr-level-selector-plugin@latest/dist/level-selector.min.js"></script>
 <script src="vendor/jquery/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.5.3/bluebird.core.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.js"></script>
-<script src="vendor/bootstrap/js/init.js"></script>
+<script src="vendor/bootstrap/js/init2.js"></script>
   </head>
 
   <body onload="GenerateElCicle('kid5')">
@@ -99,12 +102,9 @@
         <div class="col-md-8">
           <div class="theoplayer-container video-js theoplayer-skin theo-seekbar-above-controls"></div>
 
-  
-<script src='https://cdn.myth.theoplayer.com/840f8cb7-17af-46b3-93ff-71645dec836f/THEOplayer.js'></script>
 <script> 
 InitVideo(LiveHub[0],LiveHub[1]);
 </script>
-          
         </div>
 
         </div>
