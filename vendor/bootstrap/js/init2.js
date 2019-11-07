@@ -1594,8 +1594,8 @@ var player = new Clappr.Player({
 
 player.attachTo(playerElement);
 	    
-	        });
-  });
+	      //  });
+//  });
 	
 //eEndPars
 
