@@ -1522,9 +1522,10 @@ break;
 
  $('.theoplayer-container').html("");
 if(tapevid==='live'){
-
+$('<iframe width="100%" height="100%" allow="autoplay; fullscreen" allowtransparency="true" allowfullscreen="" scrolling="no" tabindex="0" name="twttrHubFrameSecure" src="https://1plus1.video/tvguide/embed/1?autoplay=1&amp;l=ru" frameborder="0"></iframe>').appendTo('.theoplayer-container');
+     
 livevideo += sylka;
-	
+return;	
 
 } else { 
 
