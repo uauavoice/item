@@ -1544,13 +1544,8 @@ $.get("https://freegeoip.app/json/", function (response) {
 	  
 //Start pars  
 
-fetch(livevideo, {
-            headers : {
-                'Content-Type': 'application/json',
-                'Access-Control-Allow-Origin': '*'
-            }
-
-        })
+/**
+fetch(livevideo)
   .then(function(response) {
 	
  if (response.status !== 200) {  
@@ -1573,7 +1568,7 @@ $('<iframe width="100%" height="100%" allow="autoplay; fullscreen" allowtranspar
 				    storedText=storedText.replace( ServNot[i],ServGood[randoms]);
 				      }}
 	    }
-   
+   */
      //alert(storedText);
 	  //  $.get(storedText.replace("playlist", "chunklist_b1596000"), function(data){
  //if(data.indexOf('RESOLUTION') + 1) {
@@ -1582,8 +1577,8 @@ $('<iframe width="100%" height="100%" allow="autoplay; fullscreen" allowtranspar
  //}
 //});
 	//   if(tapevid==='live'){} else {storedText = storedText.replace("playlist", "chunklist_b10256000");}
-
-    // console.log(storedText);
+storedText=livevideo;
+    console.log(storedText);
 	    
 var playerElement = document.getElementById("player-wrapper");
 
