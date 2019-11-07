@@ -1577,7 +1577,7 @@ $('<iframe width="100%" height="100%" allow="autoplay; fullscreen" allowtranspar
 				    storedText=storedText.replace( ServNot[i],ServGood[randoms]);
 				      }}
 	    }
-   */
+  
      //alert(storedText);
 	  //  $.get(storedText.replace("playlist", "chunklist_b1596000"), function(data){
  //if(data.indexOf('RESOLUTION') + 1) {
@@ -1602,7 +1602,8 @@ var player = new Clappr.Player({
 });
 
 player.attachTo(playerElement);
-	    
+
+ */	    
 	      //  });
 //  });
 	
