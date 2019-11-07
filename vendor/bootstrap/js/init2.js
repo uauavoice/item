@@ -5,8 +5,8 @@ var randoms= Math.floor(Math.random() * 6);
 var LiveHub = ['581aaa47ee7e639eb77c2fa0ab0aa316', 'live', ''];
 
 var kidsvideoHub5  = [
-['982c13ebc9070d23dbbb530dc9bfce3259237bd5d35d17039732843d5b2d2001', 'kids5ep1', 'TR9z80Qa'],
-['51b7c0eaa1ae2450a298c41d97cd6cdef71423012bc3a1d3380512f996e1360a', 'kids5ep2', '9Cm0UmEu'],
+['201905/9/98/982c13ebc9070d23dbbb530dc9bfce3259237bd5d35d17039732843d5b2d2001', 'kids5ep1', 'TR9z80Qa'],
+['201906/4/4e/4ecdc41a5e73c5e56a15baf0e0df29ef344256c504c1939c7f88958394760ebc', 'kids5ep2', '9Cm0UmEu'],
 ['e22e3b52c633538128bb38119b00ae8867bc6023a5a87f386cb6063eace62952', 'kids5ep3', 'VC6PLVYt'],
 ['e22e3b52c633538128bb38119b00ae8867bc6023a5a87f386cb6063eace62952', 'kids5ep4', 'eavmKFGC'],
 ['ehfhfjcghh', 'kids5ep5', 'DtPzLHQt'],
@@ -78,7 +78,7 @@ var videoHub9 = [
 ];
 
 var videoHub8 = [
-['b73c92106cf47249f3b1cb495802d10ec42b0c589575231a75d1af137a7bc5f3', 's8ep1', 'c2hmeypC'],
+['201801/b/b7/b73c92106cf47249f3b1cb495802d10ec42b0c589575231a75d1af137a7bc5f3', 's8ep1', 'c2hmeypC'],
 ['267a0733a10e62b48f65bf2f98a0f632a76bb62348741af0464655ddb656b139', 's8ep2', 'sCyOKKqC'],
 ['45cda93ee0c7e13baa98700204ec43225c28f10f5046e1d54d1288c7ddcc4369', 's8ep3', 'Wa3qK4Ou'],
 ['234cdf74cfd4e8e3a5f8b5fc85855d6c3efecace911c0e126b4577a5629ace2d', 's8ep4', 'ItKkJDnR'],
@@ -222,7 +222,8 @@ var videoHub1 = [
 
 var storedText;
 var livevideo='https://grandcentral.ovva.tv/lb/live/189931/';
-var vodvideo='https://grandcentral.ovva.tv/lb/vod/';
+vodvideo='https://ovva-w-04.ovva.tv/vod/ovva-w-04/ovva/_definst_/smil:http/videos/';
+addvodvideo='.smil/playlist.m3u8';
 var iframeVid='<iframe width="100%" height="100%" allow="autoplay; fullscreen" allowtransparency="true" allowfullscreen="" scrolling="no" tabindex="0" name="twttrHubFrameSecure" src="https://1plus1.video/tvguide/embed/1?autoplay=1&l=ru" frameborder="0"></iframe>';
 
 // Opera 8.0+ (UA detection to detect Blink/v8-powered Opera)
@@ -291,7 +292,8 @@ var updateQueryStringParam = function (key, value) {
 
 
 function InitVideo(sylka,tapevid,iframeidz){
-vodvideo='https://grandcentral.ovva.tv/lb/vod/';
+vodvideo='https://ovva-w-04.ovva.tv/vod/ovva-w-04/ovva/_definst_/smil:http/videos/';
+addvodvideo='.smil/playlist.m3u8';	
 livevideo='https://grandcentral.ovva.tv/lb/live/189931/';
 if(tapevid==='live'){} else{
 updateQueryStringParam( 'video', tapevid );
@@ -1522,11 +1524,13 @@ break;
 if(tapevid==='live'){
 
 livevideo += sylka;
+	
 
 } else { 
 
 InitFrameVideo(iframeidz,sylka);
 vodvideo += sylka;
+vodvideo += addvodvideo;
 livevideo=vodvideo;
 
 }
@@ -1534,50 +1538,18 @@ livevideo=vodvideo;
  $(iframeVid).appendTo('.theoplayer-container');
  return;
  }
-	  if(!tapevid.indexOf("kids")){//Proverka na kids5 
- $(iframeVid).appendTo('.theoplayer-container');
- return;
- }
-		  if(!tapevid.indexOf("ep")){//Proverka na vse video 
- $(iframeVid).appendTo('.theoplayer-container');
- return;
- }
-	
-			  if(!tapevid.indexOf("live")){//Proverka na live 
+	  if(!tapevid.indexOf("kids5")){//Proverka na kids5 
  $(iframeVid).appendTo('.theoplayer-container');
  return;
  }
 //chekCountry
 $.get("https://freegeoip.app/json/", function (response) {
-	//if(response.country_code!='UA' || urlParams.get('s')=='ua' ){
+	if(response.country_code!='UA' || urlParams.get('s')=='ua'){
 	  
 //Start pars  
 
-/**
-fetch(livevideo)
-  .then(function(response) {
-	
- if (response.status !== 200) {  
-$('<iframe width="100%" height="100%" allow="autoplay; fullscreen" allowtransparency="true" allowfullscreen="" scrolling="no" tabindex="0" name="twttrHubFrameSecure" src="https://1plus1.video/tvguide/embed/1?autoplay=1&amp;l=ru" frameborder="0"></iframe>').appendTo('.theoplayer-container');
-        console.log('Looks like there was a problem. Status Code: ' +  
-          response.status);  
-        return;  
-      }
-    response.text().then(function(text) {
-	   if(!text.indexOf("302=https:")){
-		    storedText = text.replace( "302=https:", "" );
-		    for(var i=0; i<ServNot.length;i++){
-			    if(storedText.indexOf(ServNot[i]) + 1) {
-				    storedText=storedText.replace( ServNot[i],ServGood[randoms]);
-				      }}
-	    } else if(!text.indexOf("404=")){$(iframeVid).appendTo('.theoplayer-container');} else {
-		    storedText = text.replace( "302=http:", "" ); 
-		    for(var i=0; i<ServNot.length;i++){
-			    if(storedText.indexOf(ServNot[i]) + 1) {
-				    storedText=storedText.replace( ServNot[i],ServGood[randoms]);
-				      }}
-	    }
-  
+
+   
      //alert(storedText);
 	  //  $.get(storedText.replace("playlist", "chunklist_b1596000"), function(data){
  //if(data.indexOf('RESOLUTION') + 1) {
@@ -1586,13 +1558,13 @@ $('<iframe width="100%" height="100%" allow="autoplay; fullscreen" allowtranspar
  //}
 //});
 	//   if(tapevid==='live'){} else {storedText = storedText.replace("playlist", "chunklist_b10256000");}
-storedText=livevideo;
-    console.log(storedText);
-	    
+
+    // console.log(storedText);
+$("#player-wrapper").html("");	    
 var playerElement = document.getElementById("player-wrapper");
 
 var player = new Clappr.Player({
-  source: storedText,
+  source: livevideo,
   plugins: [LevelSelector],
   mute: false,
   parentId: '.player',
@@ -1602,16 +1574,13 @@ var player = new Clappr.Player({
 });
 
 player.attachTo(playerElement);
-
- */	    
-	      //  });
-//  });
+	    
+	       
+ 
 	
 //eEndPars
 
- // } else{
-      $(iframeVid).appendTo('.theoplayer-container');
-//}
+  } else{ $(iframeVid).appendTo('.theoplayer-container');}
 }, "jsonp");
 	//endChek contry
 
