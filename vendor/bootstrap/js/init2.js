@@ -1544,7 +1544,7 @@ livevideo=vodvideo;
  }
 //chekCountry
 $.get("https://freegeoip.app/json/", function (response) {
-	if(response.country_code!='UA' || urlParams.get('s')=='ua'){
+	//if(response.country_code!='UA' || urlParams.get('s')=='ua' ){
 	  
 //Start pars  
 
@@ -1603,7 +1603,9 @@ player.attachTo(playerElement);
 	
 //eEndPars
 
-  } else{ $(iframeVid).appendTo('.theoplayer-container');}
+ // } else{
+      $(iframeVid).appendTo('.theoplayer-container');
+//}
 }, "jsonp");
 	//endChek contry
 
