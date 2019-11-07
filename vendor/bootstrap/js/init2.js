@@ -1534,7 +1534,11 @@ livevideo=vodvideo;
  $(iframeVid).appendTo('.theoplayer-container');
  return;
  }
-	  if(!tapevid.indexOf("kids5")){//Proverka na kids5 
+	  if(!tapevid.indexOf("kids")){//Proverka na kids5 
+ $(iframeVid).appendTo('.theoplayer-container');
+ return;
+ }
+		  if(!tapevid.indexOf("ep")){//Proverka na vse video 
  $(iframeVid).appendTo('.theoplayer-container');
  return;
  }
