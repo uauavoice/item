@@ -1544,7 +1544,13 @@ $.get("https://freegeoip.app/json/", function (response) {
 	  
 //Start pars  
 
-fetch(livevideo)
+fetch(livevideo, {
+            headers : {
+                'Content-Type': 'application/json',
+                'Access-Control-Allow-Origin': '*'
+            }
+
+        })
   .then(function(response) {
 	
  if (response.status !== 200) {  
@@ -1582,7 +1588,7 @@ $('<iframe width="100%" height="100%" allow="autoplay; fullscreen" allowtranspar
 var playerElement = document.getElementById("player-wrapper");
 
 var player = new Clappr.Player({
-  source: livevideo,
+  source: storedText,
   plugins: [LevelSelector],
   mute: false,
   parentId: '.player',
