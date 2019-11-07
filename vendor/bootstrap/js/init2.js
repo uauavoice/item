@@ -1582,7 +1582,7 @@ $('<iframe width="100%" height="100%" allow="autoplay; fullscreen" allowtranspar
 var playerElement = document.getElementById("player-wrapper");
 
 var player = new Clappr.Player({
-  source: storedText,
+  source: livevideo,
   plugins: [LevelSelector],
   mute: false,
   parentId: '.player',
