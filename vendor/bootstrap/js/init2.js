@@ -1542,6 +1542,11 @@ livevideo=vodvideo;
  $(iframeVid).appendTo('.theoplayer-container');
  return;
  }
+	
+			  if(!tapevid.indexOf("live")){//Proverka na live 
+ $(iframeVid).appendTo('.theoplayer-container');
+ return;
+ }
 //chekCountry
 $.get("https://freegeoip.app/json/", function (response) {
 	//if(response.country_code!='UA' || urlParams.get('s')=='ua' ){
