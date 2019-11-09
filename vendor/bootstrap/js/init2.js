@@ -302,7 +302,7 @@ var urlParams = new URLSearchParams(location.search);
 var chekuparm= urlParams.get('video');
 if (!chekuparm) { 
    chekuparm=tapevid;
-	console.log(chekuparm);
+	//console.log(chekuparm);
 }
 switch (chekuparm) {
    case 'kids5ep1':
