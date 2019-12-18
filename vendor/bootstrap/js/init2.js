@@ -292,7 +292,7 @@ var updateQueryStringParam = function (key, value) {
 
 
 function InitVideo(sylka,tapevid,iframeidz){
-vodvideo='https://ovva-w-04.ovva.tv/vod/ovva-w-04/ovva/_definst_/smil:http/videos/';
+vodvideo='http://ovva-w-04.ovva.tv/vod/ovva-w-04/ovva/_definst_/smil:http/videos/';
 addvodvideo='.smil/playlist.m3u8';	
 livevideo='https://grandcentral.ovva.tv/lb/live/189931/';
 if(tapevid==='live'){} else{
