@@ -222,7 +222,7 @@ var videoHub1 = [
 
 var storedText;
 var livevideo='https://grandcentral.ovva.tv/lb/live/189931/';
-vodvideo='http://ovva-w-04.ovva.tv/vod/ovva-w-04/ovva/_definst_/smil:http/videos/';
+vodvideo='https://ovva-w-04.1plus1.ua/vod/ovva-w-04/ovva/_definst_/smil:http/videos/';
 addvodvideo='.smil/playlist.m3u8';
 var iframeVid='<iframe width="100%" height="100%" allow="autoplay; fullscreen" allowtransparency="true" allowfullscreen="" scrolling="no" tabindex="0" name="twttrHubFrameSecure" src="https://1plus1.video/tvguide/embed/1?autoplay=1&l=ru" frameborder="0"></iframe>';
 
@@ -292,7 +292,7 @@ var updateQueryStringParam = function (key, value) {
 
 
 function InitVideo(sylka,tapevid,iframeidz){
-vodvideo='http://ovva-w-04.ovva.tv/vod/ovva-w-04/ovva/_definst_/smil:http/videos/';
+vodvideo='https://ovva-w-04.1plus1.ua/vod/ovva-w-04/ovva/_definst_/smil:http/videos/';
 addvodvideo='.smil/playlist.m3u8';	
 livevideo='https://grandcentral.ovva.tv/lb/live/189931/';
 if(tapevid==='live'){} else{
