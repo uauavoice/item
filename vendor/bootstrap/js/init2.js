@@ -314,8 +314,8 @@ switch (chekuparm) {
 sylka =videoHub10[0][0];
 tapevid=videoHub10[0][1];
 iframeidz=videoHub10[0][2];
-$('#Livetitl').html("Golos 9 Sezon<small>  / 1 Выпуск от 19.01.2020</small>");
-$('#Gtitl').html("Golos 9 Sezon / 1 Выпуск -  от 19.01.2020");
+$('#Livetitl').html("Golos 10 Sezon<small>  / 1 Выпуск от 19.01.2020 - АНОНС</small>");
+$('#Gtitl').html("Golos 10 Sezon / 1 Выпуск -  от 19.01.2020 - АНОНС");
 break;	  
  case 'kids5ep1':
 sylka =kidsvideoHub5[0][0];
