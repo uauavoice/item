@@ -4,6 +4,10 @@ var ServGood = ['k2302', 'k2304', 'k2306','k2308','k2310','k2312'];
 var randoms= Math.floor(Math.random() * 6);
 var LiveHub = ['581aaa47ee7e639eb77c2fa0ab0aa316', 'live', ''];
 
+var videoHub10 = [
+['201912/1/1b/1b177ad6d40398f520b94c6db9fcb4bc57ade3cebe99135d9d438974ce4e3b54', 's10ep1', 'TR91xzgt']
+];
+
 var kidsvideoHub5  = [
 ['201905/9/98/982c13ebc9070d23dbbb530dc9bfce3259237bd5d35d17039732843d5b2d2001', 'kids5ep1', 'TR9z80Qa'],
 ['201906/4/4e/4ecdc41a5e73c5e56a15baf0e0df29ef344256c504c1939c7f88958394760ebc', 'kids5ep2', '9Cm0UmEu'],
@@ -305,7 +309,15 @@ if (!chekuparm) {
 	//console.log(chekuparm);
 }
 switch (chekuparm) {
-   case 'kids5ep1':
+
+ case 's10ep1':
+sylka =videoHub10[0][0];
+tapevid=videoHub10[0][1];
+iframeidz=videoHub10[0][2];
+$('#Livetitl').html("Golos 9 Sezon<small>  / 1 Выпуск от 19.01.2020</small>");
+$('#Gtitl').html("Golos 9 Sezon / 1 Выпуск -  от 19.01.2020");
+break;	  
+ case 'kids5ep1':
 sylka =kidsvideoHub5[0][0];
 tapevid=kidsvideoHub5[0][1];
 iframeidz=kidsvideoHub5[0][2];
@@ -1617,34 +1629,39 @@ var habtempzn;
 var urlParams = new URLSearchParams(location.search);
 var chekuri= urlParams.get('video');
 var GolosSezonzn;
-if (chekuri&&firstinit) { if(chekuri[0]=='k'){GolosSezon=chekuri[0]+chekuri[1]+chekuri[2]+chekuri[4];} else {GolosSezon=chekuri[0]+chekuri[1];}}	
+if (chekuri&&firstinit) { if(chekuri[0]=='k'){GolosSezon=chekuri[0]+chekuri[1]+chekuri[2]+chekuri[4];} else {GolosSezon=chekuri[0]+chekuri[1]+chekuri[2];}}	
 switch (GolosSezon) {
-  case 's9':
+  case 's10':
+   templegh=videoHub10.length;
+   habtempzn='videoHub10';
+   GolosSezonzn='10';
+    break;
+  case 's9e':
    templegh=videoHub9.length;
    habtempzn='videoHub9';
    GolosSezonzn='9';
     break;
-  case 's8':
+  case 's8e':
    templegh=videoHub8.length;
    habtempzn='videoHub8';		
    GolosSezonzn='8';
      break;
-  case 's7':
+  case 's7e':
    templegh=videoHub7.length;
    habtempzn='videoHub7';		
    GolosSezonzn='7';
      break;
-  case 's6':
+  case 's6e':
    templegh=videoHub6.length;
    habtempzn='videoHub6';		
    GolosSezonzn='6';
      break;
-   case 's5':
+   case 's5e':
    templegh=videoHub5.length;
    habtempzn='videoHub5';
    GolosSezonzn='5';
      break;
-   case 's4':
+   case 's4e':
    templegh=videoHub4.length;
    habtempzn='videoHub4';
    GolosSezonzn='4';
@@ -1654,12 +1671,12 @@ switch (GolosSezon) {
    habtempzn='videoHub3';
    GolosSezonzn='3';
      break;
-   case 's2':
+   case 's2e':
    templegh=videoHub2.length;
    habtempzn='videoHub2';
    GolosSezonzn='2';
      break;
-   case 's1':
+   case 's1e':
    templegh=videoHub1.length;
    habtempzn='videoHub1';
    GolosSezonzn='1';
