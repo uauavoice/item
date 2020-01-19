@@ -13,10 +13,14 @@
                 position:absolute; left: 0; right: 0; bottom: 0; top: 0px; 
             }
         </style>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js"></script>
     </head>
     <body>
         <div id="content">
-            <iframe width="100%" height="100%" frameborder="0" src="http://ott-play.com/stalker/" />
+        <div id="player"></div>
+  <script>
+    var player = new Clappr.Player({source: "http://streamo.ru/7016/video.m3u8?token=c8eae60a45895cccce4a3dbbe7864519",mute: false,autoPlay: true, parentId: "#player"});
+  </script>
         </div>
     </body>
 </html>
