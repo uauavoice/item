@@ -312,16 +312,16 @@ if (!chekuparm) {
 switch (chekuparm) {
 
  case 's10ep1':
-sylka =videoHub10[1][0];
-tapevid=videoHub10[1][1];
-iframeidz=videoHub10[1][2];
+sylka =videoHub10[0][0];
+tapevid=videoHub10[0][1];
+iframeidz=videoHub10[0][2];
 $('#Livetitl').html("Golos 10 Sezon<small>  / 1 Выпуск от 19.01.2020 </small>");
 $('#Gtitl').html("Golos 10 Sezon / 1 Выпуск -  от 19.01.2020 ");
 break;	 
  case 's10ep2':
-sylka =videoHub10[0][0];
-tapevid=videoHub10[0][1];
-iframeidz=videoHub10[0][2];
+sylka =videoHub10[1][0];
+tapevid=videoHub10[1][1];
+iframeidz=videoHub10[1][2];
 $('#Livetitl').html("Golos 10 Sezon<small>  / 2 Выпуск от 26.01.2020 - АНОНС</small>");
 $('#Gtitl').html("Golos 10 Sezon / 2 Выпуск -  от 26.01.2020  - АНОНС ");
 break;	
