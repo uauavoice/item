@@ -5,7 +5,8 @@ var randoms= Math.floor(Math.random() * 6);
 var LiveHub = ['581aaa47ee7e639eb77c2fa0ab0aa316', 'live', ''];
 
 var videoHub10 = [
-['202001/6/63/635a32cdddc0bd183cf87a908ca3d1a2045d4221ac62db765b19f11287ee8d08', 's10ep1', 'E2DApobR']
+['202001/6/63/635a32cdddc0bd183cf87a908ca3d1a2045d4221ac62db765b19f11287ee8d08', 's10ep1', 'E2DApobR'],
+['202001/3/3b/3b0b42efb3a2a8d06b5b8b2ff8fdbe2eef81acb88a64542d630666be2b4677b7', 's10ep2', 'sCyjdBwa']
 ];
 
 var kidsvideoHub5  = [
@@ -316,7 +317,14 @@ tapevid=videoHub10[0][1];
 iframeidz=videoHub10[0][2];
 $('#Livetitl').html("Golos 10 Sezon<small>  / 1 Выпуск от 19.01.2020 </small>");
 $('#Gtitl').html("Golos 10 Sezon / 1 Выпуск -  от 19.01.2020 ");
-break;	  
+break;	 
+ case 's10ep2':
+sylka =videoHub10[0][0];
+tapevid=videoHub10[0][1];
+iframeidz=videoHub10[0][2];
+$('#Livetitl').html("Golos 10 Sezon<small>  / 2 Выпуск от 26.01.2020 - АНОНС</small>");
+$('#Gtitl').html("Golos 10 Sezon / 2 Выпуск -  от 26.01.2020  - АНОНС ");
+break;	
  case 'kids5ep1':
 sylka =kidsvideoHub5[0][0];
 tapevid=kidsvideoHub5[0][1];
