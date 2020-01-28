@@ -6,7 +6,8 @@ var LiveHub = ['581aaa47ee7e639eb77c2fa0ab0aa316', 'live', ''];
 
 var videoHub10 = [
 ['202001/6/63/635a32cdddc0bd183cf87a908ca3d1a2045d4221ac62db765b19f11287ee8d08', 's10ep1', 'E2DApobR'],
-['202001/8/88/88d1f9ce1a21a74ed01142a3af4c9f4f1f44bea340b6d3f6d1fbb328cc8ceb16', 's10ep2', 'oCGSj67C']
+['202001/8/88/88d1f9ce1a21a74ed01142a3af4c9f4f1f44bea340b6d3f6d1fbb328cc8ceb16', 's10ep2', 'oCGSj67C'],
+['202001/e/ea/eab22f5b366308ec9138474d8d978dd44d491b4f301817c2f3914187f77d1e76', 's10ep3', 'GCs7H1oC']
 ];
 
 var kidsvideoHub5  = [
@@ -324,6 +325,13 @@ tapevid=videoHub10[1][1];
 iframeidz=videoHub10[1][2];
 $('#Livetitl').html("Golos 10 Sezon<small>  / 2 Выпуск от 26.01.2020 </small>");
 $('#Gtitl').html("Golos 10 Sezon / 2 Выпуск -  от 26.01.2020 ");
+break;	
+ case 's10ep3':
+sylka =videoHub10[2][0];
+tapevid=videoHub10[2][1];
+iframeidz=videoHub10[2][2];
+$('#Livetitl').html("Golos 10 Sezon<small>  / 3 Выпуск от 02.02.2020  - Анонс</small>");
+$('#Gtitl').html("Golos 10 Sezon / 3 Выпуск -  от 02.02.2020 - Анонс ");
 break;	
  case 'kids5ep1':
 sylka =kidsvideoHub5[0][0];
