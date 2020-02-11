@@ -8,7 +8,8 @@ var videoHub10 = [
 ['202001/6/63/635a32cdddc0bd183cf87a908ca3d1a2045d4221ac62db765b19f11287ee8d08', 's10ep1', 'E2DApobR'],
 ['202001/8/88/88d1f9ce1a21a74ed01142a3af4c9f4f1f44bea340b6d3f6d1fbb328cc8ceb16', 's10ep2', 'oCGSj67C'],
 ['202002/6/69/692eb118a160c7bf3e235740e346c9505f36ef6b95d3cdfef921d01cb8923433', 's10ep3', 'oCbEVhU2'],
-['202002/8/80/80f4e20ccaafb97e73d559cb6d37775da9638f0a35d6c3ce5896515cccbcd236', 's10ep4', 'F2e7Gnma']
+['202002/8/80/80f4e20ccaafb97e73d559cb6d37775da9638f0a35d6c3ce5896515cccbcd236', 's10ep4', 'F2e7Gnma'],
+['202002/8/88/88e9511c1d3724fd3d770111c81853b8f30b6932ff5b7f4dd158bf09b4de8d37', 's10ep5', 'Ktj7Om9u']
 ];
 
 var kidsvideoHub5  = [
@@ -340,6 +341,13 @@ tapevid=videoHub10[3][1];
 iframeidz=videoHub10[3][2];
 $('#Livetitl').html("Golos 10 Sezon<small>  / 4 Выпуск от 09.02.2020  </small>");
 $('#Gtitl').html("Golos 10 Sezon / 4 Выпуск -  от 09.02.2020 ");
+break;
+ case 's10ep5':
+sylka =videoHub10[4][0];
+tapevid=videoHub10[4][1];
+iframeidz=videoHub10[4][2];
+$('#Livetitl').html("Golos 10 Sezon<small>  / 4 Выпуск от 16.02.2020 - Анонс </small>");
+$('#Gtitl').html("Golos 10 Sezon / 4 Выпуск -  от 16.02.2020 - Анонс ");
 break;
  case 'kids5ep1':
 sylka =kidsvideoHub5[0][0];
