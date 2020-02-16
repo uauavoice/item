@@ -346,8 +346,8 @@ break;
 sylka =videoHub10[4][0];
 tapevid=videoHub10[4][1];
 iframeidz=videoHub10[4][2];
-$('#Livetitl').html("Golos 10 Sezon<small>  / 4 Выпуск от 16.02.2020  </small>");
-$('#Gtitl').html("Golos 10 Sezon / 4 Выпуск -  от 16.02.2020  ");
+$('#Livetitl').html("Golos 10 Sezon<small>  / 5 Выпуск от 16.02.2020  </small>");
+$('#Gtitl').html("Golos 10 Sezon / 5 Выпуск -  от 16.02.2020  ");
 break;
  case 'kids5ep1':
 sylka =kidsvideoHub5[0][0];
