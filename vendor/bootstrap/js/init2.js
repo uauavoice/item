@@ -10,7 +10,7 @@ var videoHub10 = [
 ['202002/6/69/692eb118a160c7bf3e235740e346c9505f36ef6b95d3cdfef921d01cb8923433', 's10ep3', 'oCbEVhU2'],
 ['202002/8/80/80f4e20ccaafb97e73d559cb6d37775da9638f0a35d6c3ce5896515cccbcd236', 's10ep4', 'F2e7Gnma'],
 ['202002/6/60/60a3e16043db0323ea83c06aacd64ddb22078119598983ad6a12e13e6c384de7', 's10ep5', 'sRNIlvsu'],
-['202002/8/8d/8d393babf8200267e005a27b6af59dea19ddf9b630b587a8606ec8bc9bb42376', 's10ep6', 'Ktj7vNku']
+['202002/6/69/695e6c01c1d92e94eb1dfad740953c831e4d909ecd89807ee72ec98742471c7e', 's10ep6', 'GRE5nJdC']
 ];
 
 var kidsvideoHub5  = [
@@ -354,8 +354,8 @@ break;
 sylka =videoHub10[5][0];
 tapevid=videoHub10[5][1];
 iframeidz=videoHub10[5][2];
-$('#Livetitl').html("Golos 10 Sezon<small>  / 6 Выпуск от 23.02.2020  - Анонс</small>");
-$('#Gtitl').html("Golos 10 Sezon / 6 Выпуск -  от 23.02.2020 - Анонс ");
+$('#Livetitl').html("Golos 10 Sezon<small>  / 6 Выпуск от 23.02.2020 </small>");
+$('#Gtitl').html("Golos 10 Sezon / 6 Выпуск -  от 23.02.2020  ");
 break;
  case 'kids5ep1':
 sylka =kidsvideoHub5[0][0];
