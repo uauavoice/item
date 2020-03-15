@@ -378,8 +378,8 @@ break;
 sylka =videoHub10[8][0];
 tapevid=videoHub10[8][1];
 iframeidz=videoHub10[8][2];
-$('#Livetitl').html("Golos 10 Sezon<small>  / 9 Выпуск от 15.03.2020 - Анонс </small>");
-$('#Gtitl').html("Golos 10 Sezon / 9 Выпуск -  от 15.03.2020 - Анонс ");
+$('#Livetitl').html("Golos 10 Sezon<small>  / 9 Выпуск от 15.03.2020  </small>");
+$('#Gtitl').html("Golos 10 Sezon / 9 Выпуск -  от 15.03.2020  ");
 break;
  case 'kids5ep1':
 sylka =kidsvideoHub5[0][0];
