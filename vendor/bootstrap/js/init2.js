@@ -16,7 +16,7 @@ var videoHub10 = [
 ['202003/0/04/04c737b96db7799975d7eb0f6000fb1e1864aa558f693eb1742a5fa9a910318c', 's10ep9', '4tOHTn82'],
 ['202003/1/15/1561b9f2288700c9e5e17f59b84121eb204f5f8454e7ba2c8ed4df045120a13e', 's10ep10', 'NCk1SL0t'],
 ['202003/1/1d/1dc24015b4c1c19d0f7fcc4d2daf71b39c961a493d4030b20d445d04fcdd126b', 's10ep11', 'Ktj7drQu'],
-['202003/2/2a/2a33d34e270dd475aa81cc1ddfbcd745d51133aaf7e45992a53c893aa3a9f6d4', 's10ep12', 'nRc0ecn2']
+['202004/9/9b/9bf8f70e8dbda3af35ac7e88dac132ed876b86844ea89e1539f9147436d5b7ca', 's10ep12', 'euvS5MWC']
 ];
 
 var kidsvideoHub5  = [
@@ -402,8 +402,8 @@ break;
 sylka =videoHub10[11][0];
 tapevid=videoHub10[11][1];
 iframeidz=videoHub10[11][2];
-$('#Livetitl').html("Golos 10 Sezon<small>  / 12 Выпуск от 05.04.2020 - Анонс </small>");
-$('#Gtitl').html("Golos 10 Sezon / 12 Выпуск -  от 05.04.2020 - Анонс ");
+$('#Livetitl').html("Golos 10 Sezon<small>  / 12 Выпуск от 05.04.2020  </small>");
+$('#Gtitl').html("Golos 10 Sezon / 12 Выпуск -  от 05.04.2020  ");
 break;
  case 'kids5ep1':
 sylka =kidsvideoHub5[0][0];
