@@ -59,10 +59,12 @@ $.get( "http://cps.ott-play.com/cps.php", {
 		  url: "http://m.ottg.tv//stalker_portal/server/load.php?JsHttpRequest=1-xml&type=itv&action=create_link&cmd=ffrt%20http%3A%2F%2Flocalhost%2Fch%2F1223&series=&forced_storage=0&disable_ad=0&download=0&force_ch_link_check=0" } )
   .done(function( data ) {
   console.log(data.js.cmd);
+	var x = data.js.cmd;
+	x=x.replace("streamo.ru","fra2.ruip.tv");
 var playerElement = document.getElementById("player-wrapper");
 
 var player = new Clappr.Player({
-  source: data.js.cmd,
+  source: x,
   plugins: [LevelSelector],
   mute: false,
   parentId: '.player',
