@@ -50,8 +50,19 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.js"></script>
   </head>
     <body>
-        <div id="content">
-        <div id="player-wrapper" class="theoplayer-container video-js theoplayer-skin theo-seekbar-above-controls"></div>
+         <!-- Page Content -->
+    <div class="container">
+
+      <!-- Portfolio Item Heading -->
+      <h1 class="my-4">Page Heading
+        <small>Secondary Text</small>
+      </h1>
+
+      <!-- Portfolio Item Row -->
+      <div class="row">
+
+        <div class="col-md-8">
+          <div id="player-wrapper" class="theoplayer-container video-js theoplayer-skin theo-seekbar-above-controls"></div>
   <script>
 $.get( "http://cps.ott-play.com/cps.php", { 
 		  authorization: "Bearer BCD25F15488C068FF66A1C7F22F1CCD6", 
@@ -78,7 +89,10 @@ player.attachTo(playerElement);
 	    
    
   </script>
-		<div id="hyvor-talk-view"></div>
+        </div>
+
+        <div class="col-md-4">
+         <div id="hyvor-talk-view"></div>
 <script type="text/javascript">
     var HYVOR_TALK_WEBSITE = 442; // DO NOT CHANGE THIS
     var HYVOR_TALK_CONFIG = {
@@ -88,5 +102,21 @@ player.attachTo(playerElement);
 </script>
 <script async type="text/javascript" src="//talk.hyvor.com/web-api/embed"></script>
         </div>
-    </body>
-</html>
+
+      </div>
+       
+		
+        
+ <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Your Web 2020</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
