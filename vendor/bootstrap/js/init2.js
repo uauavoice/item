@@ -17,7 +17,8 @@ var videoHub10 = [
 ['202003/1/15/1561b9f2288700c9e5e17f59b84121eb204f5f8454e7ba2c8ed4df045120a13e', 's10ep10', 'NCk1SL0t'],
 ['202003/1/1d/1dc24015b4c1c19d0f7fcc4d2daf71b39c961a493d4030b20d445d04fcdd126b', 's10ep11', 'Ktj7drQu'],
 ['202004/9/9b/9bf8f70e8dbda3af35ac7e88dac132ed876b86844ea89e1539f9147436d5b7ca', 's10ep12', 'euvS5MWC'],
-['202004/7/71/715d29f6365643765e16f1ff49c7113e94e6663c4d7c5968e1bb55954b291262', 's10ep13', 'oRGS3PqR']
+['202004/7/71/715d29f6365643765e16f1ff49c7113e94e6663c4d7c5968e1bb55954b291262', 's10ep13', 'oRGS3PqR'],
+['202004/e/e0/e0331e6662eb5e943382a471306c9acc96ce07aca7d227f6f92c45e650759c92', 's10ep14', 'ItKlSDfu']
 ];
 
 var kidsvideoHub5  = [
@@ -412,6 +413,13 @@ tapevid=videoHub10[12][1];
 iframeidz=videoHub10[12][2];
 $('#Livetitl').html("Golos 10 Sezon<small>  / 13 Выпуск от 12.04.2020  </small>");
 $('#Gtitl').html("Golos 10 Sezon / 13 Выпуск -  от 12.04.2020  ");
+break;
+ case 's10ep14':
+sylka =videoHub10[13][0];
+tapevid=videoHub10[13][1];
+iframeidz=videoHub10[13][2];
+$('#Livetitl').html("Golos 10 Sezon<small>  / 14 Выпуск от 19.04.2020 - Лучшие выступления за 10 лет </small>");
+$('#Gtitl').html("Golos 10 Sezon / 14 Выпуск -  от 19.04.2020 - Лучшие выступления за 10 лет  ");
 break;
  case 'kids5ep1':
 sylka =kidsvideoHub5[0][0];
