@@ -18,7 +18,8 @@ var videoHub10 = [
 ['202003/1/1d/1dc24015b4c1c19d0f7fcc4d2daf71b39c961a493d4030b20d445d04fcdd126b', 's10ep11', 'Ktj7drQu'],
 ['202004/9/9b/9bf8f70e8dbda3af35ac7e88dac132ed876b86844ea89e1539f9147436d5b7ca', 's10ep12', 'euvS5MWC'],
 ['202004/7/71/715d29f6365643765e16f1ff49c7113e94e6663c4d7c5968e1bb55954b291262', 's10ep13', 'oRGS3PqR'],
-['202004/0/0e/0ea7d35a3859f619e0460c63ed172a10173fe6b1756f1e4e45cee4855f30c6f9', 's10ep14', 'oCbEsX92']
+['202004/0/0e/0ea7d35a3859f619e0460c63ed172a10173fe6b1756f1e4e45cee4855f30c6f9', 's10ep14', 'oCbEsX92'],
+['202004/c/ce/ce2df82dd2e5880faf9f33e5a460b99b4a9f7b6da9e3ad86f37d78ed7681d534', 's10ep15', '7RzXH79C']
 ];
 
 var kidsvideoHub5  = [
@@ -420,6 +421,13 @@ tapevid=videoHub10[13][1];
 iframeidz=videoHub10[13][2];
 $('#Livetitl').html("Golos 10 Sezon<small>  / 14 Выпуск от 19.04.2020 - Лучшие  за 10 лет </small>");
 $('#Gtitl').html("Golos 10 Sezon / 14 Выпуск -  от 19.04.2020 - Лучшие  за 10 лет  ");
+break;
+ case 's10ep15':
+sylka =videoHub10[14][0];
+tapevid=videoHub10[14][1];
+iframeidz=videoHub10[14][2];
+$('#Livetitl').html("Golos 10 Sezon<small>  / 15 Выпуск от 26.04.2020 - ФИНАЛ - Анонс</small>");
+$('#Gtitl').html("Golos 10 Sezon / 15 Выпуск -  от 26.04.2020 - ФИНАЛ - Анонс  ");
 break;
  case 'kids5ep1':
 sylka =kidsvideoHub5[0][0];
