@@ -1,0 +1,130 @@
+<html lang="en">
+
+  <head>
+<style class="vjs-styles-defaults">
+      .video-js {
+        width: 100%!important;;
+        height: 260px;
+      }
+      .vjs-fluid {
+        padding-top: 56.25%
+      }
+    </style>
+   <style>
+                                          
+   .bGa3-dimensions {
+    width: 100%!important;
+    height: 460px;        }
+      .video-js {
+        width: 100%!important;
+        height: 460px;
+      }
+      .vjs-fluid {
+        padding-top: 56.25%
+      }
+    </style>
+     <style>
+                                          
+       .vjs-fluid {
+        padding-top: 56.25%
+      }
+    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+ <meta name="ROBOTS" content="NOINDEX, NOFOLLOW"> 
+    <title id="Gtitl">Golos Live</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <!-- Custom styles for this template -->
+    <link href="css/portfolio-item.css" rel="stylesheet">
+ <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/clappr/clappr-level-selector-plugin@latest/dist/level-selector.min.js"></script>
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.5.3/bluebird.core.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.js"></script>
+  </head>
+    <body>
+	     <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Golos Live #лучшедома</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>        
+      </div>
+    </nav>
+         <!-- Page Content -->
+    <div class="container">
+
+      <!-- Portfolio Item Heading -->
+      <h1 class="my-4">Golos Live
+        <small>21:00</small>
+      </h1>
+
+      <!-- Portfolio Item Row -->
+      <div class="row">
+
+        <div class="col-md-12">
+          <div id="player-wrapper" class="theoplayer-container video-js theoplayer-skin theo-seekbar-above-controls"></div>
+  <script>
+$.get( "http://cps.ott-play.com/cps.php", { 
+		  authorization: "Bearer 9E7B9DAE4BEC1990353B0D6592687329", 
+		  cookie: " mac=95:58:67:57:M5; path=/;", 
+		  url: "http://m.ottg.tv//stalker_portal/server/load.php?JsHttpRequest=1-xml&type=itv&action=create_link&cmd=ffrt%20http%3A%2F%2Flocalhost%2Fch%2F1726&series=&forced_storage=0&disable_ad=0&download=0&force_ch_link_check=0" } )
+  .done(function( data ) {
+  //console.log(data.js.cmd);
+	
+var playerElement = document.getElementById("player-wrapper");
+
+var player = new Clappr.Player({
+  source: data.js.cmd,
+  plugins: [LevelSelector],
+  mute: false,
+  parentId: '.player',
+  autoPlay: true,
+  width: '100%',
+  height: '100%',
+});
+
+player.attachTo(playerElement);
+  });
+     
+	    
+   
+  </script>
+		</br><button href="live.htm"  type="button" class="btn btn-primary btn-lg btn-block">Смотреть в SD</button>
+		<div id="hyvor-talk-view"></div>
+<script type="text/javascript">
+    var HYVOR_TALK_WEBSITE = 442; // DO NOT CHANGE THIS
+    var HYVOR_TALK_CONFIG = {
+        url: false,
+        id: false
+    };
+</script>
+<script async type="text/javascript" src="//talk.hyvor.com/web-api/embed"></script>
+        </div>
+
+       
+      </div>
+       
+		
+        
+ <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Your Web 2020</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
