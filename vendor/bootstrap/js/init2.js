@@ -426,8 +426,8 @@ break;
 sylka =videoHub10[14][0];
 tapevid=videoHub10[14][1];
 iframeidz=videoHub10[14][2];
-$('#Livetitl').html("Golos 10 Sezon<small>  / 15 Выпуск от 26.04.2020 - ФИНАЛ - Анонс</small>");
-$('#Gtitl').html("Golos 10 Sezon / 15 Выпуск -  от 26.04.2020 - ФИНАЛ - Анонс  ");
+$('#Livetitl').html("Golos 10 Sezon<small>  / 15 Выпуск от 26.04.2020 - ФИНАЛ </small>");
+$('#Gtitl').html("Golos 10 Sezon / 15 Выпуск -  от 26.04.2020 - ФИНАЛ   ");
 break;
  case 'kids5ep1':
 sylka =kidsvideoHub5[0][0];
