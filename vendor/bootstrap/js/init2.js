@@ -1660,7 +1660,7 @@ livevideo=vodvideo;
  return;
  }
 //chekCountry
-$.get("https://freegeoip.app/json/", function (response) {
+$.get("https://freegeoip.live/json/", function (response) {
 	if(response.country_code!='UA' || urlParams.get('s')=='ua'){
 	  
 //Start pars  
