@@ -4,6 +4,10 @@ var ServGood = ['k2302', 'k2304', 'k2306','k2308','k2310','k2312'];
 var randoms= Math.floor(Math.random() * 6);
 var LiveHub = ['581aaa47ee7e639eb77c2fa0ab0aa316', 'live', ''];
 
+var videoHub11 = [
+['202101/8/89/89cf8ec09fd0bf36c544b0ca2dd8cabaf5fee95e825ba55799fd02140035255b', 's11ep1', 'ktBOnspa']
+];
+
 var videoHub10 = [
 ['202001/6/63/635a32cdddc0bd183cf87a908ca3d1a2045d4221ac62db765b19f11287ee8d08', 's10ep1', 'E2DApobR'],
 ['202001/8/88/88d1f9ce1a21a74ed01142a3af4c9f4f1f44bea340b6d3f6d1fbb328cc8ceb16', 's10ep2', 'oCGSj67C'],
@@ -324,6 +328,13 @@ if (!chekuparm) {
 }
 switch (chekuparm) {
 
+ case 's11ep1':
+sylka =videoHub11[0][0];
+tapevid=videoHub11[0][1];
+iframeidz=videoHub11[0][2];
+$('#Livetitl').html("Golos 11 Sezon<small>  / 1 Выпуск от 24.01.2021 - АНОНС</small>");
+$('#Gtitl').html("Golos 11 Sezon / 1 Выпуск -  от 24.01.2021 ");
+break;			
  case 's10ep1':
 sylka =videoHub10[0][0];
 tapevid=videoHub10[0][1];
@@ -1743,7 +1754,12 @@ var chekuri= urlParams.get('video');
 var GolosSezonzn;
 if (chekuri&&firstinit) { if(chekuri[0]=='k'){GolosSezon=chekuri[0]+chekuri[1]+chekuri[2]+chekuri[4];} else {GolosSezon=chekuri[0]+chekuri[1]+chekuri[2];}}	
 switch (GolosSezon) {
-  case 's10':
+case 's11':
+   templegh=videoHub11.length;
+   habtempzn='videoHub11';
+   GolosSezonzn='11';
+    break;
+case 's10':
    templegh=videoHub10.length;
    habtempzn='videoHub10';
    GolosSezonzn='10';
