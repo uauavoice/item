@@ -24,9 +24,11 @@ nav a:hover {
 @-webkit-keyframes logo {
 from {
 -webkit-transform: rotate(0) scale(.5);
+left: 120%;
 }
 to {
 -webkit-transform: rotate(-720deg) scale(1);
+left: 0;
 }
 }
 .navbar-brand {
