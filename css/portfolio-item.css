@@ -13,3 +13,11 @@ body {
     padding-top: 56px;
   }
 }
+
+nav a:hover {
+  background-color: red;
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+  transition: all 0.5s;
+}
