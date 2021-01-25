@@ -5,7 +5,7 @@ var randoms= Math.floor(Math.random() * 6);
 var LiveHub = ['581aaa47ee7e639eb77c2fa0ab0aa316', 'live', ''];
 
 var videoHub11 = [
-['202101/0/0e/0e9b910dee4132cab3d1e9e807e3ce063af708b9962c1ba02b65dcc6d8872072', 's11ep1', 'U2wpTZbC']
+['202101/1/16/16c237e5b862847dc11088849587dbd8df9168d097bf17047ead48166d49c146', 's11ep1', 'LtSKosiC']
 ];
 
 var videoHub10 = [
@@ -332,7 +332,7 @@ switch (chekuparm) {
 sylka =videoHub11[0][0];
 tapevid=videoHub11[0][1];
 iframeidz=videoHub11[0][2];
-$('#Livetitl').html("Golos 11 Sezon<small>  / 1 Выпуск от 24.01.2021 - АНОНС</small>");
+$('#Livetitl').html("Golos 11 Sezon<small>  / 1 Выпуск от 24.01.2021 </small>");
 $('#Gtitl').html("Golos 11 Sezon / 1 Выпуск -  от 24.01.2021 ");
 break;			
  case 's10ep1':
