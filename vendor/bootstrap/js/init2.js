@@ -7,7 +7,8 @@ var LiveHub = ['581aaa47ee7e639eb77c2fa0ab0aa316', 'live', ''];
 var videoHub11 = [
 ['202101/1/16/16c237e5b862847dc11088849587dbd8df9168d097bf17047ead48166d49c146', 's11ep1', 'LtSKosiC'],
 ['202101/7/77/77025dda91b56fcd01b10e4bfc187c49d45a217ed31821af32cb5ce363ef6f76', 's11ep2', 'styUUd7t'],
-['202102/1/19/195c2c228aeb383a439e9290580b287f29eeee0a082cea21acdc027f1faeb842', 's11ep3', 'duLAnmiC']
+['202102/1/19/195c2c228aeb383a439e9290580b287f29eeee0a082cea21acdc027f1faeb842', 's11ep3', 'duLAnmiC'],
+['202102/0/0b/0b6c6e0f6843ba733609f10ee0c6f37d08221d80abcea7c7594759c626db553e', 's11ep4', '0tFLr0wt']	
 ];
 
 var videoHub10 = [
@@ -350,6 +351,13 @@ tapevid=videoHub11[2][1];
 iframeidz=videoHub11[2][2];
 $('#Livetitl').html("Golos 11 Sezon<small>  / 3 Выпуск от 07.02.2021 </small>");
 $('#Gtitl').html("Golos 11 Sezon / 3 Выпуск -  от 07.02.2021 ");
+break;
+ case 's11ep4':
+sylka =videoHub11[3][0];
+tapevid=videoHub11[3][1];
+iframeidz=videoHub11[3][2];
+$('#Livetitl').html("Golos 11 Sezon<small>  / 4 Выпуск от 14.02.2021 </small>");
+$('#Gtitl').html("Golos 11 Sezon / 4 Выпуск -  от 14.02.2021 ");
 break;
  case 's10ep1':
 sylka =videoHub10[0][0];
