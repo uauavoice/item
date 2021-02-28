@@ -9,7 +9,8 @@ var videoHub11 = [
 ['202101/7/77/77025dda91b56fcd01b10e4bfc187c49d45a217ed31821af32cb5ce363ef6f76', 's11ep2', 'styUUd7t'],
 ['202102/1/19/195c2c228aeb383a439e9290580b287f29eeee0a082cea21acdc027f1faeb842', 's11ep3', 'duLAnmiC'],
 ['202102/0/0b/0b6c6e0f6843ba733609f10ee0c6f37d08221d80abcea7c7594759c626db553e', 's11ep4', '0tFLr0wt'],
-['202102/3/3e/3e2feb413e0d14f9ea3536a48c432bf047c4c46262e733c024d5fcf72b42d6ce', 's11ep5', 'EuDFLh02']
+['202102/3/3e/3e2feb413e0d14f9ea3536a48c432bf047c4c46262e733c024d5fcf72b42d6ce', 's11ep5', 'EuDFLh02'],
+['202102/e/ef/ef2b1842e1539da2ba23f45285701e9c9308b5cdf0dacc94461ab7b66316fdd3', 's11ep6', '4ROmgU3R']
 ];
 
 var videoHub10 = [
@@ -366,6 +367,13 @@ tapevid=videoHub11[4][1];
 iframeidz=videoHub11[4][2];
 $('#Livetitl').html("Golos 11 Sezon<small>  / 5 Выпуск от 21.02.2021 </small>");
 $('#Gtitl').html("Golos 11 Sezon / 5 Выпуск -  от 21.02.2021 ");
+break;
+ case 's11ep6':
+sylka =videoHub11[5][0];
+tapevid=videoHub11[5][1];
+iframeidz=videoHub11[5][2];
+$('#Livetitl').html("Golos 11 Sezon<small>  / 6 Выпуск от 28.02.2021 </small>");
+$('#Gtitl').html("Golos 11 Sezon / 6 Выпуск -  от 28.02.2021 ");
 break;
  case 's10ep1':
 sylka =videoHub10[0][0];
