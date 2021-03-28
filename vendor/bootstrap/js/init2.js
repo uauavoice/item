@@ -400,7 +400,7 @@ iframeidz=videoHub11[8][2];
 $('#Livetitl').html("Golos 11 Sezon<small>  / 9 Выпуск от 21.03.2021 </small>");
 $('#Gtitl').html("Golos 11 Sezon / 9 Выпуск -  от 21.03.2021 ");
 break;
- case 's11ep9':
+ case 's11ep10':
 sylka =videoHub11[9][0];
 tapevid=videoHub11[9][1];
 iframeidz=videoHub11[9][2];
