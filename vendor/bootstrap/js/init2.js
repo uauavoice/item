@@ -18,6 +18,8 @@ var videoHub11 = [
 ['202104/e/e4/e449a9cde839484a791a92a12cf38dcd1da05208f6df172b647323ed99af439a', 's11ep11', 'qC0z5krt'],
 ['202104/a/a2/a20b99d9834cac8a369c90ce0d6c8005a8d103cbe4d40049946fd333af17f98b', 's11ep12', '4ROmef3R'],
 ['202104/1/17/17b5e92a47f408bfd07597ec4c0d9b91db7e686fdaa734ab211257cdbbce7945', 's11ep13', '7tzO6jg2']
+['202104/9/99/9946a51fcea205a2879e8741be7ba40871ea9da92882ae0c43e392e0b8292831', 's11ep14', 'F2eLwQ0C']
+	
 ];
 
 var videoHub10 = [
@@ -430,6 +432,13 @@ tapevid=videoHub11[12][1];
 iframeidz=videoHub11[12][2];
 $('#Livetitl').html("Golos 11 Sezon<small>  / 13 Выпуск от 18.04.2021 </small>");
 $('#Gtitl').html("Golos 11 Sezon / 13 Выпуск -  от 18.04.2021 ");
+break;
+ case 's11ep14':
+sylka =videoHub11[13][0];
+tapevid=videoHub11[13][1];
+iframeidz=videoHub11[13][2];
+$('#Livetitl').html("Golos 11 Sezon<small>  / 14 Выпуск от 25.04.2021 </small>");
+$('#Gtitl').html("Golos 11 Sezon / 14 Выпуск - Финал от 25.04.2021 ");
 break;
  case 's10ep1':
 sylka =videoHub10[0][0];
